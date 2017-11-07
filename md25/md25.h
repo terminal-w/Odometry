@@ -9,7 +9,7 @@
 #ifndef md25_h
 #define md25_h
 #include "Arduino.h"
-#include <Software Serial.h>
+#include <SoftwareSerial.h>
 
 class md25
 {
@@ -38,7 +38,7 @@ public:
 	void enableTim();
 
 private:
-	Stream *_serial;
+	Stream &_serial;
 	enum
 	{
 		getS1	= 0x21,

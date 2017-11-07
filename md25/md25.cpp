@@ -10,7 +10,7 @@ Date:	2017-11-06
 
 md25::md25(Stream &serial)
 {
-	_serial = *serial;
+	_serial = &serial;
 }
 
 md25::getSpeed1() {
