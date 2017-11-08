@@ -8,7 +8,7 @@
         "${projectRoot}..\\..\\..\\..\\..\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\libraries\\SoftwareSerial\\src",
         "${projectRoot}..\\..\\..\\..\\..\\Program Files (x86)\\Arduino\\libraries",
         "${projectRoot}..\\..\\..\\..\\..\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\libraries",
-        "${projectRoot}..\\libraries",
+        "${projectRoot}..\\..\\..\\OneDrive - University of Southampton\\Arduino Workbook\\libraries",
         "${projectRoot}..\\..\\..\\..\\..\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino",
         "${projectRoot}..\\..\\..\\..\\..\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\variants\\standard",
         "${projectRoot}..\\..\\..\\..\\..\\Program Files (x86)\\Arduino\\hardware\\tools\\avr\\avr\\include\\",
