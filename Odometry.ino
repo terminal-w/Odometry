@@ -20,7 +20,7 @@
  * 
  */
 
-#define debug  1 //switch for Software Serial
+#define debug 0  //switch for Software Serial
 
 #if debug == 1
 	  SoftwareSerial MD25(10, 11); //Software Serial MD25 RX, TX
@@ -45,7 +45,7 @@ union dec {
  *                   -ve indicates ccw before executing next waypoint. 
                                  wpID, distance, radius, theta, M&M
                                        (x10mm)   (x10mm) (x10deg) bool*/ 
-const int instructions[13][5] ={
+const int waypoints[13][5] ={
                                 {12,   4280,     0,      0,     0},
                                 {11,   2833,     0,      1426,  0},
                                 {10,   8482,     -1800,  -900,  1},
@@ -86,7 +86,7 @@ enum registers:byte
     enTimO  = 0x39
   };
 
-int instruct(byte reg, byte val = 0){
+int instruct(byte reg, char val = 0){
   if(reg == getPow || reg == getEs){
     #if debug == 1
     DEBUG.println("Sorry this function doesn't support that register");
@@ -99,7 +99,7 @@ int instruct(byte reg, byte val = 0){
   DEBUG.println("Register Accesed");
   #endif
   if(reg > 0x34){return 0;}
-  if(reg < 0x30){byte b[9];
+  if(reg < 0x30){byte b[5];
     if(reg <= 0x25 && reg >= 0x23){
       //encoders
       MD25.flush();
@@ -211,6 +211,7 @@ void notify(){
 	#if debug == 1
 		DEBUG.println("Waypoint Notification");
 	#endif
+  instruct(reset);
 	return;
 }
  
@@ -223,11 +224,61 @@ void setup() {
 			MD25.begin(38400);
 	  #endif
     instruct(reset);
-    instruct(setMod, 3);
+    instruct(setMod, 1); // sets motors with 0 being stop and each independent of the other.
 }
 
 
 void loop() {
   // put your main code here, to run repeatedly:
+  for(int i = 0; i < 13; i++){ // for loop to work through waypoints
+    int wp[5];
+    int E1cur;
+    int E2cur;
+    dec wheel_decoder;
+    for(int j = 0; j < 5; j++){
+      wp[j] = waypoints[i][j]; // takes data about next waypoint "off the shelf"
+    }
+    #if debug == 1
+      DEBUG.print("Next WP: ");
+      DEBUG.println(wp[0], DEC);
+    #endif
+    if(wp[2] == 0){
+      int Etar = enc_target(wp[1]);
+      bool overshoot = 0;
+      bool fine = 0;
+      #if debug == 1
+        DEBUG.print("Straight line target:");
+        DEBUG.print(wp[1]/10, DEC);
+        DEBUG.println("mm");
+      #endif
+      
+      wheel_decoder.val = Etar;
+      int tt = wheel_decoder.enc.turns;
+      int td = wheel_decoder.enc.degs;
+      instruct(setS1, (char)127);
+      instruct(setS2, (char)127);
+      while(!overshoot && !fine){
+        E1cur = instruct(getE1);
+        E2cur = instruct(getE2);
+        wheel_decoder.val = E1cur;
+        if(wheel_decoder.enc.turns > tt){halt(); overshoot = 1; break;}
+        else if(wheel_decoder.enc.turns == tt){
+          instruct(setS1, (char)50);
+          instruct(setS2, (char)50);
+          fine = 1;
+          break;
+        }
+        wheel_decoder.val = E2cur;
+        if(wheel_decoder.enc.turns > tt){halt(); overshoot = 1; break;}
+        else if(wheel_decoder.enc.turns == tt){
+          instruct(setS1, (char)50);
+          instruct(setS2, (char)50);
+          fine = 1;
+          break;
+        }
+      }
+    }
+    
+  }
 
 }
