@@ -9,7 +9,7 @@
 #ifndef md25_h
 #define md25_h
 #include "Arduino.h"
-#include <Software Serial.h>
+#include <SoftwareSerial.h>
 
 class md25
 {
@@ -39,30 +39,7 @@ public:
 
 private:
 	Stream *_serial;
-	enum
-	{
-		getS1	= 0x21,
-		getS2	= 0x22,
-		getE1	= 0x23,
-		getE2	= 0x24,
-		getEs	= 0x25,
-		getV	= 0x26,
-		getI1	= 0x27,
-		getI2	= 0x28,
-		getVer	= 0x29,
-		getAcc	= 0x2A,
-		getMod	= 0x2B,
-		getPow	= 0x2C,
-		setS1	= 0x31,
-		setS2	= 0x32,
-		setAcc	= 0x33,
-		setMod	= 0x34,
-		reset	= 0x35,
-		disReg	= 0x36,
-		enReg	= 0x37,
-		disTimO = 0x38,
-		enTimO	= 0x39
-	};
+	
 };
 
 
