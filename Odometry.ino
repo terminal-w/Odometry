@@ -1,6 +1,5 @@
 #include <SoftwareSerial.h>
-
-
+#include "Arduino.h"
 
 /*
  * Title: Odometry Task
@@ -21,7 +20,7 @@
  * 
  */
 
-#define debug  0 //switch for Software Serial
+#define debug  1 //switch for Software Serial
 
 #if debug == 1
 	  SoftwareSerial MD25(10, 11); //Software Serial MD25 RX, TX
@@ -31,20 +30,23 @@
 #endif
 const int track = 21000; //trackwidth of robot in mm x100
 const int wheel_dia = 10000; //wheel diameter of robot in mm x100
-union dec{
+const int wheel_base = 15000; //distance from axle to M&M dispenser in mm x100
+union dec {
       struct enc{
           int degs :9;
           byte turns :7;
-      };
+          } enc;
       int val;
     };
+    
 /* multi dimension array describing waypoints 
  *  execution order: distance and radius to waypoint -ve radius indicates ccw
  *                   once waypoint achieved notify (and M&M if 1) then turn theta
  *                   -ve indicates ccw before executing next waypoint. 
                                  wpID, distance, radius, theta, M&M
                                        (x10mm)   (x10mm) (x10deg) bool*/ 
-const int instructions[13][5] ={{12,   4280,     0,      0,     0},
+const int instructions[13][5] ={
+                                {12,   4280,     0,      0,     0},
                                 {11,   2833,     0,      1426,  0},
                                 {10,   8482,     -1800,  -900,  1},
                                 {9,    1800,     0,      1400,  0},
@@ -56,7 +58,9 @@ const int instructions[13][5] ={{12,   4280,     0,      0,     0},
                                 {3,    4084,     -2600,  900,   0},
                                 {2,    5000,     0,      900,   1},
                                 {1,    2600,     0,      -900,  0},
-                                {0,    3400,     0,      0,     0}};
+                                {0,    3400,     0,      0,     0}
+                                };
+
 enum registers:byte
   {
     getS1   = 0x21,
@@ -83,7 +87,13 @@ enum registers:byte
   };
 
 int instruct(byte reg, byte val = 0){
-  MD25.write(0x00);
+  if(reg == getPow || reg == getEs){
+    #if debug == 1
+    DEBUG.println("Sorry this function doesn't support that register");
+    #endif
+    return 0;
+  }
+  MD25.write((byte)0x00);
   MD25.write(reg);
   #if debug == 1
   DEBUG.println("Register Accesed");
@@ -94,7 +104,22 @@ int instruct(byte reg, byte val = 0){
       //encoders
       MD25.flush();
       MD25.readBytes(b, 5);
-      //return encoder value;
+      long r = b[1] << 24;    // (0x00 shifted 24 bits left, effectively * 16777216) 
+      r += b[2] << 16;        // (0x10 shifted 16 bits left, effectively * 65536) 
+      r += b[3] << 8;         // (0x56 shifted 8 bits left, effectively * 256) 
+      r += b[4];              // (0x32)
+      dec d;
+      d.enc.degs = r % 360;
+      d.enc.turns = (byte) r / 360;
+      #if debug == 1
+      DEBUG.print("Recieved: ");
+      DEBUG.print(reg, HEX);
+      DEBUG.print(" with turns:");
+      DEBUG.print(d.enc.turns, DEC);
+      DEBUG.print(" and degrees:");
+      DEBUG.println(d.enc.degs, DEC);
+      #endif
+      return d.val; 
     }
     else{
       //gets
@@ -103,6 +128,7 @@ int instruct(byte reg, byte val = 0){
       #if debug == 1
       DEBUG.print("Recieved: ");
       DEBUG.print(reg, HEX);
+      DEBUG.print(" with value:");
       DEBUG.println(b[1], DEC);
       #endif
       return b[1];
@@ -113,9 +139,14 @@ int instruct(byte reg, byte val = 0){
     MD25.write(val);
     return 0;
   }
+  #if debug == 1
+  DEBUG.println("FATAL ERROR: instruct");
+  #endif
+  return 0;
 }
+
 void halt(){
-  //placeholder function to stop robot.
+  //function to stop robot.
 	instruct(setAcc, 10);
 	instruct(setS1);
   instruct(setS2); 
@@ -139,15 +170,42 @@ int turn(int theta){
 int enc_target(int distance) {
 	/* takes the required travel distance in mm x10 an converts it to an encoder target*/
  int out =distance*3600/(3.1415962*wheel_dia);
+ dec d;
+ d.enc.turns = out / 360;
+ d.enc.degs  = out % 360;
  #if debug == 1
-    DEBUG.print("Encoder Target: ");
-    DEBUG.println(out);
+    DEBUG.print("Encoder Target:");
+    DEBUG.print(out, DEC);
+    DEBUG.print(" degrees, or:");
+    DEBUG.print(d.enc.turns, DEC);
+    DEBUG.print(" turns and ");
+    DEBUG.print(d.enc.degs, DEC);
+    DEBUG.println(" degrees.");
  #endif
- return out;
+ return d.val;
+}
+
+int sweep(int distance, int radius, bool rat = 0){
+  /* code to allow robot to describe an arc
+     returns the distance/velocity ratio x1000 between the two encoders and the outer arc length in mm x10*/
+  int Ri = radius - track/20;
+  int Ro = radius + track/20;
+  int ratio = (Ri/Ro)*1000;
+  int Do = (distance/radius)*Ro;
+  #if debug == 1
+    DEBUG.print("Ratio = ");
+    DEBUG.print(ratio/1000, DEC);
+    DEBUG.print(", D(o) = ");
+    DEBUG.print(Do/10, DEC);
+    if(rat){DEBUG.println(" Return: Ratio");}
+    else{DEBUG.println(" Return: D(o)");}
+  #endif
+  if(rat){return ratio;}
+  else{return Do;}
 }
 
 void notify(){
-	halt;
+	halt();
 	tone(13, 4000, 500);
 	delay(500);
 	#if debug == 1
@@ -164,8 +222,8 @@ void setup() {
 	  #else
 			MD25.begin(38400);
 	  #endif
-    MD25.write(0x00);
-    MD25.write(reset);
+    instruct(reset);
+    instruct(setMod, 3);
 }
 
 
