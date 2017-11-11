@@ -154,17 +154,22 @@ void halt(){
   return;
 }
 
-int turn(int theta){
+void turn(int theta){
 	  /* takes two arguments a target angle, theta (degrees x10), and a switch, spot,
 		to determine whether the angle is to describe an arc or a spot turn.
-		returns the distance (by outer wheel) that must be traveled x10. */
+		executes turn */
 		float distance; //distance to be traveled per in mm
 		distance = (theta/3600)*3.1415962*(track);
 		#if debug == 1
 			DEBUG.print("turn: ");
 			DEBUG.println(distance);
 		#endif 
-		return distance*10;
+		E2tar = enc_target((int)distance*10);
+    E1tar = -E2tar;
+    if(E1tar > E2tar){
+      instruct(setS1, (byte)127);
+      instruct(setS2, (byte)-127);
+    }
 }
 
 int enc_target(int distance) {
@@ -217,9 +222,9 @@ void notify(){
 
 void MandMrelease(byte remaining){} //function prototype for releasing M&Ms
 
-byte overshootOrFine(int tt, dec wheel_decoder){
+byte overshootOrFine(int tt, dec wheel_decoder, bool wheel = 0){
   /* to be used when robot is moving at 'cruise speed' to determine when to slow down
-     takes a wheel encoder value and target turns.
+     takes a wheel encoder value and target turns. Wheel is high for encoder 2;
      returns:
      0 is no change
      1 is overshoot
@@ -227,13 +232,13 @@ byte overshootOrFine(int tt, dec wheel_decoder){
   */
   if(wheel_decoder.enc.turns > tt){halt(); return (byte)1;}
   else if(wheel_decoder.enc.turns = tt){
-    instruct(setS1, (char)50);
-    instruct(setS2, (char)50);
+    if(!wheel){instruct(setS1, (char)50);}
+    else{instruct(setS2, (char)50);}
     return (byte)2;
   }
   else if(wheel_decoder.enc.turns >= 0.9*tt){
-    instruct(setS1, (char)90);
-    instruct(setS2, (char)90);
+    if(!wheel){instruct(setS1, (char)90);}
+    else{instruct(setS2, (char)90);}
     return (byte)2;
   }
   return 0;
@@ -246,8 +251,8 @@ void wiggle(){ //fine adjustment prototype
 void straightAndNarrow(int distance){
   /*drive in a straightline*/
   //code to achieve straight line
-  int E1cur;
-  int E2cur;
+  int E1cur; //current encoder value of E1
+  int E2cur; //current encoder value of E2
   bool e; // 1 if wheel_decoder currently contains encoder 2
   dec wheel_decoder;
     int Etar = enc_target(distance);
@@ -269,14 +274,14 @@ void straightAndNarrow(int distance){
       E2cur = instruct(getE2);
       wheel_decoder.val = E1cur;
       e = 0;
-      switch(overshootOrFine(tt, wheel_decoder)){
+      switch(overshootOrFine(tt, wheel_decoder, e)){
         case 0: break;
-        case 1: {overshoot = 1; return;}
-        case 2: {fine = 1; return;}
+        case 1: {overshoot = 1; break;}
+        case 2: {fine = 1; break;}
       }
       wheel_decoder.val = E2cur;
       e = 1;
-      switch(overshootOrFine(tt, wheel_decoder)){
+      switch(overshootOrFine(tt, wheel_decoder, e)){
         case 0: break;
         case 1: {overshoot = 1; return;}
         case 2: {fine = 1; return;}
