@@ -215,6 +215,8 @@ void notify(){
 	return;
 }
 
+void MandMrelease(byte remaining){} //function prototype for releasing M&Ms
+
 byte overshootOrFine(int tt, dec wheel_decoder){
   /* to be used when robot is moving at 'cruise speed' to determine when to slow down
      takes a wheel encoder value and target turns.
@@ -237,7 +239,9 @@ byte overshootOrFine(int tt, dec wheel_decoder){
   return 0;
 }
 
-void wiggle(); //fine adjustment prototype
+void wiggle(){ //fine adjustment prototype
+  dec decoder; 
+}
 
 void straightAndNarrow(int distance){
   /*drive in a straightline*/
@@ -311,6 +315,8 @@ void straightAndNarrow(int distance){
       if(e){wheel_decoder.val = E1cur;}
       else{wheel_decoder.val = E2cur;}
     }
+    if(fine){wiggle();}
+    return;
 }
 void raidersOfTheLostARC(int ratio, int Do, bool ccw){
   int EoCur; int EiCur; int EoTar; int EiTar;
@@ -324,10 +330,8 @@ void raidersOfTheLostARC(int ratio, int Do, bool ccw){
     DEBUG.print(Do/10, DEC);
     DEBUG.println("mm");
   #endif
-  
-  
 }
-
+void kmn(){bool a=0;} //function than never returns to provide infinite loop
 void setup() {
   // put your setup code here, to run once:
 	  #if debug == 1
@@ -345,6 +349,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+  byte MandMstock = 5;
   for(int i = 0; i < 13; i++){ // for loop to work through waypoints
     int wp[5];
    
@@ -363,7 +368,14 @@ void loop() {
       int Do = sweep(wp[1], wp[2]);
       raidersOfTheLostARC(ratio, Do, ccw);
     }
-    
+    notify();
+    if((bool)wp[4]){MandMrelease(MandMstock); MandMstock--;}
+    if(wp[3] != 0){
+                    turn(wp[3]);
+                    #if debug == 1
+                    DEBUG.print("Turn executed: "); DEBUG.print(wp[3]/10, DEC); DEBUG.println(" Degrees");
+                    #endif
+                   }
   }
-
+  //kmn();
 }
