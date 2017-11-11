@@ -214,7 +214,120 @@ void notify(){
   instruct(reset);
 	return;
 }
- 
+
+byte overshootOrFine(int tt, dec wheel_decoder){
+  /* to be used when robot is moving at 'cruise speed' to determine when to slow down
+     takes a wheel encoder value and target turns.
+     returns:
+     0 is no change
+     1 is overshoot
+     2 is fine
+  */
+  if(wheel_decoder.enc.turns > tt){halt(); return (byte)1;}
+  else if(wheel_decoder.enc.turns = tt){
+    instruct(setS1, (char)50);
+    instruct(setS2, (char)50);
+    return (byte)2;
+  }
+  else if(wheel_decoder.enc.turns >= 0.9*tt){
+    instruct(setS1, (char)90);
+    instruct(setS2, (char)90);
+    return (byte)2;
+  }
+  return 0;
+}
+
+void wiggle(
+
+void straightAndNarrow(int distance){
+  /*drive in a straightline*/
+  //code to achieve straight line
+  int E1cur;
+  int E2cur;
+  bool e; // 1 if wheel_decoder currently contains encoder 2
+  dec wheel_decoder;
+    int Etar = enc_target(distance);
+    bool overshoot = 0;
+    bool fine = 0;
+    #if debug == 1
+      DEBUG.print("Straight line target:");
+      DEBUG.print(distance/10, DEC);
+      DEBUG.println("mm");
+    #endif
+    
+    wheel_decoder.val = Etar;
+    int tt = wheel_decoder.enc.turns;
+    int td = wheel_decoder.enc.degs;
+    instruct(setS1, (char)127);
+    instruct(setS2, (char)127);
+    while(!overshoot && !fine){
+      E1cur = instruct(getE1);
+      E2cur = instruct(getE2);
+      wheel_decoder.val = E1cur;
+      e = 0;
+      switch(overshootOrFine(tt, wheel_decoder)){
+        case 0: break;
+        case 1: {overshoot = 1; return;}
+        case 2: {fine = 1; return;}
+      }
+      wheel_decoder.val = E2cur;
+      e = 1;
+      switch(overshootOrFine(tt, wheel_decoder)){
+        case 0: break;
+        case 1: {overshoot = 1; return;}
+        case 2: {fine = 1; return;}
+      }
+    }
+    while(overshoot && !fine){
+      #if debug == 1
+        DEBUG.println("OVERSHOOT");
+      #endif
+      bool reverse = 0;
+      int error = 360;
+      if(abs(wheel_decoder.enc.turns-tt)-tt <= 1){
+        instruct(setS1, (char)-50);
+        instruct(setS2, (char)-50);
+        fine = 1;
+        overshoot =1;
+      }
+      else if(abs(wheel_decoder.enc.turns-tt)/tt >= 0.9 && !reverse){
+        #if debug == 1
+          DEBUG.println("IS HUGE");
+        #endif
+        instruct(setS1, (char)-120);
+        instruct(setS2, (char)-120);
+        reverse = 1;
+      }
+      else if(abs(wheel_decoder.enc.turns-tt)/tt < 0.9 ){
+        #if debug == 1
+          DEBUG.println("is moderate");
+        #endif
+        instruct(setS1, (char)-90);
+        instruct(setS2, (char)-90);
+        reverse = 1;
+      }
+      E1cur = instruct(getE1);
+      E2cur = instruct(getE2);
+      if(e){wheel_decoder.val = E1cur;}
+      else{wheel_decoder.val = E2cur;}
+    }
+}
+void raidersOfTheLostARC(int ratio, int Do, bool ccw){
+  int EoCur; int EiCur; int EoTar; int EiTar;
+  int Di = ratio/100 * Do;
+  #if debug == 1
+    if(ccw){DEBUG.println("Describing Anti-Clockwise Arc:");}
+    else{DEBUG.println("Describing Clockwise Arc:");}
+    DEBUG.print("Inner Circumference:");
+    DEBUG.print(Di/10, DEC);
+    DEBUG.print("mm Outer Circumference:");
+    DEBUG.print(Do/10, DEC);
+    DEBUG.println("mm");
+  #endif
+  
+  
+}
+
 void setup() {
   // put your setup code here, to run once:
 	  #if debug == 1
@@ -223,18 +336,18 @@ void setup() {
 	  #else
 			MD25.begin(38400);
 	  #endif
-    instruct(reset);
     instruct(setMod, 1); // sets motors with 0 being stop and each independent of the other.
+    notify();
+    #if debug == 1
+      DEBUG.println("Setup Complete");
+    #endif
 }
-
 
 void loop() {
   // put your main code here, to run repeatedly:
   for(int i = 0; i < 13; i++){ // for loop to work through waypoints
     int wp[5];
-    int E1cur;
-    int E2cur;
-    dec wheel_decoder;
+   
     for(int j = 0; j < 5; j++){
       wp[j] = waypoints[i][j]; // takes data about next waypoint "off the shelf"
     }
@@ -242,41 +355,13 @@ void loop() {
       DEBUG.print("Next WP: ");
       DEBUG.println(wp[0], DEC);
     #endif
-    if(wp[2] == 0){
-      int Etar = enc_target(wp[1]);
-      bool overshoot = 0;
-      bool fine = 0;
-      #if debug == 1
-        DEBUG.print("Straight line target:");
-        DEBUG.print(wp[1]/10, DEC);
-        DEBUG.println("mm");
-      #endif
-      
-      wheel_decoder.val = Etar;
-      int tt = wheel_decoder.enc.turns;
-      int td = wheel_decoder.enc.degs;
-      instruct(setS1, (char)127);
-      instruct(setS2, (char)127);
-      while(!overshoot && !fine){
-        E1cur = instruct(getE1);
-        E2cur = instruct(getE2);
-        wheel_decoder.val = E1cur;
-        if(wheel_decoder.enc.turns > tt){halt(); overshoot = 1; break;}
-        else if(wheel_decoder.enc.turns == tt){
-          instruct(setS1, (char)50);
-          instruct(setS2, (char)50);
-          fine = 1;
-          break;
-        }
-        wheel_decoder.val = E2cur;
-        if(wheel_decoder.enc.turns > tt){halt(); overshoot = 1; break;}
-        else if(wheel_decoder.enc.turns == tt){
-          instruct(setS1, (char)50);
-          instruct(setS2, (char)50);
-          fine = 1;
-          break;
-        }
-      }
+    if(wp[2] == 0){straightAndNarrow(wp[1]);}
+    else{bool ccw;
+      if(wp[2] < 0){ccw=1;}
+      else{ccw=0;}
+      int ratio = sweep(wp[1], wp[2], 1);
+      int Do = sweep(wp[1], wp[2]);
+      raidersOfTheLostARC(ratio, Do, ccw);
     }
     
   }
