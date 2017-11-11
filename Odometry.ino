@@ -31,10 +31,10 @@
 const int track = 21000; //trackwidth of robot in mm x100
 const int wheel_dia = 10000; //wheel diameter of robot in mm x100
 const int wheel_base = 15000; //distance from axle to M&M dispenser in mm x100
-union dec {
+union dec { // definition of magical data class with many variables sharing the same bit of memory so we can do funky encoding to save memory and stuff.
       struct enc{
-          int degs :9;
-          byte turns :7;
+          int degs :9; //bitfields make this integer 9 bits long within the structure
+          byte turns :7; //bitfields make this byte 7 bits long within the structure
           } enc;
       int val;
     };
@@ -237,7 +237,7 @@ byte overshootOrFine(int tt, dec wheel_decoder){
   return 0;
 }
 
-void wiggle(
+void wiggle(); //fine adjustment prototype
 
 void straightAndNarrow(int distance){
   /*drive in a straightline*/
@@ -355,11 +355,11 @@ void loop() {
       DEBUG.print("Next WP: ");
       DEBUG.println(wp[0], DEC);
     #endif
-    if(wp[2] == 0){straightAndNarrow(wp[1]);}
+    if(wp[2] == 0){straightAndNarrow(wp[1]);} //if the radius is zero draw a straight line
     else{bool ccw;
-      if(wp[2] < 0){ccw=1;}
-      else{ccw=0;}
-      int ratio = sweep(wp[1], wp[2], 1);
+      if(wp[2] < 0){ccw=1;} //if the radius is negative the arc is anti-clockwise 
+      else{ccw=0;} //if it isn't it's not <- love a good tortology
+      int ratio = sweep(wp[1], wp[2], 1); //find ratio and outer target should probably be in raidersOfTheLostARC function... oh well.
       int Do = sweep(wp[1], wp[2]);
       raidersOfTheLostARC(ratio, Do, ccw);
     }
