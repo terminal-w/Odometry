@@ -151,6 +151,9 @@ void halt(){
 	instruct(setS1);
   instruct(setS2); 
 	instruct(setAcc, 5);
+  #if debug == 1;
+    DEBUG.println("ACHTUNG!!! Ich habe gehaltet!");
+  #endif
   return;
 }
 
@@ -345,7 +348,11 @@ void straightAndNarrow(int distance){
       if(e){wheel_decoder.val = E1cur;}
       else{wheel_decoder.val = E2cur;}
     }
-    //if(fine){wiggle();}
+    wiggle(Etar, 0);
+    wiggle(Etar, 1);
+    #if debug == 1 
+      DEBUG.println("The way of the righteous is narrow");
+    #endif
     return;
 }
 void raidersOfTheLostARC(int ratio, int Do, bool ccw){
