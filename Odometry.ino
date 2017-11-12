@@ -164,11 +164,15 @@ void turn(int theta){
 			DEBUG.print("turn: ");
 			DEBUG.println(distance);
 		#endif 
-		E2tar = enc_target((int)distance*10);
-    E1tar = -E2tar;
+    int E2tar = enc_target((int)distance*10);
+    int E1tar = enc_target(-(int)distance*10);
     if(E1tar > E2tar){
       instruct(setS1, (byte)127);
       instruct(setS2, (byte)-127);
+    }
+    else{
+      instruct(setS2, (byte)127);
+      instruct(setS1, (byte)-127);
     }
 }
 
@@ -244,8 +248,29 @@ byte overshootOrFine(int tt, dec wheel_decoder, bool wheel = 0){
   return 0;
 }
 
-void wiggle(){ //fine adjustment prototype
-  dec decoder; 
+void wiggle(int decTar, bool wheel = 0){ //fine adjustment prototype
+  #if debug == 1
+    DEBUG.println("Wiggle Wiggle Wiggle, Yeah");
+  #endif
+  dec decoder;
+  decoder.val = decTar;
+  bool happy = 0;
+  long target_degs = decoder.enc.turns*360 + decoder.enc.degs;
+  long current_degs;
+  instruct(setAcc, (byte)10);
+  while(!happy){
+    if(wheel){decoder.val = instruct(getE2);}
+    else{decoder.val = instruct(getE1);}
+    current_degs = decoder.enc.turns*360 + decoder.enc.degs;
+    if(target_degs-current_degs == 0){happy = 1; halt(); break;}
+    char velocity = (target_degs - current_degs)*127/360;
+    if(wheel){instruct(setS2, velocity);}
+    else{instruct(setS1, velocity);}
+  }
+  #if debug == 1
+    DEBUG.println("Clap along if you feel like happiness is the truth");
+  #endif
+  return;
 }
 
 void straightAndNarrow(int distance){
@@ -320,7 +345,7 @@ void straightAndNarrow(int distance){
       if(e){wheel_decoder.val = E1cur;}
       else{wheel_decoder.val = E2cur;}
     }
-    if(fine){wiggle();}
+    //if(fine){wiggle();}
     return;
 }
 void raidersOfTheLostARC(int ratio, int Do, bool ccw){
@@ -336,7 +361,7 @@ void raidersOfTheLostARC(int ratio, int Do, bool ccw){
     DEBUG.println("mm");
   #endif
 }
-void kmn(){bool a=0;} //function than never returns to provide infinite loop
+void kmn(){bool a=0;} //function than never returns to provide stop
 void setup() {
   // put your setup code here, to run once:
 	  #if debug == 1
@@ -382,5 +407,5 @@ void loop() {
                     #endif
                    }
   }
-  //kmn();
+  kmn();
 }
