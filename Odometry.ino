@@ -255,6 +255,9 @@ byte overshootOrFine(int tt, dec wheel_decoder, bool wheel = 0){
      1 is overshoot
      2 is fine
   */
+#if debug == 1
+	DEBUG.println("overshoot or fine");
+#endif
   if(wheel_decoder.enc.turns > tt){halt(); return (byte)1;}
   else if(wheel_decoder.enc.turns = tt){
     if(!wheel){instruct(setS1, (char)50);}
@@ -284,7 +287,7 @@ void wiggle(int decTar, bool wheel = 0){ //fine adjustment prototype
     else{decoder.val = instruct(getE1);}
     current_degs = decoder.enc.turns*360 + decoder.enc.degs;
     if(target_degs-current_degs == 0){happy = 1; halt(); break;}
-    char velocity = (target_degs - current_degs)*127/360;
+    char velocity = (target_degs - current_degs)*90/360;
     if(wheel){instruct(setS2, velocity);}
     else{instruct(setS1, velocity);}
   }
