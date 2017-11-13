@@ -205,22 +205,22 @@ void turn(int theta){
 }
 
 
-int sweep(int distance, int radius, bool rat = 0){
+int sweep(int distance, int radius, bool in = 0){
   /* code to allow robot to describe an arc
-     returns the distance/velocity ratio x1000 between the two encoders and the outer arc length in mm x10*/
+     returns the inner & outer arc lengths in mm x10*/
   int Ri = radius - track/20;
   int Ro = radius + track/20;
-  int ratio = (Ri/Ro)*1000;
+  int Di = (distance/radius)*Ri;
   int Do = (distance/radius)*Ro;
   #if debug == 1
-    DEBUG.print("Ratio = ");
-    DEBUG.print(ratio/1000, DEC);
+    DEBUG.print("D(i) = ");
+    DEBUG.print(Di/10, DEC);
     DEBUG.print(", D(o) = ");
     DEBUG.print(Do/10, DEC);
-    if(rat){DEBUG.println(" Return: Ratio");}
+    if(in){DEBUG.println(" Return: D(i)");}
     else{DEBUG.println(" Return: D(o)");}
   #endif
-  if(rat){return ratio;}
+  if(in){return Di;}
   else{return Do;}
 }
 
