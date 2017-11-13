@@ -230,7 +230,13 @@ void notify(){
 	return;
 }
 
-void MandMrelease(byte remaining){} //function prototype for releasing M&Ms
+void MandMrelease(byte remaining){
+  /*This Function drops M&Ms
+   * Author: Luka - lzd1u16@soton.ac.uk
+   */
+   Carouselle.write(sPos[remaining]);
+   return;
+  } //function prototype for releasing M&Ms
 
 byte overshootOrFine(int tt, dec wheel_decoder, bool wheel = 0){
   /* to be used when robot is moving at 'cruise speed' to determine when to slow down
@@ -374,6 +380,9 @@ void raidersOfTheLostARC(int ratio, int Do, bool ccw){
 void kmn(){bool a=0;} //function than never returns to provide stop
 void setup() {
   // put your setup code here, to run once:
+  Carouselle.attach(9);
+  pinMode(13, OUTPUT);
+  pinMode(4, INPUT);
 	  #if debug == 1
 			MD25.begin(9600);
 			DEBUG.begin(9600);  
@@ -381,7 +390,11 @@ void setup() {
 			MD25.begin(38400);
 	  #endif
     instruct(setMod, 1); // sets motors with 0 being stop and each independent of the other.
+    Carouselle.write(sPos[0]);
     notify();
+    while(!bool go == 0;){
+      go = digitalRead(4);
+    }
     #if debug == 1
       DEBUG.println("Setup Complete");
     #endif
