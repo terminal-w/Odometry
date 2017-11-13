@@ -111,9 +111,7 @@ int instruct(byte reg, char val = 0){
       //encoders
       MD25.flush();
       MD25.readBytes(b, 5);
-      long r = b[1] << 24;    // (0x00 shifted 24 bits left, effectively * 16777216) 
-      r += b[2] << 16;        // (0x10 shifted 16 bits left, effectively * 65536) 
-      r += b[3] << 8;         // (0x56 shifted 8 bits left, effectively * 256) 
+      int r = b[3] << 8;         // (0x56 shifted 8 bits left, effectively * 256) 
       r += b[4];              // (0x32)
       dec d;
       d.enc.degs = r % 360;

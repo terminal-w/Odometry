@@ -1,3 +1,18 @@
+void unhappy(int E1tar, int E2tar, bool straight) {
+	
+}
+void DriveTo(int E1tar, int E2tar) {
+	bool happy = 0;
+	dec d;
+	if (E1tar == E2tar) {
+		d.val = E1tar;
+		long Etd = d.enc.turns * 360 + d.enc.degs;
+		while (!happy) {
+			int E1cur = instruct(getE1);
+			int E2cur =
+		}
+	}
+}
 void target(int distance, int radius) {
 #if debug == 1
 	DEBUG.println("Targeting...");
