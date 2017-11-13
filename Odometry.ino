@@ -1,5 +1,6 @@
 #include <SoftwareSerial.h>
 #include "Arduino.h"
+#include <Servo.h>
 
 /*
  * Title: Odometry Task
@@ -20,7 +21,7 @@
  * 
  */
 
-#define debug 0  //switch for Software Serial
+#define debug 1  //switch for Software Serial
 
 #if debug == 1
 	  SoftwareSerial MD25(10, 11); //Software Serial MD25 RX, TX
@@ -28,9 +29,11 @@
 #else
 	#define MD25 Serial
 #endif
+Servo Carouselle;
 const int track = 21000; //trackwidth of robot in mm x100
 const int wheel_dia = 10000; //wheel diameter of robot in mm x100
 const int wheel_base = 15000; //distance from axle to M&M dispenser in mm x100
+const byte sPos[6] = {0, 51, 102, 153, 204, 255}; //defines servo drive positions for M&Ms 
 union dec { // definition of magical data class with many variables sharing the same bit of memory so we can do funky encoding to save memory and stuff.
       struct enc{
           int degs :9; //bitfields make this integer 9 bits long within the structure
@@ -151,7 +154,7 @@ void halt(){
 	instruct(setS1);
   instruct(setS2); 
 	instruct(setAcc, 5);
-  #if debug == 1;
+  #if debug == 1
     DEBUG.println("ACHTUNG!!! Ich habe gehaltet!");
   #endif
   return;
