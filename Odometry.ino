@@ -63,7 +63,9 @@ const int waypoints[13][5] ={
                                 {1,    2600,     0,      -900,  0},
                                 {0,    3400,     0,      0,     0}
                                 };
-
+/*
+ * serial control register lookup table
+ */
 enum registers:byte
   {
     getS1   = 0x21,
@@ -320,8 +322,8 @@ void straightAndNarrow(int distance){
       e = 1;
       switch(overshootOrFine(tt, wheel_decoder, e)){
         case 0: break;
-        case 1: {overshoot = 1; return;}
-        case 2: {fine = 1; return;}
+        case 1: {overshoot = 1; break;}
+        case 2: {fine = 1; break;}
       }
     }
     while(overshoot && !fine){
@@ -392,8 +394,9 @@ void setup() {
     instruct(setMod, 1); // sets motors with 0 being stop and each independent of the other.
     Carouselle.write(sPos[0]);
     notify();
-    while(!bool go == 0;){
-      go = digitalRead(4);
+    bool go = 0;
+     while(!go){
+      go = !digitalRead(4);
     }
     #if debug == 1
       DEBUG.println("Setup Complete");
