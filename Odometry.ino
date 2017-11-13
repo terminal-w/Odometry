@@ -101,7 +101,9 @@ int instruct(byte reg, char val = 0){
   MD25.write((byte)0x00);
   MD25.write(reg);
   #if debug == 1
-  DEBUG.println("Register Accesed");
+	DEBUG.print("Register: ");
+	DEBUG.print(reg, HEX);
+	DEBUG.println(" Accessed");
   #endif
   if(reg > 0x34){return 0;}
   if(reg < 0x30){byte b[5];
@@ -162,6 +164,24 @@ void halt(){
   return;
 }
 
+int enc_target(int distance) {
+  /* takes the required travel distance in mm x10 an converts it to an encoder target*/
+ int out =distance*3600/(3.1415962*wheel_dia);
+ dec d;
+ d.enc.turns = out / 360;
+ d.enc.degs  = out % 360;
+ #if debug == 1
+    DEBUG.print("Encoder Target:");
+    DEBUG.print(out, DEC);
+    DEBUG.print(" degrees, or:");
+    DEBUG.print(d.enc.turns, DEC);
+    DEBUG.print(" turns and ");
+    DEBUG.print(d.enc.degs, DEC);
+    DEBUG.println(" degrees.");
+ #endif
+ return d.val;
+}
+
 void turn(int theta){
 	  /* takes two arguments a target angle, theta (degrees x10), and a switch, spot,
 		to determine whether the angle is to describe an arc or a spot turn.
@@ -184,23 +204,6 @@ void turn(int theta){
     }
 }
 
-int enc_target(int distance) {
-	/* takes the required travel distance in mm x10 an converts it to an encoder target*/
- int out =distance*3600/(3.1415962*wheel_dia);
- dec d;
- d.enc.turns = out / 360;
- d.enc.degs  = out % 360;
- #if debug == 1
-    DEBUG.print("Encoder Target:");
-    DEBUG.print(out, DEC);
-    DEBUG.print(" degrees, or:");
-    DEBUG.print(d.enc.turns, DEC);
-    DEBUG.print(" turns and ");
-    DEBUG.print(d.enc.degs, DEC);
-    DEBUG.println(" degrees.");
- #endif
- return d.val;
-}
 
 int sweep(int distance, int radius, bool rat = 0){
   /* code to allow robot to describe an arc
@@ -237,6 +240,10 @@ void MandMrelease(byte remaining){
    * Author: Luka - lzd1u16@soton.ac.uk
    */
    Carouselle.write(sPos[remaining]);
+   #if debug == 1
+    DEBUG.print("M&M Deployed: ");
+    DEBUG.println(remaining, DEC);
+   #endif
    return;
   } //function prototype for releasing M&Ms
 
