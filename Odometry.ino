@@ -155,11 +155,9 @@ void halt(){
 
 int enc_target(int distance) {
   /* takes the required travel distance in mm x10 an converts it to an encoder target*/
-<<<<<<< HEAD
+
  int out =distance*3600/(pi*wheel_dia);
-=======
- int out =distance*3600/(3.1415962*wheel_dia);
->>>>>>> origin/master
+
  #if debug == 1
     DEBUG.print("Encoder Target:");
     DEBUG.print(out, DEC);
