@@ -4,13 +4,12 @@ void unhappy(int E1tar, int E2tar, bool straight) {
 void DriveTo(int E1tar, int E2tar) {
 	bool happy = 0;
 	dec d;
-	if (E1tar == E2tar) {
-		d.val = E1tar;
-		long Etd = d.enc.turns * 360 + d.enc.degs;
-		while (!happy) {
-			int E1cur = instruct(getE1);
-			int E2cur =
-		}
+	long Etd = d.enc.turns * 360 + d.enc.degs;
+	while (!happy) {
+		int E1cur = instruct(getE1);
+		int E2cur = instruct(getE2);
+		int S1 = 1 / 120 * abs(E1tar - E1cur) / E1tar + 7;
+		int S2 = 1 / 120 * abs(E1tar - E1cur) / E1tar + 7;
 	}
 }
 void target(int distance, int radius) {
