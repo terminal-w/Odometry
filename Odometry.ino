@@ -180,10 +180,8 @@ void turn(int theta){
     int E1tar = enc_target(-(int)distance*10);
     
     DriveTo(E1tar, E2tar);
-    notify();
     return;
 }
-
 
 int sweep(int distance, int radius, bool in = 0){
   /* code to allow robot to describe an arc
@@ -215,12 +213,12 @@ void notify(){
 	return;
 }
 void DriveTo(int E1tar, int E2tar) {
-	bool happy = 0;
+	bool happy = 0; int E1cur; int E2cur; char S1; char S2;
 	while (!happy) {
-		int E1cur = instruct(getE1);
-		int E2cur = instruct(getE2);
-		int S1 = 1 / 100 * (E1tar - E1cur) / E1tar;
-		int S2 = 1 / 100 * (E1tar - E1cur) / E1tar;
+		E1cur = instruct(getE1);
+		E2cur = instruct(getE2);
+		S1 = 100 * (E1tar - E1cur) / E1tar;
+		S2 = 100 * (E1tar - E1cur) / E1tar;
 		if (E1cur == E1tar) {
 			happy = 1;
 			S1 = 0;
@@ -249,6 +247,14 @@ void DriveTo(int E1tar, int E2tar) {
 		DEBUG.println(S2, DEC);
 #endif
 	}
+ instruct(setAcc, 10);
+ while(E1cur != E1tar || E2cur != E2tar){
+  S1 = 50 * (E1tar -E1cur)/90;
+  S2 = 50 * (E2tar-E2cur)/90;
+  instruct(setS1, S1);
+  instruct(setS1, S2);
+ }
+ instruct(setAcc, 5);
 #if debug ==1
 	DEBUG.println("Because I'm Happy");
 #endif
