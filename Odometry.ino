@@ -178,14 +178,10 @@ void turn(int theta){
 		#endif 
     int E2tar = enc_target((int)distance*10);
     int E1tar = enc_target(-(int)distance*10);
-    if(E1tar > E2tar){
-      instruct(setS1, (byte)127);
-      instruct(setS2, (byte)-127);
-    }
-    else{
-      instruct(setS2, (byte)127);
-      instruct(setS1, (byte)-127);
-    }
+    
+    DriveTo(E1tar, E2tar);
+    notify();
+    return;
 }
 
 
@@ -223,34 +219,34 @@ void DriveTo(int E1tar, int E2tar) {
 	while (!happy) {
 		int E1cur = instruct(getE1);
 		int E2cur = instruct(getE2);
-		int S1 = 1 / 120 * abs(E1tar - E1cur) / E1tar;
-		int S2 = 1 / 120 * abs(E1tar - E1cur) / E1tar;
+		int S1 = 1 / 100 * (E1tar - E1cur) / E1tar;
+		int S2 = 1 / 100 * (E1tar - E1cur) / E1tar;
 		if (E1cur == E1tar) {
 			happy = 1;
 			S1 = 0;
 		}
 		else if (E1tar - E1cur < 0) {
-			S1 -= 7;
+			S1 -= 27;
 		}
 		else {
-			S1 += 7;
+			S1 += 27;
 		}
 		if (E2cur == E2tar) {
 			happy = 1;
 			S2 = 0;
 		}
 		else if (E2tar - E2cur < 0) {
-			S2 -= 7;
+			S2 -= 27;
 		}
 		else {
-			S2 += 7;
+			S2 += 27;
 		}
 		instruct(setS1, S1);
 		instruct(setS2, S2);
 #if debug == 1
 		DEBUG.println("Speed Adjustment: S1, S2");
 		DEBUG.print(S1, DEC);
-		DBEUG.println(S2, DEC);
+		DEBUG.println(S2, DEC);
 #endif
 	}
 #if debug ==1
