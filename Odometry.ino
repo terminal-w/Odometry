@@ -34,13 +34,7 @@ const int track = 21000; //trackwidth of robot in mm x100
 const int wheel_dia = 10000; //wheel diameter of robot in mm x100
 const int wheel_base = 15000; //distance from axle to M&M dispenser in mm x100
 const byte sPos[6] = {0, 51, 102, 153, 204, 255}; //defines servo drive positions for M&Ms 
-union dec { // definition of magical data class with many variables sharing the same bit of memory so we can do funky encoding to save memory and stuff.
-      struct enc{
-          int degs :9; //bitfields make this integer 9 bits long within the structure
-          byte turns :7; //bitfields make this byte 7 bits long within the structure
-          } enc;
-      int val;
-    };
+
     
 /* multi dimension array describing waypoints 
  *  execution order: distance and radius to waypoint -ve radius indicates ccw
@@ -113,18 +107,14 @@ int instruct(byte reg, char val = 0){
       MD25.readBytes(b, 5);
       int r = b[3] << 8;         // (0x56 shifted 8 bits left, effectively * 256) 
       r += b[4];              // (0x32)
-      dec d;
-      d.enc.degs = r % 360;
-      d.enc.turns = (byte) r / 360;
       #if debug == 1
       DEBUG.print("Recieved: ");
       DEBUG.print(reg, HEX);
-      DEBUG.print(" with turns:");
-      DEBUG.print(d.enc.turns, DEC);
-      DEBUG.print(" and degrees:");
-      DEBUG.println(d.enc.degs, DEC);
+      DEBUG.print(" with:");
+      DEBUG.print(r, DEC);
+      DEBUG.println(" degrees");
       #endif
-      return d.val; 
+      return r; 
     }
     else{
       //gets
@@ -165,19 +155,12 @@ void halt(){
 int enc_target(int distance) {
   /* takes the required travel distance in mm x10 an converts it to an encoder target*/
  int out =distance*3600/(3.1415962*wheel_dia);
- dec d;
- d.enc.turns = out / 360;
- d.enc.degs  = out % 360;
  #if debug == 1
     DEBUG.print("Encoder Target:");
     DEBUG.print(out, DEC);
-    DEBUG.print(" degrees, or:");
-    DEBUG.print(d.enc.turns, DEC);
-    DEBUG.print(" turns and ");
-    DEBUG.print(d.enc.degs, DEC);
-    DEBUG.println(" degrees.");
+    DEBUG.println(" degrees");
  #endif
- return d.val;
+ return out;
 }
 
 void turn(int theta){
@@ -232,7 +215,7 @@ void notify(){
   instruct(reset);
 	return;
 }
-
+#include "New_Drive.cpp"
 void MandMrelease(byte remaining){
   /*This Function drops M&Ms
    * Author: Luka - lzd1u16@soton.ac.uk
@@ -245,148 +228,7 @@ void MandMrelease(byte remaining){
    return;
   } //function prototype for releasing M&Ms
 
-byte overshootOrFine(int tt, dec wheel_decoder, bool wheel = 0){
-  /* to be used when robot is moving at 'cruise speed' to determine when to slow down
-     takes a wheel encoder value and target turns. Wheel is high for encoder 2;
-     returns:
-     0 is no change
-     1 is overshoot
-     2 is fine
-  */
-#if debug == 1
-	DEBUG.println("overshoot or fine");
-#endif
-  if(wheel_decoder.enc.turns > tt){halt(); return (byte)1;}
-  else if(wheel_decoder.enc.turns = tt){
-    if(!wheel){instruct(setS1, (char)50);}
-    else{instruct(setS2, (char)50);}
-    return (byte)2;
-  }
-  else if(wheel_decoder.enc.turns >= 0.9*tt){
-    if(!wheel){instruct(setS1, (char)90);}
-    else{instruct(setS2, (char)90);}
-    return (byte)2;
-  }
-  return 0;
-}
 
-void wiggle(int decTar, bool wheel = 0){ //fine adjustment prototype
-  #if debug == 1
-    DEBUG.println("Wiggle Wiggle Wiggle, Yeah");
-  #endif
-  dec decoder;
-  decoder.val = decTar;
-  bool happy = 0;
-  long target_degs = decoder.enc.turns*360 + decoder.enc.degs;
-  long current_degs;
-  instruct(setAcc, (byte)10);
-  while(!happy){
-    if(wheel){decoder.val = instruct(getE2);}
-    else{decoder.val = instruct(getE1);}
-    current_degs = decoder.enc.turns*360 + decoder.enc.degs;
-    if(target_degs-current_degs == 0){happy = 1; halt(); break;}
-    char velocity = (target_degs - current_degs)*90/360;
-    if(wheel){instruct(setS2, velocity);}
-    else{instruct(setS1, velocity);}
-  }
-  #if debug == 1
-    DEBUG.println("Clap along if you feel like happiness is the truth");
-  #endif
-  return;
-}
-
-void straightAndNarrow(int distance){
-  /*drive in a straightline*/
-  //code to achieve straight line
-  int E1cur; //current encoder value of E1
-  int E2cur; //current encoder value of E2
-  bool e; // 1 if wheel_decoder currently contains encoder 2
-  dec wheel_decoder;
-    int Etar = enc_target(distance);
-    bool overshoot = 0;
-    bool fine = 0;
-    #if debug == 1
-      DEBUG.print("Straight line target:");
-      DEBUG.print(distance/10, DEC);
-      DEBUG.println("mm");
-    #endif
-    
-    wheel_decoder.val = Etar;
-    int tt = wheel_decoder.enc.turns;
-    int td = wheel_decoder.enc.degs;
-    instruct(setS1, (char)127);
-    instruct(setS2, (char)127);
-    while(!overshoot && !fine){
-      E1cur = instruct(getE1);
-      E2cur = instruct(getE2);
-      wheel_decoder.val = E1cur;
-      e = 0;
-      switch(overshootOrFine(tt, wheel_decoder, e)){
-        case 0: break;
-        case 1: {overshoot = 1; break;}
-        case 2: {fine = 1; break;}
-      }
-      wheel_decoder.val = E2cur;
-      e = 1;
-      switch(overshootOrFine(tt, wheel_decoder, e)){
-        case 0: break;
-        case 1: {overshoot = 1; break;}
-        case 2: {fine = 1; break;}
-      }
-    }
-    while(overshoot && !fine){
-      #if debug == 1
-        DEBUG.println("OVERSHOOT");
-      #endif
-      bool reverse = 0;
-      int error = 360;
-      if(abs(wheel_decoder.enc.turns-tt)-tt <= 1){
-        instruct(setS1, (char)-50);
-        instruct(setS2, (char)-50);
-        fine = 1;
-        overshoot =1;
-      }
-      else if(abs(wheel_decoder.enc.turns-tt)/tt >= 0.9 && !reverse){
-        #if debug == 1
-          DEBUG.println("IS HUGE");
-        #endif
-        instruct(setS1, (char)-120);
-        instruct(setS2, (char)-120);
-        reverse = 1;
-      }
-      else if(abs(wheel_decoder.enc.turns-tt)/tt < 0.9 ){
-        #if debug == 1
-          DEBUG.println("is moderate");
-        #endif
-        instruct(setS1, (char)-90);
-        instruct(setS2, (char)-90);
-        reverse = 1;
-      }
-      E1cur = instruct(getE1);
-      E2cur = instruct(getE2);
-      if(e){wheel_decoder.val = E1cur;}
-      else{wheel_decoder.val = E2cur;}
-    }
-    wiggle(Etar, 0);
-    wiggle(Etar, 1);
-    #if debug == 1 
-      DEBUG.println("The way of the righteous is narrow");
-    #endif
-    return;
-}
-void raidersOfTheLostARC(int ratio, int Do, bool ccw){
-  int EoCur; int EiCur; int EoTar; int EiTar;
-  int Di = ratio/100 * Do;
-  #if debug == 1
-    if(ccw){DEBUG.println("Describing Anti-Clockwise Arc:");}
-    else{DEBUG.println("Describing Clockwise Arc:");}
-    DEBUG.print("Inner Circumference:");
-    DEBUG.print(Di/10, DEC);
-    DEBUG.print("mm Outer Circumference:");
-    DEBUG.print(Do/10, DEC);
-    DEBUG.println("mm");
-  #endif
-}
 void kmn(){bool a=0;} //function than never returns to provide stop
 void setup() {
   // put your setup code here, to run once:

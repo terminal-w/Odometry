@@ -1,16 +1,42 @@
-void unhappy(int E1tar, int E2tar, bool straight) {
-	
-}
 void DriveTo(int E1tar, int E2tar) {
 	bool happy = 0;
-	dec d;
-	long Etd = d.enc.turns * 360 + d.enc.degs;
 	while (!happy) {
 		int E1cur = instruct(getE1);
 		int E2cur = instruct(getE2);
-		int S1 = 1 / 120 * abs(E1tar - E1cur) / E1tar + 7;
-		int S2 = 1 / 120 * abs(E1tar - E1cur) / E1tar + 7;
+		int S1 = 1 / 120 * abs(E1tar - E1cur) / E1tar;
+		int S2 = 1 / 120 * abs(E1tar - E1cur) / E1tar;
+		if (E1cur == E1tar) {
+			happy = 1;
+			S1 = 0;
+		}
+		else if (E1tar - E1cur < 0) {
+			S1 -= 7;
+		}
+		else {
+			S1 += 7;
+		}
+		if (E2cur == E2tar) {
+			happy = 1;
+			S2 = 0;
+		}
+		else if (E2tar - E2cur < 0) {
+			S2 -= 7;
 	}
+		else {
+			S2 += 7;
+		}
+		instruct(setS1, S1);
+		instruct(setS2, S2);
+#if debug == 1
+		DEBUG.println("Speed Adjustment: S1, S2");
+		DEBUG.print(S1, DEC);
+		DBEUG.println(S2, DEC);
+#endif
+	}
+#if debug ==1
+	DEBUG.println("Because I'm Happy");
+#endif
+	return;
 }
 void target(int distance, int radius) {
 #if debug == 1
@@ -54,5 +80,6 @@ void target(int distance, int radius) {
 		}
 	}
 	DriveTo(E1Tar, E2Tar);
+	notify();
 	return;
 }
