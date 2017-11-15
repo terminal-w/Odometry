@@ -109,6 +109,12 @@ int instruct(byte reg, char val = 0){
       int r = b[3] << 8;         // (0x56 shifted 8 bits left, effectively * 256) 
       r += b[4];              // (0x32)
       #if debug == 1
+      DEBUG.print("Serial Buffer: ");
+      for(byte i; i<5; i++){
+        DEBUG.print(b[i], DEC);
+        DEBUG.print(", ");
+      }
+      DEBUG.println();
       DEBUG.print("Recieved: ");
       DEBUG.print(reg, HEX);
       DEBUG.print(" with:");
@@ -122,6 +128,12 @@ int instruct(byte reg, char val = 0){
       MD25.flush();
       MD25.readBytes(b, 2);
       #if debug == 1
+      DEBUG.print("Serial Buffer: ");
+      for(byte i; i<5; i++){
+        DEBUG.print(b[i], DEC);
+        DEBUG.print(", ");
+      }
+      DEBUG.println();
       DEBUG.print("Recieved: ");
       DEBUG.print(reg, HEX);
       DEBUG.print(" with value:");
