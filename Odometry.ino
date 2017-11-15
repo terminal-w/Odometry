@@ -358,6 +358,11 @@ void loop() {
       DEBUG.println(wp[0], DEC);
     #endif
     target(wp[1], wp[2]);
+    if(wp[4] == 1){
+      MandMrelease(MandMstock);
+      MandMstock--;
+    }
+    if(wp[3] > 0){turn(wp[3]);}
 }
   kmn();
 }
