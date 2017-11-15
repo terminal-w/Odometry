@@ -31,7 +31,7 @@
 	#define MD25 Serial
 #endif
 Servo Carouselle;
-const int track = 21000; //trackwidth of robot in mm x100
+const int track = 23500; //trackwidth of robot in mm x100
 const int wheel_dia = 9450; //wheel diameter of robot in mm x100
 const int wheel_base = 15000; //distance from axle to M&M dispenser in mm x100
 const byte sPos[6] = {20, 0, 40, 73, 114, 150}; //defines servo drive positions for M&Ms 
@@ -110,7 +110,7 @@ int instruct(byte reg, char val = 0){
       r += b[4];              // (0x32)
       #if debug == 1
       DEBUG.print("Serial Buffer: ");
-      for(byte i; i<5; i++){
+      for(byte i = 0; i<5; i++){
         DEBUG.print(b[i], DEC);
         DEBUG.print(", ");
       }
@@ -167,10 +167,12 @@ void halt(){
 
 int enc_target(int distance) {
   /* takes the required travel distance in mm x10 an converts it to an encoder target*/
-
- int out =distance*3600/(pi*wheel_dia);
+ float den = pi*wheel_dia;
+ float frac = 3600/den;
+ int out = distance * frac;
 
  #if debug == 1
+    DEBUG.println(distance, DEC); DEBUG.println(den, DEC); DEBUG.println(frac, DEC);
     DEBUG.print("Encoder Target:");
     DEBUG.print(out, DEC);
     DEBUG.println(" degrees");
@@ -348,11 +350,17 @@ void setup() {
     Carouselle.write(sPos[0]);
     notify();
     bool go = 0;
+    #if debug == 1
+    DEBUG.print("Awaiting all clear @ ");
+    DEBUG.println((int)millis, DEC);
+    #endif
      while(!go){
       go = !digitalRead(4);
+
     }
     #if debug == 1
-      DEBUG.println("Setup Complete");
+      DEBUG.print("Setup Complete @ ");
+      DEBUG.println((int)millis, DEC);
     #endif
 }
 
