@@ -21,7 +21,7 @@
  * 
  */
 
-#define debug 0  //switch for Software Serial
+#define debug 1  //switch for Software Serial
 #define pi 3.1415962 //saves any errors typing
 
 #if debug == 1 // NOT THE SERIAL SWITCH DON'T CHANGE
@@ -106,8 +106,8 @@ int instruct(byte reg, char val = 0){
       //encoders
       MD25.flush();
       MD25.readBytes(b, 5);
-      int r = b[3] << 8;         // (0x56 shifted 8 bits left, effectively * 256) 
-      r += b[4];              // (0x32)
+      int r = b[2] << 8;         // (0x56 shifted 8 bits left, effectively * 256) 
+      r += b[3];              // (0x32)
       #if debug == 1
       DEBUG.print("Serial Buffer: ");
       for(byte i = 0; i<5; i++){
