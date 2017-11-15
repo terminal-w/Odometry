@@ -32,7 +32,7 @@
  * -
  */
 
-#define debug 1  //switch for Software Serial
+#define debug 0  //switch for Software Serial
 #define pi 3.1415926 //saves any errors typing
 
 #if debug == 1 // NOT THE SERIAL SWITCH DON'T CHANGE
