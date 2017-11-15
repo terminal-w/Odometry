@@ -21,8 +21,8 @@
  * 
  */
 
-#define debug 1  //switch for Software Serial
-#define pi 3.1415962 //saves any errors typing
+#define debug 0  //switch for Software Serial
+#define pi 3.1415926 //saves any errors typing
 
 #if debug == 1 // NOT THE SERIAL SWITCH DON'T CHANGE
 	  SoftwareSerial MD25(10, 11); //Software Serial MD25 RX, TX
@@ -275,6 +275,9 @@ void DriveTo(int E1tar, int E2tar) {
 #endif
 	}
  instruct(setAcc, 10);
+ #if debug == 1
+ DEBUG.println("GOES LOOPY");
+ #endif
  while(E1cur != E1tar || E2cur != E2tar){
   S1 = 50 * (E1tar -E1cur)/90;
   S2 = 50 * (E2tar-E2cur)/90;
