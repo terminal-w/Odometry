@@ -21,10 +21,10 @@
  * 
  */
 
-#define debug 1  //switch for Software Serial
+#define debug 0  //switch for Software Serial
 #define pi 3.1415962 //saves any errors typing
 
-#if debug == 1
+#if debug == 1 // NOT THE SERIAL SWITCH DON'T CHANGE
 	  SoftwareSerial MD25(10, 11); //Software Serial MD25 RX, TX
 	  #define DEBUG Serial
 #else
@@ -386,10 +386,10 @@ void loop() {
     for(int j = 0; j < 5; j++){
       wp[j] = waypoints[i][j]; // takes data about next waypoint "off the shelf"
     }
-    #if debug == 1
+#if debug == 1
       DEBUG.print("Next WP: ");
       DEBUG.println(wp[0], DEC);
-    #endif
+#endif
     target(wp[1], wp[2]);
     if(wp[4] == 1){
       MandMrelease(MandMstock);
