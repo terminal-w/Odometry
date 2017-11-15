@@ -227,13 +227,19 @@ void notify(){
 	return;
 }
 void DriveTo(int E1tar, int E2tar) {
-	bool happy = 0; int E1cur; int E2cur; char S1; char S2;
+	bool happy = 0; int E1cur; int E2cur; char S1; char S2; float E1diff; float E2diff;
+ #if debug ==1
+  DEBUG.print(E1tar, DEC);
+  DEBUG.println(E2tar, DEC);
+  #endif
 	while (!happy) {
-    float E1prog; float E2prog;
+    float E1prog; float E2prog; 
 		E1cur = instruct(getE1);
 		E2cur = instruct(getE2);
-    E1prog = (E1tar - E1cur) / E1tar;
-    E2prog = (E2tar - E2cur) / E2tar;
+    E1diff = E1tar-E1cur;
+    E2diff = E2tar-E2cur;
+    E1prog = E1diff/E1tar;
+    E2prog = E2diff/E2tar;
 		S1 = 100 * E1prog;
 		S2 = 100 * E2prog;
 #if debug == 1
@@ -376,7 +382,7 @@ void loop() {
   byte MandMstock = 5;
   for(int i = 0; i < 13; i++){ // for loop to work through waypoints
     int wp[5];
-   
+   instruct(reset);
     for(int j = 0; j < 5; j++){
       wp[j] = waypoints[i][j]; // takes data about next waypoint "off the shelf"
     }
