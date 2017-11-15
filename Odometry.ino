@@ -19,16 +19,27 @@
  * notify at all way points.
  * Dispense Chocolate at certain way points.
  * 
+ * CODE STRUCTURE
+ * -Instruct: Instruction sent to the MD25 and receives information to decode it
+ * -halt: Function to stop robot
+ * -enc target: function that will translate the distance in mm to computer readable information
+ * -Turn(theta): function that will tell the MD25 if the turn is sweep or spot.
+ * -Sweep: Function that will describe an arc using theta
+ * -Notify: indicates the robot has arrived at a point
+ * -DriveTo: Manages the speed of the robot
+ * -Target: intakes the information of the next trajectory and outputs information for enc target
+ * -kmn: stops the loop
+ * -
  */
 
 #define debug 0  //switch for Software Serial
 #define pi 3.1415926 //saves any errors typing
 
 #if debug == 1 // NOT THE SERIAL SWITCH DON'T CHANGE
-	  SoftwareSerial MD25(10, 11); //Software Serial MD25 RX, TX
-	  #define DEBUG Serial
+    SoftwareSerial MD25(10, 11); //Software Serial MD25 RX, TX
+    #define DEBUG Serial
 #else
-	#define MD25 Serial
+  #define MD25 Serial
 #endif
 Servo Carouselle;
 const int track = 23500; //trackwidth of robot in mm x100
@@ -96,9 +107,9 @@ int instruct(byte reg, char val = 0){
   MD25.write((byte)0x00);
   MD25.write(reg);
   #if debug == 1
-	DEBUG.print("Register: ");
-	DEBUG.print(reg, HEX);
-	DEBUG.println(" Accessed");
+  DEBUG.print("Register: ");
+  DEBUG.print(reg, HEX);
+  DEBUG.println(" Accessed");
   #endif
   if(reg > 0x34){return 0;}
   if(reg < 0x30){byte b[5];
@@ -155,10 +166,10 @@ int instruct(byte reg, char val = 0){
 
 void halt(){
   //function to stop robot.
-	instruct(setAcc, 10);
-	instruct(setS1);
+  instruct(setAcc, 10);
+  instruct(setS1);
   instruct(setS2); 
-	instruct(setAcc, 5);
+  instruct(setAcc, 5);
   #if debug == 1
     DEBUG.println("ACHTUNG!!! Ich habe gehaltet!");
   #endif
@@ -181,15 +192,15 @@ int enc_target(int distance) {
 }
 
 void turn(int theta){
-	  /* takes two arguments a target angle, theta (degrees x10), and a switch, spot,
-		to determine whether the angle is to describe an arc or a spot turn.
-		executes turn */
-		float distance; //distance to be traveled per in mm
-		distance = (theta/3600)*pi*(track);
-		#if debug == 1
-			DEBUG.print("turn: ");
-			DEBUG.println(distance);
-		#endif 
+    /* takes two arguments a target angle, theta (degrees x10), and a switch, spot,
+    to determine whether the angle is to describe an arc or a spot turn.
+    executes turn */
+    float distance; //distance to be traveled per in mm
+    distance = (theta/3600)*pi*(track);
+    #if debug == 1
+      DEBUG.print("turn: ");
+      DEBUG.println(distance);
+    #endif 
     int E2tar = enc_target((int)distance*10);
     int E1tar = enc_target(-(int)distance*10);
     
@@ -217,63 +228,63 @@ int sweep(int distance, int radius, bool in = 0){
 }
 
 void notify(){
-	halt();
-	tone(13, 4000, 500);
-	delay(500);
-	#if debug == 1
-		DEBUG.println("Waypoint Notification");
-	#endif
+  halt();
+  tone(13, 4000, 500);
+  delay(500);
+  #if debug == 1
+    DEBUG.println("Waypoint Notification");
+  #endif
   instruct(reset);
-	return;
+  return;
 }
 void DriveTo(int E1tar, int E2tar) {
-	bool happy = 0; int E1cur; int E2cur; char S1; char S2; float E1diff; float E2diff;
+  bool happy = 0; int E1cur; int E2cur; char S1; char S2; float E1diff; float E2diff;
  #if debug ==1
   DEBUG.print(E1tar, DEC);
   DEBUG.println(E2tar, DEC);
   #endif
-	while (!happy) {
+  while (!happy) {
     float E1prog; float E2prog; 
-		E1cur = instruct(getE1);
-		E2cur = instruct(getE2);
+    E1cur = instruct(getE1);
+    E2cur = instruct(getE2);
     E1diff = E1tar-E1cur;
     E2diff = E2tar-E2cur;
     E1prog = E1diff/E1tar;
     E2prog = E2diff/E2tar;
-		S1 = 100 * E1prog;
-		S2 = 100 * E2prog;
+    S1 = 100 * E1prog;
+    S2 = 100 * E2prog;
 #if debug == 1
    DEBUG.print(S1, DEC);
    DEBUG.println(S2, DEC);
    #endif
-		if (E1cur == E1tar) {
-			happy = 1;
-			S1 = 0;
-		}
-		else if (E1tar - E1cur < 0) {
-			S1 -= 27;
-		}
-		else {
-			S1 += 27;
-		}
-		if (E2cur == E2tar) {
-			happy = 1;
-			S2 = 0;
-		}
-		else if (E2tar - E2cur < 0) {
-			S2 -= 27;
-		}
-		else {
-			S2 += 27;
-		}
-		instruct(setS1, S1);
-		instruct(setS2, S2);
+    if (E1cur == E1tar) {
+      happy = 1;
+      S1 = 0;
+    }
+    else if (E1tar - E1cur < 0) {
+      S1 -= 27;
+    }
+    else {
+      S1 += 27;
+    }
+    if (E2cur == E2tar) {
+      happy = 1;
+      S2 = 0;
+    }
+    else if (E2tar - E2cur < 0) {
+      S2 -= 27;
+    }
+    else {
+      S2 += 27;
+    }
+    instruct(setS1, S1);
+    instruct(setS2, S2);
 #if debug == 1
-		DEBUG.println("Speed Adjustment: S1, S2");
-		DEBUG.print(S1, DEC);
-		DEBUG.println(S2, DEC);
+    DEBUG.println("Speed Adjustment: S1, S2");
+    DEBUG.print(S1, DEC);
+    DEBUG.println(S2, DEC);
 #endif
-	}
+  }
  instruct(setAcc, 10);
  #if debug == 1
  DEBUG.println("GOES LOOPY");
@@ -286,54 +297,54 @@ void DriveTo(int E1tar, int E2tar) {
  }
  instruct(setAcc, 5);
 #if debug ==1
-	DEBUG.println("Because I'm Happy");
+  DEBUG.println("Because I'm Happy");
 #endif
-	return;
+  return;
 }
 void target(int distance, int radius) {
 #if debug == 1
-	DEBUG.println("Targeting...");
+  DEBUG.println("Targeting...");
 #endif
-	bool ccw = 0;
-	int E1Tar;
-	int E2Tar;
-	if (radius == 0) {
-		E1Tar = enc_target(distance);
-		E2Tar = E1Tar;
+  bool ccw = 0;
+  int E1Tar;
+  int E2Tar;
+  if (radius == 0) {
+    E1Tar = enc_target(distance);
+    E2Tar = E1Tar;
 #if debug == 1
-		DEBUG.print("Straight Line, length: ");
-		DEBUG.println(distance, DEC);
+    DEBUG.print("Straight Line, length: ");
+    DEBUG.println(distance, DEC);
 #endif
-	}
-	else {
-		int Do = sweep(distance, abs(radius));
-		int Di = sweep(distance, abs(radius), 1);
-		int EoTar = enc_target(Do);
-		int EiTar = enc_target(Di);
+  }
+  else {
+    int Do = sweep(distance, abs(radius));
+    int Di = sweep(distance, abs(radius), 1);
+    int EoTar = enc_target(Do);
+    int EiTar = enc_target(Di);
 #if debug == 1
-		DEBUG.print("Swept Radius, length, radius: ");
-		DEBUG.print(distance, DEC);
-		DEBUG.print(", ");
-		DEBUG.print(radius, DEC);
+    DEBUG.print("Swept Radius, length, radius: ");
+    DEBUG.print(distance, DEC);
+    DEBUG.print(", ");
+    DEBUG.print(radius, DEC);
 #endif
-		if (radius < 0) {
-			E1Tar = EoTar;
-			E2Tar = EiTar;
+    if (radius < 0) {
+      E1Tar = EoTar;
+      E2Tar = EiTar;
 #if debug == 1
-			DEBUG.println(" Anti-Clockwise");
+      DEBUG.println(" Anti-Clockwise");
 #endif
-		}
-		else {
-			E1Tar = EiTar;
-			E2Tar = EoTar;
+    }
+    else {
+      E1Tar = EiTar;
+      E2Tar = EoTar;
 #if debug == 1
-			DEBUG.println(" Clockwise");
+      DEBUG.println(" Clockwise");
 #endif
-		}
-	}
-	DriveTo(E1Tar, E2Tar);
-		notify();
-	return;
+    }
+  }
+  DriveTo(E1Tar, E2Tar);
+    notify();
+  return;
 }
 
 void MandMrelease(byte remaining){
@@ -356,12 +367,12 @@ void setup() {
   Carouselle.attach(9);
   pinMode(13, OUTPUT);
   pinMode(4, INPUT);
-	  #if debug == 1
-			MD25.begin(9600);
-			DEBUG.begin(9600);  
-	  #else
-			MD25.begin(38400);
-	  #endif
+    #if debug == 1
+      MD25.begin(9600);
+      DEBUG.begin(9600);  
+    #else
+      MD25.begin(38400);
+    #endif
     instruct(setMod, 1); // sets motors with 0 being stop and each independent of the other.
     Carouselle.write(sPos[0]);
     notify();
@@ -372,7 +383,6 @@ void setup() {
     #endif
      while(!go){
       go = !digitalRead(4);
-
     }
     #if debug == 1
       DEBUG.print("Setup Complete @ ");
