@@ -32,7 +32,7 @@
 #endif
 Servo Carouselle;
 const int track = 21000; //trackwidth of robot in mm x100
-const int wheel_dia = 09450; //wheel diameter of robot in mm x100
+const int wheel_dia = 9450; //wheel diameter of robot in mm x100
 const int wheel_base = 15000; //distance from axle to M&M dispenser in mm x100
 const byte sPos[6] = {0, 51, 102, 153, 204, 255}; //defines servo drive positions for M&Ms 
 
