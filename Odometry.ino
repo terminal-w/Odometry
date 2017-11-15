@@ -229,10 +229,17 @@ void notify(){
 void DriveTo(int E1tar, int E2tar) {
 	bool happy = 0; int E1cur; int E2cur; char S1; char S2;
 	while (!happy) {
+    float E1prog; float E2prog;
 		E1cur = instruct(getE1);
 		E2cur = instruct(getE2);
-		S1 = 100 * (E1tar - E1cur) / E1tar;
-		S2 = 100 * (E1tar - E1cur) / E1tar;
+    E1prog = (E1tar - E1cur) / E1tar;
+    E2prog = (E2tar - E2cur) / E2tar;
+		S1 = 100 * E1prog;
+		S2 = 100 * E2prog;
+#if debug == 1
+   DEBUG.print(S1, DEC);
+   DEBUG.println(S2, DEC);
+   #endif
 		if (E1cur == E1tar) {
 			happy = 1;
 			S1 = 0;
