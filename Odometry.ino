@@ -100,11 +100,6 @@ enum registers:byte
   };
 #define registers
 
-<<<<<<< HEAD
-#include "OdometryTasks.h" 
-OdometryTasks robot(sPos, wheel_dia, wheel_base, track, *Carouselle);
-
-=======
 int instruct(byte reg, char val = 0){
   if(reg == getPow || reg == getEs){
     #if debug == 1
@@ -370,7 +365,7 @@ void MandMrelease(byte remaining){
 
 void kmn(){bool a=0;} //function than never returns to provide stop
 
->>>>>>> parent of 7f7275c... Update Odometry.ino
+
 void setup() {
   // put your setup code here, to run once:
   Carouselle.attach(9);
@@ -404,7 +399,7 @@ void loop() {
   byte MandMstock = 5;
   for(int i = 0; i < 13; i++){ // for loop to work through waypoints
     int wp[5];
-   robot.instruct(reset);
+   instruct(reset);
     for(int j = 0; j < 5; j++){
       wp[j] = waypoints[i][j]; // takes data about next waypoint "off the shelf"
     }
@@ -414,10 +409,10 @@ void loop() {
 #endif
     robot.target(wp[1], wp[2]);
     if(wp[4] == 1){
-      robot.MandMrelease(MandMstock);
+      MandMrelease(MandMstock);
       MandMstock--;
     }
-    if(wp[3] > 0){robot.turn(wp[3]);}
+    if(wp[3] > 0){turn(wp[3]);}
 }
   kmn();
 }
