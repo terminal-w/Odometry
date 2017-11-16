@@ -32,7 +32,7 @@
  * -
  */
 
-#define debug 0  //switch for Software Serial
+#define debug 1  //switch for Software Serial
 #define pi 3.1415926 //saves any errors typing
 
 #if debug == 1 // NOT THE SERIAL SWITCH DON'T CHANGE
@@ -144,8 +144,7 @@ int instruct(byte reg, char val = 0){
       #if debug == 1
       DEBUG.print("Serial Buffer: ");
       for(byte i; i<5; i++){
-        DEBUG.print(b[i], DEC);
-        DEBUG.print(", ");
+        DEBUG.print(b[i], HEX);
       }
       DEBUG.println();
       DEBUG.print("Recieved: ");
@@ -243,6 +242,7 @@ void notify(){
 void DriveTo(int E1tar, int E2tar) {
   bool happy = 0; int E1cur; int E2cur; char S1; char S2; float E1diff; float E2diff;
  #if debug ==1
+ DEBUG.println("Etars:");
   DEBUG.print(E1tar, DEC);
   DEBUG.println(E2tar, DEC);
   #endif
@@ -257,6 +257,9 @@ void DriveTo(int E1tar, int E2tar) {
     S1 = 100 * E1prog;
     S2 = 100 * E2prog;
 #if debug == 1
+  DEBUG.println("EDIFFS:");
+  DEBUG.print(E1diff);
+  DEBUG.println(E2diff);
    DEBUG.print(S1, DEC);
    DEBUG.println(S2, DEC);
    #endif

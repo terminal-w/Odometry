@@ -1,0 +1,442 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2017.11.16 09:47:39 =~=~=~=~=~=~=~=~=~=~=~=
+Register: 34 Accessed
+Register: 33 Accessed
+Register: 31 Accessed
+Register: 32 Accessed
+Register: 33 Accessed
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+Awaiting all clear @ 388
+Setup Complete @ 388
+Register: 35 Accessed
+Next WP: 12
+Targeting...
+4280
+29688.0488281250
+0.1212609171
+Encoder Target:518 degrees
+Straight Line, length: 4280
+Etars:
+518518
+Register: 23 Accessed
+Serial Buffer: 0, 0, 0, 0, 95, 
+Recieved: 23 with:0 degrees
+Register: 24 Accessed
+Serial Buffer: 0, 0, 0, 0, 95, 
+Recieved: 24 with:0 degrees
+EDIFFS:
+518.00518.00
+100100
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+127127
+Register: 23 Accessed
+Serial Buffer: 0, 0, 0, 0, 95, 
+Recieved: 23 with:0 degrees
+Register: 24 Accessed
+Serial Buffer: 0, 0, 3, 182, 95, 
+Recieved: 24 with:950 degrees
+EDIFFS:
+518.00-432.00
+100-83
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+127-110
+Register: 23 Accessed
+Serial Buffer: 0, 0, 8, 228, 95, 
+Recieved: 23 with:2276 degrees
+Register: 24 Accessed
+Serial Buffer: 0, 0, 8, 21, 95, 
+Recieved: 24 with:2069 degrees
+EDIFFS:
+-1758.00-1551.00
+-83-43
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+-110-70
+Register: 23 Accessed
+Serial Buffer: 0, 0, 18, 161, 95, 
+Recieved: 23 with:4769 degrees
+Register: 24 Accessed
+Serial Buffer: 0, 0, 0, 202, 95, 
+Recieved: 24 with:202 degrees
+EDIFFS:
+-4251.00316.00
+-5261
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+-7988
+Register: 23 Accessed
+Serial Buffer: 0, 0, 13, 55, 95, 
+Recieved: 23 with:3383 degrees
+Register: 24 Accessed
+Serial Buffer: 255, 255, 255, 165, 95, 
+Recieved: 24 with:-91 degrees
+EDIFFS:
+-2865.00609.00
+-41117
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+-68-112
+Register: 23 Accessed
+Serial Buffer: 0, 0, 6, 233, 95, 
+Recieved: 23 with:1769 degrees
+Register: 24 Accessed
+Serial Buffer: 0, 0, 1, 125, 95, 
+Recieved: 24 with:381 degrees
+EDIFFS:
+-1251.00137.00
+1526
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+-1253
+Register: 23 Accessed
+Serial Buffer: 0, 0, 1, 137, 95, 
+Recieved: 23 with:393 degrees
+Register: 24 Accessed
+Serial Buffer: 255, 255, 253, 54, 95, 
+Recieved: 24 with:-714 degrees
+EDIFFS:
+125.001232.00
+24-19
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+518
+Register: 23 Accessed
+Serial Buffer: 0, 0, 0, 136, 95, 
+Recieved: 23 with:136 degrees
+Register: 24 Accessed
+Serial Buffer: 255, 255, 255, 200, 95, 
+Recieved: 24 with:-56 degrees
+EDIFFS:
+382.00574.00
+73110
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+100-119
+Register: 23 Accessed
+Serial Buffer: 0, 0, 4, 101, 95, 
+Recieved: 23 with:1125 degrees
+Register: 24 Accessed
+Serial Buffer: 255, 255, 252, 180, 95, 
+Recieved: 24 with:-844 degrees
+EDIFFS:
+-607.001362.00
+-1176
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+11233
+Register: 23 Accessed
+Serial Buffer: 0, 0, 12, 64, 95, 
+Recieved: 23 with:3136 degrees
+Register: 24 Accessed
+Serial Buffer: 255, 255, 247, 173, 95, 
+Recieved: 24 with:-2131 degrees
+EDIFFS:
+-2618.002649.00
+7-1
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+-2026
+Register: 23 Accessed
+Serial Buffer: 0, 0, 21, 21, 95, 
+Recieved: 23 with:5397 degrees
+Register: 24 Accessed
+Serial Buffer: 255, 255, 250, 5, 95, 
+Recieved: 24 with:-1531 degrees
+EDIFFS:
+-4879.002049.00
+83-117
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+56-90
+Register: 23 Accessed
+Serial Buffer: 0, 0, 20, 93, 95, 
+Recieved: 23 with:5213 degrees
+Register: 24 Accessed
+Serial Buffer: 255, 255, 248, 155, 95, 
+Recieved: 24 with:-1893 degrees
+EDIFFS:
+-4695.002411.00
+118-47
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+91-20
+Register: 23 Accessed
+Serial Buffer: 0, 0, 24, 150, 95, 
+Recieved: 23 with:6294 degrees
+Register: 24 Accessed
+Serial Buffer: 255, 255, 243, 213, 95, 
+Recieved: 24 with:-3115 degrees
+EDIFFS:
+-5776.003633.00
+-91-67
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+-118-40
+Register: 23 Accessed
+Serial Buffer: 0, 0, 31, 208, 95, 
+Recieved: 23 with:8144 degrees
+Register: 24 Accessed
+Serial Buffer: 255, 255, 241, 127, 95, 
+Recieved: 24 with:-3713 degrees
+EDIFFS:
+-7626.004231.00
+6448
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+3775
+Register: 23 Accessed
+Serial Buffer: 0, 0, 25, 24, 95, 
+Recieved: 23 with:6424 degrees
+Register: 24 Accessed
+Serial Buffer: 255, 255, 241, 217, 95, 
+Recieved: 24 with:-3623 degrees
+EDIFFS:
+-5906.004141.00
+-11631
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+11358
+Register: 23 Accessed
+Serial Buffer: 0, 0, 26, 202, 95, 
+Recieved: 23 with:6858 degrees
+Register: 24 Accessed
+Serial Buffer: 255, 255, 247, 44, 95, 
+Recieved: 24 with:-2260 degrees
+EDIFFS:
+-6340.002778.00
+5724
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+3051
+Register: 23 Accessed
+Serial Buffer: 0, 0, 35, 122, 95, 
+Recieved: 23 with:9082 degrees
+Register: 24 Accessed
+Serial Buffer: 255, 255, 251, 124, 95, 
+Recieved: 24 with:-1156 degrees
+EDIFFS:
+-8564.001674.00
+-11767
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+11294
+Register: 23 Accessed
+Serial Buffer: 0, 0, 38, 25, 95, 
+Recieved: 23 with:9753 degrees
+Register: 24 Accessed
+Serial Buffer: 0, 0, 1, 18, 95, 
+Recieved: 24 with:274 degrees
+EDIFFS:
+-9235.00244.00
+1047
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+-1774
+Register: 23 Accessed
+Serial Buffer: 0, 0, 46, 128, 95, 
+Recieved: 23 with:11904 degrees
+Register: 24 Accessed
+Serial Buffer: 0, 0, 7, 190, 95, 
+Recieved: 24 with:1982 degrees
+EDIFFS:
+-11386.00-1464.00
+106-26
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+79-53
+Register: 23 Accessed
+Serial Buffer: 0, 0, 46, 3, 95, 
+Recieved: 23 with:11779 degrees
+Register: 24 Accessed
+Serial Buffer: 0, 0, 9, 222, 95, 
+Recieved: 24 with:2526 degrees
+EDIFFS:
+-11261.00-2008.00
+-125125
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+10498
+Register: 23 Accessed
+Serial Buffer: 0, 0, 51, 226, 95, 
+Recieved: 23 with:13282 degrees
+Register: 24 Accessed
+Serial Buffer: 0, 0, 10, 5, 95, 
+Recieved: 24 with:2565 degrees
+EDIFFS:
+-12764.00-2047.00
+96117
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+6990
+Register: 23 Accessed
+Serial Buffer: 0, 0, 60, 33, 95, 
+Recieved: 23 with:15393 degrees
+Register: 24 Accessed
+Serial Buffer: 0, 0, 17, 119, 95, 
+Recieved: 24 with:4471 degrees
+EDIFFS:
+-14875.00-3953.00
+-555
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+-82-22
+Register: 23 Accessed
+Serial Buffer: 0, 0, 65, 156, 95, 
+Recieved: 23 with:16796 degrees
+Register: 24 Accessed
+Serial Buffer: 0, 0, 21, 26, 95, 
+Recieved: 24 with:5402 degrees
+EDIFFS:
+-16278.00-4884.00
+-7082
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+-9755
+Register: 23 Accessed
+Serial Buffer: 0, 0, 61, 219, 95, 
+Recieved: 23 with:15835 degrees
+Register: 24 Accessed
+Serial Buffer: 0, 0, 20, 162, 95, 
+Recieved: 24 with:5282 degrees
+EDIFFS:
+-15317.00-4764.00
+116105
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+8978
+Register: 23 Accessed
+Serial Buffer: 0, 0, 61, 219, 95, 
+Recieved: 23 with:15835 degrees
+Register: 24 Accessed
+Serial Buffer: 0, 0, 20, 162, 95, 
+Recieved: 24 with:5282 degrees
+EDIFFS:
+-15317.00-4764.00
+116105
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+8978
+Register: 23 Accessed
+Serial Buffer: 0, 0, 61, 161, 95, 
+Recieved: 23 with:15777 degrees
+Register: 24 Accessed
+Serial Buffer: 0, 0, 20, 162, 95, 
+Recieved: 24 with:5282 degrees
+EDIFFS:
+-15259.00-4764.00
+127105
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+10078
+Register: 23 Accessed
+Serial Buffer: 0, 0, 61, 161, 95, 
+Recieved: 23 with:15777 degrees
+Register: 24 Accessed
+Serial Buffer: 0, 0, 20, 162, 95, 
+Recieved: 24 with:5282 degrees
+EDIFFS:
+-15259.00-4764.00
+127105
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+10078
+Register: 23 Accessed
+Serial Buffer: 0, 0, 61, 161, 95, 
+Recieved: 23 with:15777 degrees
+Register: 24 Accessed
+Serial Buffer: 0, 0, 20, 163, 95, 
+Recieved: 24 with:5283 degrees
+EDIFFS:
+-15259.00-4765.00
+127105
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+10078
+Register: 23 Accessed
+Serial Buffer: 0, 0, 61, 161, 95, 
+Recieved: 23 with:15777 degrees
+Register: 24 Accessed
+Serial Buffer: 0, 0, 20, 162, 95, 
+Recieved: 24 with:5282 degrees
+EDIFFS:
+-15259.00-4764.00
+127105
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+10078
+Register: 23 Accessed
+Serial Buffer: 0, 0, 61, 161, 95, 
+Recieved: 23 with:15777 degrees
+Register: 24 Accessed
+Serial Buffer: 0, 0, 20, 162, 95, 
+Recieved: 24 with:5282 degrees
+EDIFFS:
+-15259.00-4764.00
+127105
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+10078
+Register: 23 Accessed
+Serial Buffer: 0, 0, 61, 161, 95, 
+Recieved: 23 with:15777 degrees
+Register: 24 Accessed
+Serial Buffer: 0, 0, 20, 162, 95, 
+Recieved: 24 with:5282 degrees
+EDIFFS:
+-15259.00-4764.00
+127105
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+10078
+Register: 23 Accessed
+Serial Buffer: 0, 0, 61, 161, 95, 
+Recieved: 23 with:15777 degrees
+Register: 24 Accessed
+Serial Buffer: 0, 0, 20, 162, 95, 
+Recieved: 24 with:5282 degrees
+EDIFFS:
+-15259.00-4764.00
+127105
+Register: 31 Accessed
+Register: 32 Accessed
+Speed Adjustment: S1, S2
+10078
+Register: 23 Accessed
+Serial Buffer: 0, 0, 61, 161, 95, 
+Recieved: 23 with:15777 degrees
+Register: 24 Accessed
+S
