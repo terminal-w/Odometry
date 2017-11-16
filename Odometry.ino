@@ -31,7 +31,10 @@
  * -kmn: stops the loop
  * -
  */
-
+ union Encs{
+  int indy[2];
+  long both;
+};
 #define debug 1  //switch for Software Serial
 #define pi 3.1415926 //saves any errors typing
 
@@ -100,8 +103,8 @@ enum registers:byte
   };
 #define registers
 
-int instruct(byte reg, char val = 0){
-  if(reg == getPow || reg == getEs){
+long instruct(byte reg, char val = 0){
+  if(reg == getPow){
     #if debug == 1
     DEBUG.println("Sorry this function doesn't support that register");
     #endif
@@ -114,19 +117,47 @@ int instruct(byte reg, char val = 0){
   DEBUG.print(reg, HEX);
   DEBUG.println(" Accessed");
   #endif
+  if(reg == getEs){
+    byte b[8];
+    MD25.flush();
+    MD25.readBytes(b, 8);
+    long r = b[2] << 24;
+    r += b[3] << 16;
+    r += b[6] << 8;
+    r += b[7];
+    #if debug == 1
+    Encs d;
+    d.both = r;
+      DEBUG.print("Serial Buffer: ");
+      for(byte i = 0; i<8; i++){
+        DEBUG.print(b[i], HEX);
+      }
+      DEBUG.println();
+      DEBUG.print("Recieved: ");
+      DEBUG.print(reg, HEX);
+      DEBUG.print(" with E1:");
+      DEBUG.print(d.indy[0], DEC);
+      DEBUG.print(" & E2:");
+      DEBUG.print(d.indy[1], DEC);
+      DEBUG.println(" degrees");
+      DEBUG.println((int)millis(), DEC);
+      #endif
+    return r;
+  }
   if(reg > 0x34){return 0;}
   if(reg < 0x30){byte b[5];
     if(reg <= 0x25 && reg >= 0x23){
       //encoders
       MD25.flush();
       MD25.readBytes(b, 5);
-      int r = b[2] << 8;         // (0x56 shifted 8 bits left, effectively * 256) 
+      long r = b[0] << 24;
+      r += b[1] << 16;
+      r += b[2] << 8;         // (0x56 shifted 8 bits left, effectively * 256) 
       r += b[3];              // (0x32)
       #if debug == 1
       DEBUG.print("Serial Buffer: ");
       for(byte i = 0; i<5; i++){
-        DEBUG.print(b[i], DEC);
-        DEBUG.print(", ");
+        DEBUG.print(b[i], HEX);
       }
       DEBUG.println();
       DEBUG.print("Recieved: ");
@@ -134,6 +165,7 @@ int instruct(byte reg, char val = 0){
       DEBUG.print(" with:");
       DEBUG.print(r, DEC);
       DEBUG.println(" degrees");
+      DEBUG.println((int)millis(), DEC);
       #endif
       return r; 
     }
@@ -240,22 +272,23 @@ void notify(){
   return;
 }
 void DriveTo(int E1tar, int E2tar) {
-  bool happy = 0; int E1cur; int E2cur; char S1; char S2; float E1diff; float E2diff;
+  bool happy = 0; int E1cur; int E2cur; char S1; char S2; float E1diff; float E2diff; Encs d;
  #if debug ==1
  DEBUG.println("Etars:");
   DEBUG.print(E1tar, DEC);
   DEBUG.println(E2tar, DEC);
   #endif
   while (!happy) {
-    float E1prog; float E2prog; 
-    E1cur = instruct(getE1);
-    E2cur = instruct(getE2);
+    float E1prog; float E2prog;
+    d.both = instruct(getEs);
+    E1cur = d.indy[0];
+    E2cur = d.indy[1];
     E1diff = E1tar-E1cur;
     E2diff = E2tar-E2cur;
     E1prog = E1diff/E1tar;
     E2prog = E2diff/E2tar;
-    S1 = 100 * E1prog;
-    S2 = 100 * E2prog;
+    S1 = 50 * E1prog;
+    S2 = 50 * E2prog;
 #if debug == 1
   DEBUG.println("EDIFFS:");
   DEBUG.print(E1diff);
@@ -296,6 +329,9 @@ void DriveTo(int E1tar, int E2tar) {
  DEBUG.println("GOES LOOPY");
  #endif
  while(E1cur != E1tar || E2cur != E2tar){
+  d.both = instruct(getEs);
+  E1cur = d.indy[0];
+  E2cur = d.indy[1];
   S1 = 50 * (E1tar -E1cur)/90;
   S2 = 50 * (E2tar-E2cur)/90;
   instruct(setS1, S1);
@@ -375,8 +411,8 @@ void setup() {
   pinMode(13, OUTPUT);
   pinMode(4, INPUT);
     #if debug == 1
-      MD25.begin(9600);
-      DEBUG.begin(9600);  
+      MD25.begin(38400);
+      DEBUG.begin(115200);  
     #else
       MD25.begin(38400);
     #endif
@@ -386,20 +422,21 @@ void setup() {
     bool go = 0;
     #if debug == 1
     DEBUG.print("Awaiting all clear @ ");
-    DEBUG.println((int)millis, DEC);
+    DEBUG.println((int)millis(), DEC);
     #endif
      while(!go){
       go = !digitalRead(4);
     }
     #if debug == 1
       DEBUG.print("Setup Complete @ ");
-      DEBUG.println((int)millis, DEC);
+      DEBUG.println((int)millis(), DEC);
     #endif
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
   byte MandMstock = 5;
+  instruct(setAcc, 1);
   for(int i = 0; i < 13; i++){ // for loop to work through waypoints
     int wp[5];
    instruct(reset);
