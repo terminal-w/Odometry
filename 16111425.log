@@ -1,0 +1,465 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2017.11.16 11:14:25 =~=~=~=~=~=~=~=~=~=~=~=
+ACACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+Awaiting all clear @ 504
+Setup Complete @ 2586
+Register: 35 Accessed
+Next WP: 12
+Targeting...
+4280
+29688.0488281250
+0.1212609171
+Encoder Target:518 degrees
+Straight Line, length: 4280
+Etars:
+518518
+Serial Buffer: 00000000
+Recieved: 25 with E1:0 & E2:0 degrees
+3602
+EDIFFS:
+518.00518.00
+5050
+Speed Adjustment: S1, S2
+7777
+Serial Buffer: 00000000
+Recieved: 25 with E1:0 & E2:0 degrees
+4612
+EDIFFS:
+518.00518.00
+5050
+Speed Adjustment: S1, S2
+7777
+Serial Buffer: 00180018
+Recieved: 25 with E1:264 & E2:0 degrees
+5622
+EDIFFS:
+254.00518.00
+2450
+Speed Adjustment: S1, S2
+5177
+Serial Buffer: 003BC003BE
+Recieved: 25 with E1:958 & E2:0 degrees
+6633
+EDIFFS:
+-440.00518.00
+-4250
+Speed Adjustment: S1, S2
+-6977
+Serial Buffer: 005D900693
+Recieved: 25 with E1:1683 & E2:0 degrees
+7643
+EDIFFS:
+-1165.00518.00
+-11250
+Speed Adjustment: S1, S2
+11777
+Serial Buffer: 006AB00966
+Recieved: 25 with E1:2406 & E2:0 degrees
+8654
+EDIFFS:
+-1888.00518.00
+7450
+Speed Adjustment: S1, S2
+4777
+Serial Buffer: 0077C00C3B
+Recieved: 25 with E1:3131 & E2:0 degrees
+9665
+EDIFFS:
+-2613.00518.00
+450
+Speed Adjustment: S1, S2
+-2377
+Serial Buffer: 0093600F10
+Recieved: 25 with E1:3856 & E2:0 degrees
+10675
+EDIFFS:
+-3338.00518.00
+-6650
+Speed Adjustment: S1, S2
+-9377
+Serial Buffer: 009EA0011E3
+Recieved: 25 with E1:4579 & E2:0 degrees
+11685
+EDIFFS:
+-4061.00518.00
+12150
+Speed Adjustment: S1, S2
+9477
+Serial Buffer: 008870014B8
+Recieved: 25 with E1:5304 & E2:0 degrees
+12697
+EDIFFS:
+-4786.00518.00
+5150
+Speed Adjustment: S1, S2
+2477
+Serial Buffer: 0072700178C
+Recieved: 25 with E1:6028 & E2:0 degrees
+13707
+EDIFFS:
+-5510.00518.00
+-1950
+Speed Adjustment: S1, S2
+-4677
+Serial Buffer: 007AA001A60
+Recieved: 25 with E1:6752 & E2:0 degrees
+14718
+EDIFFS:
+-6234.00518.00
+-8950
+Speed Adjustment: S1, S2
+-11677
+Serial Buffer: 00783001D35
+Recieved: 25 with E1:7477 & E2:0 degrees
+15730
+EDIFFS:
+-6959.00518.00
+9750
+Speed Adjustment: S1, S2
+7077
+Serial Buffer: 005410020A
+Recieved: 25 with E1:8202 & E2:0 degrees
+16740
+EDIFFS:
+-7684.00518.00
+2750
+Speed Adjustment: S1, S2
+077
+Serial Buffer: 002F70022DD
+Recieved: 25 with E1:8925 & E2:0 degrees
+17751
+EDIFFS:
+-8407.00518.00
+-4350
+Speed Adjustment: S1, S2
+-7077
+Serial Buffer: 002980025B1
+Recieved: 25 with E1:9649 & E2:0 degrees
+18762
+EDIFFS:
+-9131.00518.00
+-11350
+Speed Adjustment: S1, S2
+11677
+Serial Buffer: 0018D002886
+Recieved: 25 with E1:10374 & E2:0 degrees
+19773
+EDIFFS:
+-9856.00518.00
+7350
+Speed Adjustment: S1, S2
+4677
+Serial Buffer: 0007C002B5A
+Recieved: 25 with E1:11098 & E2:0 degrees
+20784
+EDIFFS:
+-10580.00518.00
+350
+Speed Adjustment: S1, S2
+-2477
+Serial Buffer: 0017A002E2F
+Recieved: 25 with E1:11823 & E2:0 degrees
+21795
+EDIFFS:
+-11305.00518.00
+-6750
+Speed Adjustment: S1, S2
+-9477
+Serial Buffer: 0021D00314
+Recieved: 25 with E1:12548 & E2:0 degrees
+22807
+EDIFFS:
+-12030.00518.00
+11950
+Speed Adjustment: S1, S2
+9277
+Serial Buffer: 000A70033DA
+Recieved: 25 with E1:13274 & E2:0 degrees
+23818
+EDIFFS:
+-12756.00518.00
+4950
+Speed Adjustment: S1, S2
+2277
+Serial Buffer: FFFFFF300036AE
+Recieved: 25 with E1:13998 & E2:0 degrees
+24829
+EDIFFS:
+-13480.00518.00
+-2150
+Speed Adjustment: S1, S2
+-4877
+Serial Buffer: FFFFFFA2003984
+Recieved: 25 with E1:14724 & E2:0 degrees
+25841
+EDIFFS:
+-14206.00518.00
+-9150
+Speed Adjustment: S1, S2
+-11877
+Serial Buffer: FFFFFF6A003C59
+Recieved: 25 with E1:15449 & E2:0 degrees
+26852
+EDIFFS:
+-14931.00518.00
+9550
+Speed Adjustment: S1, S2
+6877
+Serial Buffer: FFFFFD19003F2D
+Recieved: 25 with E1:16173 & E2:0 degrees
+27863
+EDIFFS:
+-15655.00518.00
+2550
+Speed Adjustment: S1, S2
+-277
+Serial Buffer: FFFFFACD00422
+Recieved: 25 with E1:16898 & E2:0 degrees
+28874
+EDIFFS:
+-16380.00518.00
+-4550
+Speed Adjustment: S1, S2
+-7277
+Serial Buffer: FFFFFA630044D7
+Recieved: 25 with E1:17623 & E2:0 degrees
+29885
+EDIFFS:
+-17105.00518.00
+-11550
+Speed Adjustment: S1, S2
+11477
+Serial Buffer: FFFFF9450047AB
+Recieved: 25 with E1:18347 & E2:0 degrees
+30896
+EDIFFS:
+-17829.00518.00
+7250
+Speed Adjustment: S1, S2
+4577
+Serial Buffer: FFFFF823004A7F
+Recieved: 25 with E1:19071 & E2:0 degrees
+31907
+EDIFFS:
+-18553.00518.00
+250
+Speed Adjustment: S1, S2
+-2577
+Serial Buffer: FFFFF9E004D54
+Recieved: 25 with E1:19796 & E2:0 degrees
+-32617
+EDIFFS:
+-19278.00518.00
+-6850
+Speed Adjustment: S1, S2
+-9577
+Serial Buffer: FFFFF9A9005029
+Recieved: 25 with E1:20521 & E2:0 degrees
+-31606
+EDIFFS:
+-20003.00518.00
+11850
+Speed Adjustment: S1, S2
+9177
+Serial Buffer: FFFFF8290052FD
+Recieved: 25 with E1:21245 & E2:0 degrees
+-30595
+EDIFFS:
+-20727.00518.00
+4850
+Speed Adjustment: S1, S2
+2177
+Serial Buffer: FFFFF6A70055D3
+Recieved: 25 with E1:21971 & E2:0 degrees
+-29583
+EDIFFS:
+-21453.00518.00
+-2250
+Speed Adjustment: S1, S2
+-4977
+Serial Buffer: FFFFF7120058A8
+Recieved: 25 with E1:22696 & E2:0 degrees
+-28572
+EDIFFS:
+-22178.00518.00
+-9250
+Speed Adjustment: S1, S2
+-11977
+Serial Buffer: FFFFF6D1005B7C
+Recieved: 25 with E1:23420 & E2:0 degrees
+-27561
+EDIFFS:
+-22902.00518.00
+9450
+Speed Adjustment: S1, S2
+6777
+Serial Buffer: FFFFF476005E4F
+Recieved: 25 with E1:24143 & E2:0 degrees
+-26549
+EDIFFS:
+-23625.00518.00
+2450
+Speed Adjustment: S1, S2
+-377
+Serial Buffer: FFFFF21F006125
+Recieved: 25 with E1:24869 & E2:0 degrees
+-25536
+EDIFFS:
+-24351.00518.00
+-4650
+Speed Adjustment: S1, S2
+-7377
+Serial Buffer: FFFFF1AF0063FB
+Recieved: 25 with E1:25595 & E2:0 degrees
+-24524
+EDIFFS:
+-25077.00518.00
+-11650
+Speed Adjustment: S1, S2
+11377
+Serial Buffer: FFFFF0860066D1
+Recieved: 25 with E1:26321 & E2:0 degrees
+-23513
+EDIFFS:
+-25803.00518.00
+7050
+Speed Adjustment: S1, S2
+4377
+Serial Buffer: FFFFEF5B0069A5
+Recieved: 25 with E1:27045 & E2:0 degrees
+-22501
+EDIFFS:
+-26527.00518.00
+050
+Speed Adjustment: S1, S2
+-2777
+Serial Buffer: FFFFF03E006C7B
+Recieved: 25 with E1:27771 & E2:0 degrees
+-21490
+EDIFFS:
+-27253.00518.00
+-7050
+Speed Adjustment: S1, S2
+-9777
+Serial Buffer: FFFFF0CE006F4F
+Recieved: 25 with E1:28495 & E2:0 degrees
+-20479
+EDIFFS:
+-27977.00518.00
+11650
+Speed Adjustment: S1, S2
+8977
+Serial Buffer: FFFFEF43007224
+Recieved: 25 with E1:29220 & E2:0 degrees
+-19467
+EDIFFS:
+-28702.00518.00
+4650
+Speed Adjustment: S1, S2
+1977
+Serial Buffer: FFFFEDBB0074FA
+Recieved: 25 with E1:29946 & E2:0 degrees
+-18454
+EDIFFS:
+-29428.00518.00
+-2450
+Speed Adjustment: S1, S2
+-5177
+Serial Buffer: FFFFEE1A0077D0
+Recieved: 25 with E1:30672 & E2:0 degrees
+-17443
+EDIFFS:
+-30154.00518.00
+-9450
+Speed Adjustment: S1, S2
+-12177
+Serial Buffer: FFFFEE390078FB
+Recieved: 25 with E1:30971 & E2:0 degrees
+-16432
+EDIFFS:
+-30453.00518.00
+-12350
+Speed Adjustment: S1, S2
+10677
+Serial Buffer: FFFFEE390078FB
+Recieved: 25 with E1:30971 & E2:0 degrees
+-15420
+EDIFFS:
+-30453.00518.00
+-12350
+Speed Adjustment: S1, S2
+10677
+Serial Buffer: FFFFEE390078FB
+Recieved: 25 with E1:30971 & E2:0 degrees
+-14408
+EDIFFS:
+-30453.00518.00
+-12350
+Speed Adjustment: S1, S2
+10677
+Serial Buffer: FFFFEE3A0078FB
+Recieved: 25 with E1:30971 & E2:0 degrees
+-13396
+EDIFFS:
+-30453.00518.00
+-12350
+Speed Adjustment: S1, S2
+10677
+Serial Buffer: FFFFEE3A0078FB
+Recieved: 25 with E1:30971 & E2:0 degrees
+-12385
+EDIFFS:
+-30453.00518.00
+-12350
+Speed Adjustment: S1, S2
+10677
+Serial Buffer: FFFFEE3A0078FB
+Recieved: 25 with E1:30971 & E2:0 degrees
+-11372
+EDIFFS:
+-30453.00518.00
+-12350
+Speed Adjustment: S1, S2
+10677
+Serial Buffer: FFFFEE3A0078FB
+Recieved: 25 with E1:30971 & E2:0 degrees
+-10361
+EDIFFS:
+-30453.00518.00
+-12350
+Speed Adjustment: S1, S2
+10677
+Serial Buffer: FFFFEE3A0078FB
+Recieved: 25 with E1:30971 & E2:0 degrees
+-9350
+EDIFFS:
+-30453.00518.00
+-12350
+Speed Adjustment: S1, S2
+10677
+Serial Buffer: FFFFEE3A0078FB
+Recieved: 25 with E1:30971 & E2:0 degrees
+-8338
+EDIFFS:
+-30453.00518.00
+-12350
+Speed Adjustment: S1, S2
+10677
+Serial Buffer: FFFFEE3A0078FB
+Recieved: 25 with E1:30971 & E2:0 degrees
+-7326
+EDIFFS:
+-30453.00518.00
+-12350
+Speed Adjustment: S1, S2
+10677
+Serial Buffer: FFFFEE3A0078FB
+Recieved: 25 with E1:30971 & E2:0 degrees
+-6314
+EDIFFS:
+-30453.00518.00
+-12350
+Speed Adjustment: S1, S2
+10677
+Serial Buffer: FFF

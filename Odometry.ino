@@ -112,11 +112,6 @@ long instruct(byte reg, char val = 0){
   }
   MD25.write((byte)0x00);
   MD25.write(reg);
-  #if debug == 1
-  DEBUG.print("Register: ");
-  DEBUG.print(reg, HEX);
-  DEBUG.println(" Accessed");
-  #endif
   if(reg == 0x25){
     byte b[8];
     MD25.flush();
@@ -144,7 +139,14 @@ long instruct(byte reg, char val = 0){
       #endif
     return r;
   }
-  if(reg > 0x34){return 0;}
+  if(reg > 0x34){
+    #if debug == 1
+      DEBUG.print("Register: ");
+      DEBUG.print(reg, HEX);
+      DEBUG.println(" Accessed");
+    #endif
+    return 0;
+  }
   if(reg < 0x30){byte b[5];
     if(reg <= 0x24 && reg >= 0x23){
       //encoders
