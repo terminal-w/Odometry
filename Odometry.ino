@@ -38,8 +38,10 @@
 #if debug == 1 // NOT THE SERIAL SWITCH DON'T CHANGE
     SoftwareSerial MD25(10, 11); //Software Serial MD25 RX, TX
     #define DEBUG Serial
+    #define _MD25
 #else
   #define MD25 Serial
+  #define _MD25
 #endif
 Servo Carouselle;
 const int track = 23500; //trackwidth of robot in mm x100
@@ -96,6 +98,7 @@ enum registers:byte
     disTimO = 0x38,
     enTimO  = 0x39
   };
+#define registers
 
 #include "OdometryTasks.h" 
 OdometryTasks robot(sPos, wheel_dia, wheel_base, track, *Carouselle);

@@ -8,10 +8,7 @@
 #include <Servo.h>
 #include <SoftwareSerial.h>
 
-#ifndef debug
-#define debug  1
-#endif // !debug
-#ifndef registers
+#ifndef registers :byte
 	enum registers :byte
 	{
 		getS1 = 0x21,
@@ -36,15 +33,17 @@
 		disTimO = 0x38,
 		enTimO = 0x39
 	};
+  #define _registers
 #endif // !registers
 
-#ifndef MD25
+#ifndef _MD25
 #if debug == 1
 	SoftwareSerial MD25(10, 11);
 #define DEBUG Serial;
 #else
 #define MD25 Serial
 #endif
+#define _MD25
 #endif // !MD25
 		
 class OdometryTasks
