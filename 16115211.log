@@ -1,0 +1,12573 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2017.11.16 11:52:11 =~=~=~=~=~=~=~=~=~=~=~=
+Set Reg 34 with val: 1
+Set Reg 3Set Reg 34 with val: 1
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+Awaiting all clear @ 509
+Setup Complete @ 3970
+Set Reg 33 with val: 1
+Register: 35 Accessed
+Next WP: 12
+Targeting...
+4280
+29688.0488281250
+0.1212609171
+Encoder Target:518 degrees
+Straight Line, length: 4280
+Etars:
+518518
+0
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+0 - 3
+0 - 4
+0 - 5
+0 - 6
+0 - 7
+
+d.both:
+0
+Recieved: 25 with E1:0 & E2:0 degrees
+3994
+EDIFFS:
+518.00518.00
+5050
+Set Reg 31 with val: 77
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7777
+0
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+0 - 3
+0 - 4
+0 - 5
+0 - 6
+0 - 7
+
+d.both:
+0
+Recieved: 25 with E1:0 & E2:0 degrees
+4017
+EDIFFS:
+518.00518.00
+5050
+Set Reg 31 with val: 77
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7777
+0
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+0 - 3
+0 - 4
+0 - 5
+0 - 6
+0 - 7
+
+d.both:
+0
+Recieved: 25 with E1:0 & E2:0 degrees
+4039
+EDIFFS:
+518.00518.00
+5050
+Set Reg 31 with val: 77
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7777
+0
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+0 - 3
+0 - 4
+0 - 5
+0 - 6
+0 - 7
+
+d.both:
+0
+Recieved: 25 with E1:0 & E2:0 degrees
+4062
+EDIFFS:
+518.00518.00
+5050
+Set Reg 31 with val: 77
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7777
+0
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+0 - 3
+0 - 4
+0 - 5
+0 - 6
+0 - 7
+
+d.both:
+0
+Recieved: 25 with E1:0 & E2:0 degrees
+4085
+EDIFFS:
+518.00518.00
+5050
+Set Reg 31 with val: 77
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7777
+1
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+1 - 3
+0 - 4
+0 - 5
+0 - 6
+1 - 7
+
+d.both:
+1
+Recieved: 25 with E1:1 & E2:0 degrees
+4108
+EDIFFS:
+517.00518.00
+4950
+Set Reg 31 with val: 76
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7677
+1
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+2 - 3
+0 - 4
+0 - 5
+0 - 6
+1 - 7
+
+d.both:
+1
+Recieved: 25 with E1:1 & E2:0 degrees
+4130
+EDIFFS:
+517.00518.00
+4950
+Set Reg 31 with val: 76
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7677
+3
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+4 - 3
+0 - 4
+0 - 5
+0 - 6
+3 - 7
+
+d.both:
+3
+Recieved: 25 with E1:3 & E2:0 degrees
+4153
+EDIFFS:
+515.00518.00
+4950
+Set Reg 31 with val: 76
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7677
+6
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+5 - 3
+0 - 4
+0 - 5
+0 - 6
+6 - 7
+
+d.both:
+6
+Recieved: 25 with E1:6 & E2:0 degrees
+4175
+EDIFFS:
+512.00518.00
+4950
+Set Reg 31 with val: 76
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7677
+8
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+7 - 3
+0 - 4
+0 - 5
+0 - 6
+8 - 7
+
+d.both:
+8
+Recieved: 25 with E1:8 & E2:0 degrees
+4198
+EDIFFS:
+510.00518.00
+4950
+Set Reg 31 with val: 76
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7677
+A
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+9 - 3
+0 - 4
+0 - 5
+0 - 6
+A - 7
+
+d.both:
+A
+Recieved: 25 with E1:10 & E2:0 degrees
+4221
+EDIFFS:
+508.00518.00
+4950
+Set Reg 31 with val: 76
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7677
+C
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+C - 3
+0 - 4
+0 - 5
+0 - 6
+C - 7
+
+d.both:
+C
+Recieved: 25 with E1:12 & E2:0 degrees
+4244
+EDIFFS:
+506.00518.00
+4850
+Set Reg 31 with val: 75
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7577
+F
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+F - 3
+0 - 4
+0 - 5
+0 - 6
+F - 7
+
+d.both:
+F
+Recieved: 25 with E1:15 & E2:0 degrees
+4267
+EDIFFS:
+503.00518.00
+4850
+Set Reg 31 with val: 75
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7577
+11
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+11 - 3
+0 - 4
+0 - 5
+0 - 6
+11 - 7
+
+d.both:
+11
+Recieved: 25 with E1:17 & E2:0 degrees
+4290
+EDIFFS:
+501.00518.00
+4850
+Set Reg 31 with val: 75
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7577
+15
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+15 - 3
+0 - 4
+0 - 5
+0 - 6
+15 - 7
+
+d.both:
+15
+Recieved: 25 with E1:21 & E2:0 degrees
+4313
+EDIFFS:
+497.00518.00
+4750
+Set Reg 31 with val: 74
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7477
+18
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+18 - 3
+0 - 4
+0 - 5
+0 - 6
+18 - 7
+
+d.both:
+18
+Recieved: 25 with E1:24 & E2:0 degrees
+4336
+EDIFFS:
+494.00518.00
+4750
+Set Reg 31 with val: 74
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7477
+1D
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+1C - 3
+0 - 4
+0 - 5
+0 - 6
+1D - 7
+
+d.both:
+1D
+Recieved: 25 with E1:29 & E2:0 degrees
+4359
+EDIFFS:
+489.00518.00
+4750
+Set Reg 31 with val: 74
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7477
+21
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+21 - 3
+0 - 4
+0 - 5
+0 - 6
+21 - 7
+
+d.both:
+21
+Recieved: 25 with E1:33 & E2:0 degrees
+4382
+EDIFFS:
+485.00518.00
+4650
+Set Reg 31 with val: 73
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7377
+26
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+25 - 3
+0 - 4
+0 - 5
+0 - 6
+26 - 7
+
+d.both:
+26
+Recieved: 25 with E1:38 & E2:0 degrees
+4406
+EDIFFS:
+480.00518.00
+4650
+Set Reg 31 with val: 73
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7377
+2A
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+2A - 3
+0 - 4
+0 - 5
+0 - 6
+2A - 7
+
+d.both:
+2A
+Recieved: 25 with E1:42 & E2:0 degrees
+4428
+EDIFFS:
+476.00518.00
+4550
+Set Reg 31 with val: 72
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7277
+2F
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+2F - 3
+0 - 4
+0 - 5
+0 - 6
+2F - 7
+
+d.both:
+2F
+Recieved: 25 with E1:47 & E2:0 degrees
+4452
+EDIFFS:
+471.00518.00
+4550
+Set Reg 31 with val: 72
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7277
+34
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+34 - 3
+0 - 4
+0 - 5
+0 - 6
+34 - 7
+
+d.both:
+34
+Recieved: 25 with E1:52 & E2:0 degrees
+4474
+EDIFFS:
+466.00518.00
+4450
+Set Reg 31 with val: 71
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7177
+3A
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+3A - 3
+0 - 4
+0 - 5
+0 - 6
+3A - 7
+
+d.both:
+3A
+Recieved: 25 with E1:58 & E2:0 degrees
+4498
+EDIFFS:
+460.00518.00
+4450
+Set Reg 31 with val: 71
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7177
+3F
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+40 - 3
+0 - 4
+0 - 5
+0 - 6
+3F - 7
+
+d.both:
+3F
+Recieved: 25 with E1:63 & E2:0 degrees
+4520
+EDIFFS:
+455.00518.00
+4350
+Set Reg 31 with val: 70
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7077
+46
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+46 - 3
+0 - 4
+0 - 5
+0 - 6
+46 - 7
+
+d.both:
+46
+Recieved: 25 with E1:70 & E2:0 degrees
+4544
+EDIFFS:
+448.00518.00
+4350
+Set Reg 31 with val: 70
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7077
+4C
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+4D - 3
+0 - 4
+0 - 5
+0 - 6
+4C - 7
+
+d.both:
+4C
+Recieved: 25 with E1:76 & E2:0 degrees
+4568
+EDIFFS:
+442.00518.00
+4250
+Set Reg 31 with val: 69
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6977
+53
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+54 - 3
+0 - 4
+0 - 5
+0 - 6
+53 - 7
+
+d.both:
+53
+Recieved: 25 with E1:83 & E2:0 degrees
+4590
+EDIFFS:
+435.00518.00
+4150
+Set Reg 31 with val: 68
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6877
+5A
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+5B - 3
+0 - 4
+0 - 5
+0 - 6
+5A - 7
+
+d.both:
+5A
+Recieved: 25 with E1:90 & E2:0 degrees
+4614
+EDIFFS:
+428.00518.00
+4150
+Set Reg 31 with val: 68
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6877
+61
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+61 - 3
+0 - 4
+0 - 5
+0 - 6
+61 - 7
+
+d.both:
+61
+Recieved: 25 with E1:97 & E2:0 degrees
+4636
+EDIFFS:
+421.00518.00
+4050
+Set Reg 31 with val: 67
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6777
+69
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+69 - 3
+0 - 4
+0 - 5
+0 - 6
+69 - 7
+
+d.both:
+69
+Recieved: 25 with E1:105 & E2:0 degrees
+4660
+EDIFFS:
+413.00518.00
+3950
+Set Reg 31 with val: 66
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6677
+70
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+71 - 3
+0 - 4
+0 - 5
+0 - 6
+70 - 7
+
+d.both:
+70
+Recieved: 25 with E1:112 & E2:0 degrees
+4682
+EDIFFS:
+406.00518.00
+3950
+Set Reg 31 with val: 66
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6677
+79
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+79 - 3
+0 - 4
+0 - 5
+0 - 6
+79 - 7
+
+d.both:
+79
+Recieved: 25 with E1:121 & E2:0 degrees
+4706
+EDIFFS:
+397.00518.00
+3850
+Set Reg 31 with val: 65
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6577
+82
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+82 - 3
+0 - 4
+0 - 5
+0 - 6
+82 - 7
+
+d.both:
+82
+Recieved: 25 with E1:130 & E2:0 degrees
+4729
+EDIFFS:
+388.00518.00
+3750
+Set Reg 31 with val: 64
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6477
+8A
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+8B - 3
+0 - 4
+0 - 5
+0 - 6
+8A - 7
+
+d.both:
+8A
+Recieved: 25 with E1:138 & E2:0 degrees
+4752
+EDIFFS:
+380.00518.00
+3650
+Set Reg 31 with val: 63
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6377
+93
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+93 - 3
+0 - 4
+0 - 5
+0 - 6
+93 - 7
+
+d.both:
+93
+Recieved: 25 with E1:147 & E2:0 degrees
+4775
+EDIFFS:
+371.00518.00
+3550
+Set Reg 31 with val: 62
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6277
+9C
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+9C - 3
+0 - 4
+0 - 5
+0 - 6
+9C - 7
+
+d.both:
+9C
+Recieved: 25 with E1:156 & E2:0 degrees
+4799
+EDIFFS:
+362.00518.00
+3450
+Set Reg 31 with val: 61
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6177
+A5
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+A6 - 3
+0 - 4
+0 - 5
+0 - 6
+A5 - 7
+
+d.both:
+A5
+Recieved: 25 with E1:165 & E2:0 degrees
+4822
+EDIFFS:
+353.00518.00
+3450
+Set Reg 31 with val: 61
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6177
+AF
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+B0 - 3
+0 - 4
+0 - 5
+0 - 6
+AF - 7
+
+d.both:
+AF
+Recieved: 25 with E1:175 & E2:0 degrees
+4845
+EDIFFS:
+343.00518.00
+3350
+Set Reg 31 with val: 60
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6077
+BA
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+BA - 3
+0 - 4
+0 - 5
+0 - 6
+BA - 7
+
+d.both:
+BA
+Recieved: 25 with E1:186 & E2:0 degrees
+4869
+EDIFFS:
+332.00518.00
+3250
+Set Reg 31 with val: 59
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5977
+C4
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+C4 - 3
+0 - 4
+0 - 5
+0 - 6
+C4 - 7
+
+d.both:
+C4
+Recieved: 25 with E1:196 & E2:0 degrees
+4891
+EDIFFS:
+322.00518.00
+3150
+Set Reg 31 with val: 58
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5877
+CF
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+CF - 3
+0 - 4
+0 - 5
+0 - 6
+CF - 7
+
+d.both:
+CF
+Recieved: 25 with E1:207 & E2:0 degrees
+4915
+EDIFFS:
+311.00518.00
+3050
+Set Reg 31 with val: 57
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5777
+D9
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+DA - 3
+0 - 4
+0 - 5
+0 - 6
+D9 - 7
+
+d.both:
+D9
+Recieved: 25 with E1:217 & E2:0 degrees
+4937
+EDIFFS:
+301.00518.00
+2950
+Set Reg 31 with val: 56
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5677
+E4
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+E5 - 3
+0 - 4
+0 - 5
+0 - 6
+E4 - 7
+
+d.both:
+E4
+Recieved: 25 with E1:228 & E2:0 degrees
+4961
+EDIFFS:
+290.00518.00
+2750
+Set Reg 31 with val: 54
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5477
+F0
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+F1 - 3
+0 - 4
+0 - 5
+0 - 6
+F0 - 7
+
+d.both:
+F0
+Recieved: 25 with E1:240 & E2:0 degrees
+4984
+EDIFFS:
+278.00518.00
+2650
+Set Reg 31 with val: 53
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5377
+FC
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+FC - 3
+0 - 4
+0 - 5
+0 - 6
+FC - 7
+
+d.both:
+FC
+Recieved: 25 with E1:252 & E2:0 degrees
+5007
+EDIFFS:
+266.00518.00
+2550
+Set Reg 31 with val: 52
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5277
+108
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+7 - 3
+0 - 4
+0 - 5
+1 - 6
+8 - 7
+
+d.both:
+108
+Recieved: 25 with E1:264 & E2:0 degrees
+5030
+EDIFFS:
+254.00518.00
+2450
+Set Reg 31 with val: 51
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5177
+114
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+12 - 3
+0 - 4
+0 - 5
+1 - 6
+14 - 7
+
+d.both:
+114
+Recieved: 25 with E1:276 & E2:0 degrees
+5054
+EDIFFS:
+242.00518.00
+2350
+Set Reg 31 with val: 50
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5077
+122
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+1E - 3
+0 - 4
+0 - 5
+1 - 6
+22 - 7
+
+d.both:
+122
+Recieved: 25 with E1:290 & E2:0 degrees
+5078
+EDIFFS:
+228.00518.00
+2250
+Set Reg 31 with val: 49
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4977
+12F
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+29 - 3
+0 - 4
+0 - 5
+1 - 6
+2F - 7
+
+d.both:
+12F
+Recieved: 25 with E1:303 & E2:0 degrees
+5100
+EDIFFS:
+215.00518.00
+2050
+Set Reg 31 with val: 47
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4777
+13C
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+34 - 3
+0 - 4
+0 - 5
+1 - 6
+3C - 7
+
+d.both:
+13C
+Recieved: 25 with E1:316 & E2:0 degrees
+5124
+EDIFFS:
+202.00518.00
+1950
+Set Reg 31 with val: 46
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4677
+14A
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+3E - 3
+0 - 4
+0 - 5
+1 - 6
+4A - 7
+
+d.both:
+14A
+Recieved: 25 with E1:330 & E2:0 degrees
+5147
+EDIFFS:
+188.00518.00
+1850
+Set Reg 31 with val: 45
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4577
+157
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+49 - 3
+0 - 4
+0 - 5
+1 - 6
+57 - 7
+
+d.both:
+157
+Recieved: 25 with E1:343 & E2:0 degrees
+5171
+EDIFFS:
+175.00518.00
+1650
+Set Reg 31 with val: 43
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4377
+166
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+53 - 3
+0 - 4
+0 - 5
+1 - 6
+66 - 7
+
+d.both:
+166
+Recieved: 25 with E1:358 & E2:0 degrees
+5194
+EDIFFS:
+160.00518.00
+1550
+Set Reg 31 with val: 42
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4277
+174
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+5D - 3
+0 - 4
+0 - 5
+1 - 6
+74 - 7
+
+d.both:
+174
+Recieved: 25 with E1:372 & E2:0 degrees
+5217
+EDIFFS:
+146.00518.00
+1450
+Set Reg 31 with val: 41
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4177
+183
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+66 - 3
+0 - 4
+0 - 5
+1 - 6
+83 - 7
+
+d.both:
+183
+Recieved: 25 with E1:387 & E2:0 degrees
+5240
+EDIFFS:
+131.00518.00
+1250
+Set Reg 31 with val: 39
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3977
+192
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+6F - 3
+0 - 4
+0 - 5
+1 - 6
+92 - 7
+
+d.both:
+192
+Recieved: 25 with E1:402 & E2:0 degrees
+5264
+EDIFFS:
+116.00518.00
+1150
+Set Reg 31 with val: 38
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3877
+1A2
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+78 - 3
+0 - 4
+0 - 5
+1 - 6
+A2 - 7
+
+d.both:
+1A2
+Recieved: 25 with E1:418 & E2:0 degrees
+5287
+EDIFFS:
+100.00518.00
+950
+Set Reg 31 with val: 36
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3677
+1B1
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+80 - 3
+0 - 4
+0 - 5
+1 - 6
+B1 - 7
+
+d.both:
+1B1
+Recieved: 25 with E1:433 & E2:0 degrees
+5310
+EDIFFS:
+85.00518.00
+850
+Set Reg 31 with val: 35
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3577
+1C2
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+89 - 3
+0 - 4
+0 - 5
+1 - 6
+C2 - 7
+
+d.both:
+1C2
+Recieved: 25 with E1:450 & E2:0 degrees
+5334
+EDIFFS:
+68.00518.00
+650
+Set Reg 31 with val: 33
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3377
+1D2
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+91 - 3
+0 - 4
+0 - 5
+1 - 6
+D2 - 7
+
+d.both:
+1D2
+Recieved: 25 with E1:466 & E2:0 degrees
+5357
+EDIFFS:
+52.00518.00
+550
+Set Reg 31 with val: 32
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3277
+1E2
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+99 - 3
+0 - 4
+0 - 5
+1 - 6
+E2 - 7
+
+d.both:
+1E2
+Recieved: 25 with E1:482 & E2:0 degrees
+5380
+EDIFFS:
+36.00518.00
+350
+Set Reg 31 with val: 30
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3077
+1F2
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+A0 - 3
+0 - 4
+0 - 5
+1 - 6
+F2 - 7
+
+d.both:
+1F2
+Recieved: 25 with E1:498 & E2:0 degrees
+5403
+EDIFFS:
+20.00518.00
+150
+Set Reg 31 with val: 28
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+2877
+203
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+A7 - 3
+0 - 4
+0 - 5
+2 - 6
+3 - 7
+
+d.both:
+203
+Recieved: 25 with E1:515 & E2:0 degrees
+5427
+EDIFFS:
+3.00518.00
+050
+Set Reg 31 with val: 27
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+2777
+214
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+AE - 3
+0 - 4
+0 - 5
+2 - 6
+14 - 7
+
+d.both:
+214
+Recieved: 25 with E1:532 & E2:0 degrees
+5449
+EDIFFS:
+-14.00518.00
+-150
+Set Reg 31 with val: -28
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-2877
+225
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+B5 - 3
+0 - 4
+0 - 5
+2 - 6
+25 - 7
+
+d.both:
+225
+Recieved: 25 with E1:549 & E2:0 degrees
+5473
+EDIFFS:
+-31.00518.00
+-250
+Set Reg 31 with val: -29
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-2977
+235
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+BB - 3
+0 - 4
+0 - 5
+2 - 6
+35 - 7
+
+d.both:
+235
+Recieved: 25 with E1:565 & E2:0 degrees
+5496
+EDIFFS:
+-47.00518.00
+-450
+Set Reg 31 with val: -31
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-3177
+246
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+C1 - 3
+0 - 4
+0 - 5
+2 - 6
+46 - 7
+
+d.both:
+246
+Recieved: 25 with E1:582 & E2:0 degrees
+5520
+EDIFFS:
+-64.00518.00
+-650
+Set Reg 31 with val: -33
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-3377
+257
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+C6 - 3
+0 - 4
+0 - 5
+2 - 6
+57 - 7
+
+d.both:
+257
+Recieved: 25 with E1:599 & E2:0 degrees
+5543
+EDIFFS:
+-81.00518.00
+-750
+Set Reg 31 with val: -34
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-3477
+267
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+CC - 3
+0 - 4
+0 - 5
+2 - 6
+67 - 7
+
+d.both:
+267
+Recieved: 25 with E1:615 & E2:0 degrees
+5567
+EDIFFS:
+-97.00518.00
+-950
+Set Reg 31 with val: -36
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-3677
+278
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+D1 - 3
+0 - 4
+0 - 5
+2 - 6
+78 - 7
+
+d.both:
+278
+Recieved: 25 with E1:632 & E2:0 degrees
+5591
+EDIFFS:
+-114.00518.00
+-1150
+Set Reg 31 with val: -38
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-3877
+289
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+D6 - 3
+0 - 4
+0 - 5
+2 - 6
+89 - 7
+
+d.both:
+289
+Recieved: 25 with E1:649 & E2:0 degrees
+5614
+EDIFFS:
+-131.00518.00
+-1250
+Set Reg 31 with val: -39
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-3977
+29A
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+DB - 3
+0 - 4
+0 - 5
+2 - 6
+9A - 7
+
+d.both:
+29A
+Recieved: 25 with E1:666 & E2:0 degrees
+5638
+EDIFFS:
+-148.00518.00
+-1450
+Set Reg 31 with val: -41
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-4177
+2AB
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+DF - 3
+0 - 4
+0 - 5
+2 - 6
+AB - 7
+
+d.both:
+2AB
+Recieved: 25 with E1:683 & E2:0 degrees
+5661
+EDIFFS:
+-165.00518.00
+-1550
+Set Reg 31 with val: -42
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-4277
+2BC
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+E3 - 3
+0 - 4
+0 - 5
+2 - 6
+BC - 7
+
+d.both:
+2BC
+Recieved: 25 with E1:700 & E2:0 degrees
+5685
+EDIFFS:
+-182.00518.00
+-1750
+Set Reg 31 with val: -44
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-4477
+2CD
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+E7 - 3
+0 - 4
+0 - 5
+2 - 6
+CD - 7
+
+d.both:
+2CD
+Recieved: 25 with E1:717 & E2:0 degrees
+5709
+EDIFFS:
+-199.00518.00
+-1950
+Set Reg 31 with val: -46
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-4677
+2DE
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+EA - 3
+0 - 4
+0 - 5
+2 - 6
+DE - 7
+
+d.both:
+2DE
+Recieved: 25 with E1:734 & E2:0 degrees
+5733
+EDIFFS:
+-216.00518.00
+-2050
+Set Reg 31 with val: -47
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-4777
+2F0
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+ED - 3
+0 - 4
+0 - 5
+2 - 6
+F0 - 7
+
+d.both:
+2F0
+Recieved: 25 with E1:752 & E2:0 degrees
+5756
+EDIFFS:
+-234.00518.00
+-2250
+Set Reg 31 with val: -49
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-4977
+300
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+F0 - 3
+0 - 4
+0 - 5
+3 - 6
+0 - 7
+
+d.both:
+300
+Recieved: 25 with E1:768 & E2:0 degrees
+5780
+EDIFFS:
+-250.00518.00
+-2450
+Set Reg 31 with val: -51
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-5177
+311
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+F3 - 3
+0 - 4
+0 - 5
+3 - 6
+11 - 7
+
+d.both:
+311
+Recieved: 25 with E1:785 & E2:0 degrees
+5804
+EDIFFS:
+-267.00518.00
+-2550
+Set Reg 31 with val: -52
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-5277
+322
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+F5 - 3
+0 - 4
+0 - 5
+3 - 6
+22 - 7
+
+d.both:
+322
+Recieved: 25 with E1:802 & E2:0 degrees
+5827
+EDIFFS:
+-284.00518.00
+-2750
+Set Reg 31 with val: -54
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-5477
+333
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+F6 - 3
+0 - 4
+0 - 5
+3 - 6
+33 - 7
+
+d.both:
+333
+Recieved: 25 with E1:819 & E2:0 degrees
+5851
+EDIFFS:
+-301.00518.00
+-2950
+Set Reg 31 with val: -56
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-5677
+344
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+F9 - 3
+0 - 4
+0 - 5
+3 - 6
+44 - 7
+
+d.both:
+344
+Recieved: 25 with E1:836 & E2:0 degrees
+5874
+EDIFFS:
+-318.00518.00
+-3050
+Set Reg 31 with val: -57
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-5777
+356
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+FA - 3
+0 - 4
+0 - 5
+3 - 6
+56 - 7
+
+d.both:
+356
+Recieved: 25 with E1:854 & E2:0 degrees
+5899
+EDIFFS:
+-336.00518.00
+-3250
+Set Reg 31 with val: -59
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-5977
+366
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+FB - 3
+0 - 4
+0 - 5
+3 - 6
+66 - 7
+
+d.both:
+366
+Recieved: 25 with E1:870 & E2:0 degrees
+5922
+EDIFFS:
+-352.00518.00
+-3350
+Set Reg 31 with val: -60
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-6077
+377
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+FC - 3
+0 - 4
+0 - 5
+3 - 6
+77 - 7
+
+d.both:
+377
+Recieved: 25 with E1:887 & E2:0 degrees
+5946
+EDIFFS:
+-369.00518.00
+-3550
+Set Reg 31 with val: -62
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-6277
+388
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+FC - 3
+0 - 4
+0 - 5
+3 - 6
+88 - 7
+
+d.both:
+388
+Recieved: 25 with E1:904 & E2:0 degrees
+5969
+EDIFFS:
+-386.00518.00
+-3750
+Set Reg 31 with val: -64
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-6477
+399
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+FC - 3
+0 - 4
+0 - 5
+3 - 6
+99 - 7
+
+d.both:
+399
+Recieved: 25 with E1:921 & E2:0 degrees
+5993
+EDIFFS:
+-403.00518.00
+-3850
+Set Reg 31 with val: -65
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-6577
+3AA
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+FC - 3
+0 - 4
+0 - 5
+3 - 6
+AA - 7
+
+d.both:
+3AA
+Recieved: 25 with E1:938 & E2:0 degrees
+6017
+EDIFFS:
+-420.00518.00
+-4050
+Set Reg 31 with val: -67
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-6777
+3BB
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+FC - 3
+0 - 4
+0 - 5
+3 - 6
+BB - 7
+
+d.both:
+3BB
+Recieved: 25 with E1:955 & E2:0 degrees
+6041
+EDIFFS:
+-437.00518.00
+-4250
+Set Reg 31 with val: -69
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-6977
+3CC
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+FC - 3
+0 - 4
+0 - 5
+3 - 6
+CC - 7
+
+d.both:
+3CC
+Recieved: 25 with E1:972 & E2:0 degrees
+6065
+EDIFFS:
+-454.00518.00
+-4350
+Set Reg 31 with val: -70
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-7077
+3DC
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+FB - 3
+0 - 4
+0 - 5
+3 - 6
+DC - 7
+
+d.both:
+3DC
+Recieved: 25 with E1:988 & E2:0 degrees
+6088
+EDIFFS:
+-470.00518.00
+-4550
+Set Reg 31 with val: -72
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-7277
+3EE
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+F9 - 3
+0 - 4
+0 - 5
+3 - 6
+EE - 7
+
+d.both:
+3EE
+Recieved: 25 with E1:1006 & E2:0 degrees
+6112
+EDIFFS:
+-488.00518.00
+-4750
+Set Reg 31 with val: -74
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-7477
+3FF
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+F8 - 3
+0 - 4
+0 - 5
+3 - 6
+FF - 7
+
+d.both:
+3FF
+Recieved: 25 with E1:1023 & E2:0 degrees
+6135
+EDIFFS:
+-505.00518.00
+-4850
+Set Reg 31 with val: -75
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-7577
+410
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+F6 - 3
+0 - 4
+0 - 5
+4 - 6
+10 - 7
+
+d.both:
+410
+Recieved: 25 with E1:1040 & E2:0 degrees
+6159
+EDIFFS:
+-522.00518.00
+-5050
+Set Reg 31 with val: -77
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-7777
+421
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+F5 - 3
+0 - 4
+0 - 5
+4 - 6
+21 - 7
+
+d.both:
+421
+Recieved: 25 with E1:1057 & E2:0 degrees
+6183
+EDIFFS:
+-539.00518.00
+-5250
+Set Reg 31 with val: -79
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-7977
+432
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+F2 - 3
+0 - 4
+0 - 5
+4 - 6
+32 - 7
+
+d.both:
+432
+Recieved: 25 with E1:1074 & E2:0 degrees
+6207
+EDIFFS:
+-556.00518.00
+-5350
+Set Reg 31 with val: -80
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-8077
+443
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+EF - 3
+0 - 4
+0 - 5
+4 - 6
+43 - 7
+
+d.both:
+443
+Recieved: 25 with E1:1091 & E2:0 degrees
+6231
+EDIFFS:
+-573.00518.00
+-5550
+Set Reg 31 with val: -82
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-8277
+454
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+EC - 3
+0 - 4
+0 - 5
+4 - 6
+54 - 7
+
+d.both:
+454
+Recieved: 25 with E1:1108 & E2:0 degrees
+6254
+EDIFFS:
+-590.00518.00
+-5650
+Set Reg 31 with val: -83
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-8377
+465
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+E8 - 3
+0 - 4
+0 - 5
+4 - 6
+65 - 7
+
+d.both:
+465
+Recieved: 25 with E1:1125 & E2:0 degrees
+6278
+EDIFFS:
+-607.00518.00
+-5850
+Set Reg 31 with val: -85
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-8577
+476
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+E5 - 3
+0 - 4
+0 - 5
+4 - 6
+76 - 7
+
+d.both:
+476
+Recieved: 25 with E1:1142 & E2:0 degrees
+6302
+EDIFFS:
+-624.00518.00
+-6050
+Set Reg 31 with val: -87
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-8777
+487
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+E1 - 3
+0 - 4
+0 - 5
+4 - 6
+87 - 7
+
+d.both:
+487
+Recieved: 25 with E1:1159 & E2:0 degrees
+6326
+EDIFFS:
+-641.00518.00
+-6150
+Set Reg 31 with val: -88
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-8877
+498
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+DD - 3
+0 - 4
+0 - 5
+4 - 6
+98 - 7
+
+d.both:
+498
+Recieved: 25 with E1:1176 & E2:0 degrees
+6349
+EDIFFS:
+-658.00518.00
+-6350
+Set Reg 31 with val: -90
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-9077
+4A9
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+D9 - 3
+0 - 4
+0 - 5
+4 - 6
+A9 - 7
+
+d.both:
+4A9
+Recieved: 25 with E1:1193 & E2:0 degrees
+6373
+EDIFFS:
+-675.00518.00
+-6550
+Set Reg 31 with val: -92
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-9277
+4BA
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+D3 - 3
+0 - 4
+0 - 5
+4 - 6
+BA - 7
+
+d.both:
+4BA
+Recieved: 25 with E1:1210 & E2:0 degrees
+6397
+EDIFFS:
+-692.00518.00
+-6650
+Set Reg 31 with val: -93
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-9377
+4CB
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+CF - 3
+0 - 4
+0 - 5
+4 - 6
+CB - 7
+
+d.both:
+4CB
+Recieved: 25 with E1:1227 & E2:0 degrees
+6421
+EDIFFS:
+-709.00518.00
+-6850
+Set Reg 31 with val: -95
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-9577
+4DD
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+C9 - 3
+0 - 4
+0 - 5
+4 - 6
+DD - 7
+
+d.both:
+4DD
+Recieved: 25 with E1:1245 & E2:0 degrees
+6445
+EDIFFS:
+-727.00518.00
+-7050
+Set Reg 31 with val: -97
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-9777
+4EE
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+C3 - 3
+0 - 4
+0 - 5
+4 - 6
+EE - 7
+
+d.both:
+4EE
+Recieved: 25 with E1:1262 & E2:0 degrees
+6468
+EDIFFS:
+-744.00518.00
+-7150
+Set Reg 31 with val: -98
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-9877
+4FF
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+BE - 3
+0 - 4
+0 - 5
+4 - 6
+FF - 7
+
+d.both:
+4FF
+Recieved: 25 with E1:1279 & E2:0 degrees
+6493
+EDIFFS:
+-761.00518.00
+-7350
+Set Reg 31 with val: -100
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-10077
+510
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+B7 - 3
+0 - 4
+0 - 5
+5 - 6
+10 - 7
+
+d.both:
+510
+Recieved: 25 with E1:1296 & E2:0 degrees
+6516
+EDIFFS:
+-778.00518.00
+-7550
+Set Reg 31 with val: -102
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-10277
+521
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+B1 - 3
+0 - 4
+0 - 5
+5 - 6
+21 - 7
+
+d.both:
+521
+Recieved: 25 with E1:1313 & E2:0 degrees
+6540
+EDIFFS:
+-795.00518.00
+-7650
+Set Reg 31 with val: -103
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-10377
+532
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+A9 - 3
+0 - 4
+0 - 5
+5 - 6
+32 - 7
+
+d.both:
+532
+Recieved: 25 with E1:1330 & E2:0 degrees
+6564
+EDIFFS:
+-812.00518.00
+-7850
+Set Reg 31 with val: -105
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-10577
+543
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+A1 - 3
+0 - 4
+0 - 5
+5 - 6
+43 - 7
+
+d.both:
+543
+Recieved: 25 with E1:1347 & E2:0 degrees
+6588
+EDIFFS:
+-829.00518.00
+-8050
+Set Reg 31 with val: -107
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-10777
+554
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+9A - 3
+0 - 4
+0 - 5
+5 - 6
+54 - 7
+
+d.both:
+554
+Recieved: 25 with E1:1364 & E2:0 degrees
+6611
+EDIFFS:
+-846.00518.00
+-8150
+Set Reg 31 with val: -108
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-10877
+565
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+92 - 3
+0 - 4
+0 - 5
+5 - 6
+65 - 7
+
+d.both:
+565
+Recieved: 25 with E1:1381 & E2:0 degrees
+6636
+EDIFFS:
+-863.00518.00
+-8350
+Set Reg 31 with val: -110
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-11077
+576
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+8B - 3
+0 - 4
+0 - 5
+5 - 6
+76 - 7
+
+d.both:
+576
+Recieved: 25 with E1:1398 & E2:0 degrees
+6660
+EDIFFS:
+-880.00518.00
+-8450
+Set Reg 31 with val: -111
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-11177
+587
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+83 - 3
+0 - 4
+0 - 5
+5 - 6
+87 - 7
+
+d.both:
+587
+Recieved: 25 with E1:1415 & E2:0 degrees
+6684
+EDIFFS:
+-897.00518.00
+-8650
+Set Reg 31 with val: -113
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-11377
+599
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+7A - 3
+0 - 4
+0 - 5
+5 - 6
+99 - 7
+
+d.both:
+599
+Recieved: 25 with E1:1433 & E2:0 degrees
+6708
+EDIFFS:
+-915.00518.00
+-8850
+Set Reg 31 with val: -115
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-11577
+5AA
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+71 - 3
+0 - 4
+0 - 5
+5 - 6
+AA - 7
+
+d.both:
+5AA
+Recieved: 25 with E1:1450 & E2:0 degrees
+6731
+EDIFFS:
+-932.00518.00
+-8950
+Set Reg 31 with val: -116
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-11677
+5BB
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+67 - 3
+0 - 4
+0 - 5
+5 - 6
+BB - 7
+
+d.both:
+5BB
+Recieved: 25 with E1:1467 & E2:0 degrees
+6756
+EDIFFS:
+-949.00518.00
+-9150
+Set Reg 31 with val: -118
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-11877
+5CC
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+5D - 3
+0 - 4
+0 - 5
+5 - 6
+CC - 7
+
+d.both:
+5CC
+Recieved: 25 with E1:1484 & E2:0 degrees
+6779
+EDIFFS:
+-966.00518.00
+-9350
+Set Reg 31 with val: -120
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-12077
+5DD
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+54 - 3
+0 - 4
+0 - 5
+5 - 6
+DD - 7
+
+d.both:
+5DD
+Recieved: 25 with E1:1501 & E2:0 degrees
+6803
+EDIFFS:
+-983.00518.00
+-9450
+Set Reg 31 with val: -121
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-12177
+5EE
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+49 - 3
+0 - 4
+0 - 5
+5 - 6
+EE - 7
+
+d.both:
+5EE
+Recieved: 25 with E1:1518 & E2:0 degrees
+6828
+EDIFFS:
+-1000.00518.00
+-9650
+Set Reg 31 with val: -123
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-12377
+5FF
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+3F - 3
+0 - 4
+0 - 5
+5 - 6
+FF - 7
+
+d.both:
+5FF
+Recieved: 25 with E1:1535 & E2:0 degrees
+6851
+EDIFFS:
+-1017.00518.00
+-9850
+Set Reg 31 with val: -125
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-12577
+611
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+33 - 3
+0 - 4
+0 - 5
+6 - 6
+11 - 7
+
+d.both:
+611
+Recieved: 25 with E1:1553 & E2:0 degrees
+6876
+EDIFFS:
+-1035.00518.00
+-9950
+Set Reg 31 with val: -126
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-12677
+622
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+28 - 3
+0 - 4
+0 - 5
+6 - 6
+22 - 7
+
+d.both:
+622
+Recieved: 25 with E1:1570 & E2:0 degrees
+6899
+EDIFFS:
+-1052.00518.00
+-10150
+Set Reg 31 with val: -128
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-12877
+633
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+1D - 3
+0 - 4
+0 - 5
+6 - 6
+33 - 7
+
+d.both:
+633
+Recieved: 25 with E1:1587 & E2:0 degrees
+6924
+EDIFFS:
+-1069.00518.00
+-10350
+Set Reg 31 with val: 126
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+12677
+645
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+11 - 3
+0 - 4
+0 - 5
+6 - 6
+45 - 7
+
+d.both:
+645
+Recieved: 25 with E1:1605 & E2:0 degrees
+6947
+EDIFFS:
+-1087.00518.00
+-10450
+Set Reg 31 with val: 125
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+12577
+656
+Serial Buffer: 0 - 0
+0 - 1
+1 - 2
+6 - 3
+0 - 4
+0 - 5
+6 - 6
+56 - 7
+
+d.both:
+656
+Recieved: 25 with E1:1622 & E2:0 degrees
+6972
+EDIFFS:
+-1104.00518.00
+-10650
+Set Reg 31 with val: 123
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+12377
+667
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+FB - 3
+0 - 4
+0 - 5
+6 - 6
+67 - 7
+
+d.both:
+667
+Recieved: 25 with E1:1639 & E2:0 degrees
+6995
+EDIFFS:
+-1121.00518.00
+-10850
+Set Reg 31 with val: 121
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+12177
+678
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+EF - 3
+0 - 4
+0 - 5
+6 - 6
+78 - 7
+
+d.both:
+678
+Recieved: 25 with E1:1656 & E2:0 degrees
+7019
+EDIFFS:
+-1138.00518.00
+-10950
+Set Reg 31 with val: 120
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+12077
+689
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+E5 - 3
+0 - 4
+0 - 5
+6 - 6
+89 - 7
+
+d.both:
+689
+Recieved: 25 with E1:1673 & E2:0 degrees
+7044
+EDIFFS:
+-1155.00518.00
+-11150
+Set Reg 31 with val: 118
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+11877
+69A
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+DA - 3
+0 - 4
+0 - 5
+6 - 6
+9A - 7
+
+d.both:
+69A
+Recieved: 25 with E1:1690 & E2:0 degrees
+7067
+EDIFFS:
+-1172.00518.00
+-11350
+Set Reg 31 with val: 116
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+11677
+6AC
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+D0 - 3
+0 - 4
+0 - 5
+6 - 6
+AC - 7
+
+d.both:
+6AC
+Recieved: 25 with E1:1708 & E2:0 degrees
+7091
+EDIFFS:
+-1190.00518.00
+-11450
+Set Reg 31 with val: 115
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+11577
+6BD
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+C6 - 3
+0 - 4
+0 - 5
+6 - 6
+BD - 7
+
+d.both:
+6BD
+Recieved: 25 with E1:1725 & E2:0 degrees
+7115
+EDIFFS:
+-1207.00518.00
+-11650
+Set Reg 31 with val: 113
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+11377
+6CE
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+BC - 3
+0 - 4
+0 - 5
+6 - 6
+CE - 7
+
+d.both:
+6CE
+Recieved: 25 with E1:1742 & E2:0 degrees
+7139
+EDIFFS:
+-1224.00518.00
+-11850
+Set Reg 31 with val: 111
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+11177
+6DF
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+B4 - 3
+0 - 4
+0 - 5
+6 - 6
+DF - 7
+
+d.both:
+6DF
+Recieved: 25 with E1:1759 & E2:0 degrees
+7162
+EDIFFS:
+-1241.00518.00
+-11950
+Set Reg 31 with val: 110
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+11077
+6F0
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+AB - 3
+0 - 4
+0 - 5
+6 - 6
+F0 - 7
+
+d.both:
+6F0
+Recieved: 25 with E1:1776 & E2:0 degrees
+7187
+EDIFFS:
+-1258.00518.00
+-12150
+Set Reg 31 with val: 108
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+10877
+701
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+A2 - 3
+0 - 4
+0 - 5
+7 - 6
+1 - 7
+
+d.both:
+701
+Recieved: 25 with E1:1793 & E2:0 degrees
+7211
+EDIFFS:
+-1275.00518.00
+-12350
+Set Reg 31 with val: 106
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+10677
+712
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+99 - 3
+0 - 4
+0 - 5
+7 - 6
+12 - 7
+
+d.both:
+712
+Recieved: 25 with E1:1810 & E2:0 degrees
+7235
+EDIFFS:
+-1292.00518.00
+-12450
+Set Reg 31 with val: 105
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+10577
+723
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+91 - 3
+0 - 4
+0 - 5
+7 - 6
+23 - 7
+
+d.both:
+723
+Recieved: 25 with E1:1827 & E2:0 degrees
+7259
+EDIFFS:
+-1309.00518.00
+-12650
+Set Reg 31 with val: 103
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+10377
+734
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+89 - 3
+0 - 4
+0 - 5
+7 - 6
+34 - 7
+
+d.both:
+734
+Recieved: 25 with E1:1844 & E2:0 degrees
+7282
+EDIFFS:
+-1326.00518.00
+-12750
+Set Reg 31 with val: 102
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+10277
+746
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+82 - 3
+0 - 4
+0 - 5
+7 - 6
+46 - 7
+
+d.both:
+746
+Recieved: 25 with E1:1862 & E2:0 degrees
+7307
+EDIFFS:
+-1344.00518.00
+12750
+Set Reg 31 with val: 100
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+10077
+757
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+7B - 3
+0 - 4
+0 - 5
+7 - 6
+57 - 7
+
+d.both:
+757
+Recieved: 25 with E1:1879 & E2:0 degrees
+7330
+EDIFFS:
+-1361.00518.00
+12550
+Set Reg 31 with val: 98
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+9877
+768
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+74 - 3
+0 - 4
+0 - 5
+7 - 6
+68 - 7
+
+d.both:
+768
+Recieved: 25 with E1:1896 & E2:0 degrees
+7354
+EDIFFS:
+-1378.00518.00
+12350
+Set Reg 31 with val: 96
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+9677
+779
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+6D - 3
+0 - 4
+0 - 5
+7 - 6
+79 - 7
+
+d.both:
+779
+Recieved: 25 with E1:1913 & E2:0 degrees
+7377
+EDIFFS:
+-1395.00518.00
+12250
+Set Reg 31 with val: 95
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+9577
+78A
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+68 - 3
+0 - 4
+0 - 5
+7 - 6
+8A - 7
+
+d.both:
+78A
+Recieved: 25 with E1:1930 & E2:0 degrees
+7402
+EDIFFS:
+-1412.00518.00
+12050
+Set Reg 31 with val: 93
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+9377
+79B
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+62 - 3
+0 - 4
+0 - 5
+7 - 6
+9B - 7
+
+d.both:
+79B
+Recieved: 25 with E1:1947 & E2:0 degrees
+7426
+EDIFFS:
+-1429.00518.00
+11950
+Set Reg 31 with val: 92
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+9277
+7AC
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+5C - 3
+0 - 4
+0 - 5
+7 - 6
+AC - 7
+
+d.both:
+7AC
+Recieved: 25 with E1:1964 & E2:0 degrees
+7449
+EDIFFS:
+-1446.00518.00
+11750
+Set Reg 31 with val: 90
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+9077
+7BD
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+57 - 3
+0 - 4
+0 - 5
+7 - 6
+BD - 7
+
+d.both:
+7BD
+Recieved: 25 with E1:1981 & E2:0 degrees
+7473
+EDIFFS:
+-1463.00518.00
+11550
+Set Reg 31 with val: 88
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+8877
+7CD
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+52 - 3
+0 - 4
+0 - 5
+7 - 6
+CD - 7
+
+d.both:
+7CD
+Recieved: 25 with E1:1997 & E2:0 degrees
+7496
+EDIFFS:
+-1479.00518.00
+11450
+Set Reg 31 with val: 87
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+8777
+7DE
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+4D - 3
+0 - 4
+0 - 5
+7 - 6
+DE - 7
+
+d.both:
+7DE
+Recieved: 25 with E1:2014 & E2:0 degrees
+7520
+EDIFFS:
+-1496.00518.00
+11250
+Set Reg 31 with val: 85
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+8577
+7F0
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+49 - 3
+0 - 4
+0 - 5
+7 - 6
+F0 - 7
+
+d.both:
+7F0
+Recieved: 25 with E1:2032 & E2:0 degrees
+7543
+EDIFFS:
+-1514.00518.00
+11050
+Set Reg 31 with val: 83
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+8377
+801
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+45 - 3
+0 - 4
+0 - 5
+8 - 6
+1 - 7
+
+d.both:
+801
+Recieved: 25 with E1:2049 & E2:0 degrees
+7567
+EDIFFS:
+-1531.00518.00
+10950
+Set Reg 31 with val: 82
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+8277
+812
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+41 - 3
+0 - 4
+0 - 5
+8 - 6
+12 - 7
+
+d.both:
+812
+Recieved: 25 with E1:2066 & E2:0 degrees
+7591
+EDIFFS:
+-1548.00518.00
+10750
+Set Reg 31 with val: 80
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+8077
+823
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+3E - 3
+0 - 4
+0 - 5
+8 - 6
+23 - 7
+
+d.both:
+823
+Recieved: 25 with E1:2083 & E2:0 degrees
+7615
+EDIFFS:
+-1565.00518.00
+10550
+Set Reg 31 with val: 78
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7877
+834
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+3A - 3
+0 - 4
+0 - 5
+8 - 6
+34 - 7
+
+d.both:
+834
+Recieved: 25 with E1:2100 & E2:0 degrees
+7639
+EDIFFS:
+-1582.00518.00
+10450
+Set Reg 31 with val: 77
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7777
+844
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+37 - 3
+0 - 4
+0 - 5
+8 - 6
+44 - 7
+
+d.both:
+844
+Recieved: 25 with E1:2116 & E2:0 degrees
+7662
+EDIFFS:
+-1598.00518.00
+10250
+Set Reg 31 with val: 75
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7577
+855
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+35 - 3
+0 - 4
+0 - 5
+8 - 6
+55 - 7
+
+d.both:
+855
+Recieved: 25 with E1:2133 & E2:0 degrees
+7686
+EDIFFS:
+-1615.00518.00
+10150
+Set Reg 31 with val: 74
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7477
+866
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+33 - 3
+0 - 4
+0 - 5
+8 - 6
+66 - 7
+
+d.both:
+866
+Recieved: 25 with E1:2150 & E2:0 degrees
+7709
+EDIFFS:
+-1632.00518.00
+9950
+Set Reg 31 with val: 72
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7277
+878
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+31 - 3
+0 - 4
+0 - 5
+8 - 6
+78 - 7
+
+d.both:
+878
+Recieved: 25 with E1:2168 & E2:0 degrees
+7733
+EDIFFS:
+-1650.00518.00
+9750
+Set Reg 31 with val: 70
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7077
+889
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+2F - 3
+0 - 4
+0 - 5
+8 - 6
+89 - 7
+
+d.both:
+889
+Recieved: 25 with E1:2185 & E2:0 degrees
+7756
+EDIFFS:
+-1667.00518.00
+9650
+Set Reg 31 with val: 69
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6977
+89A
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+2D - 3
+0 - 4
+0 - 5
+8 - 6
+9A - 7
+
+d.both:
+89A
+Recieved: 25 with E1:2202 & E2:0 degrees
+7780
+EDIFFS:
+-1684.00518.00
+9450
+Set Reg 31 with val: 67
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6777
+8AB
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+2D - 3
+0 - 4
+0 - 5
+8 - 6
+AB - 7
+
+d.both:
+8AB
+Recieved: 25 with E1:2219 & E2:0 degrees
+7803
+EDIFFS:
+-1701.00518.00
+9250
+Set Reg 31 with val: 65
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6577
+8BB
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+2C - 3
+0 - 4
+0 - 5
+8 - 6
+BB - 7
+
+d.both:
+8BB
+Recieved: 25 with E1:2235 & E2:0 degrees
+7827
+EDIFFS:
+-1717.00518.00
+9150
+Set Reg 31 with val: 64
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6477
+8CC
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+2B - 3
+0 - 4
+0 - 5
+8 - 6
+CC - 7
+
+d.both:
+8CC
+Recieved: 25 with E1:2252 & E2:0 degrees
+7851
+EDIFFS:
+-1734.00518.00
+8950
+Set Reg 31 with val: 62
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6277
+8DD
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+2A - 3
+0 - 4
+0 - 5
+8 - 6
+DD - 7
+
+d.both:
+8DD
+Recieved: 25 with E1:2269 & E2:0 degrees
+7875
+EDIFFS:
+-1751.00518.00
+8750
+Set Reg 31 with val: 60
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6077
+8EE
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+2A - 3
+0 - 4
+0 - 5
+8 - 6
+EE - 7
+
+d.both:
+8EE
+Recieved: 25 with E1:2286 & E2:0 degrees
+7899
+EDIFFS:
+-1768.00518.00
+8650
+Set Reg 31 with val: 59
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5977
+8FF
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+2A - 3
+0 - 4
+0 - 5
+8 - 6
+FF - 7
+
+d.both:
+8FF
+Recieved: 25 with E1:2303 & E2:0 degrees
+7922
+EDIFFS:
+-1785.00518.00
+8450
+Set Reg 31 with val: 57
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5777
+910
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+2A - 3
+0 - 4
+0 - 5
+9 - 6
+10 - 7
+
+d.both:
+910
+Recieved: 25 with E1:2320 & E2:0 degrees
+7946
+EDIFFS:
+-1802.00518.00
+8350
+Set Reg 31 with val: 56
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5677
+921
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+2B - 3
+0 - 4
+0 - 5
+9 - 6
+21 - 7
+
+d.both:
+921
+Recieved: 25 with E1:2337 & E2:0 degrees
+7969
+EDIFFS:
+-1819.00518.00
+8150
+Set Reg 31 with val: 54
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5477
+932
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+2C - 3
+0 - 4
+0 - 5
+9 - 6
+32 - 7
+
+d.both:
+932
+Recieved: 25 with E1:2354 & E2:0 degrees
+7993
+EDIFFS:
+-1836.00518.00
+7950
+Set Reg 31 with val: 52
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5277
+943
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+2D - 3
+0 - 4
+0 - 5
+9 - 6
+43 - 7
+
+d.both:
+943
+Recieved: 25 with E1:2371 & E2:0 degrees
+8016
+EDIFFS:
+-1853.00518.00
+7850
+Set Reg 31 with val: 51
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5177
+953
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+30 - 3
+0 - 4
+0 - 5
+9 - 6
+53 - 7
+
+d.both:
+953
+Recieved: 25 with E1:2387 & E2:0 degrees
+8040
+EDIFFS:
+-1869.00518.00
+7650
+Set Reg 31 with val: 49
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4977
+964
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+32 - 3
+0 - 4
+0 - 5
+9 - 6
+64 - 7
+
+d.both:
+964
+Recieved: 25 with E1:2404 & E2:0 degrees
+8064
+EDIFFS:
+-1886.00518.00
+7450
+Set Reg 31 with val: 47
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4777
+975
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+34 - 3
+0 - 4
+0 - 5
+9 - 6
+75 - 7
+
+d.both:
+975
+Recieved: 25 with E1:2421 & E2:0 degrees
+8087
+EDIFFS:
+-1903.00518.00
+7350
+Set Reg 31 with val: 46
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4677
+986
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+37 - 3
+0 - 4
+0 - 5
+9 - 6
+86 - 7
+
+d.both:
+986
+Recieved: 25 with E1:2438 & E2:0 degrees
+8111
+EDIFFS:
+-1920.00518.00
+7150
+Set Reg 31 with val: 44
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4477
+997
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+39 - 3
+0 - 4
+0 - 5
+9 - 6
+97 - 7
+
+d.both:
+997
+Recieved: 25 with E1:2455 & E2:0 degrees
+8134
+EDIFFS:
+-1937.00518.00
+7050
+Set Reg 31 with val: 43
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4377
+9A8
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+3C - 3
+0 - 4
+0 - 5
+9 - 6
+A8 - 7
+
+d.both:
+9A8
+Recieved: 25 with E1:2472 & E2:0 degrees
+8158
+EDIFFS:
+-1954.00518.00
+6850
+Set Reg 31 with val: 41
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4177
+9B9
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+3F - 3
+0 - 4
+0 - 5
+9 - 6
+B9 - 7
+
+d.both:
+9B9
+Recieved: 25 with E1:2489 & E2:0 degrees
+8181
+EDIFFS:
+-1971.00518.00
+6650
+Set Reg 31 with val: 39
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3977
+9CA
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+43 - 3
+0 - 4
+0 - 5
+9 - 6
+CA - 7
+
+d.both:
+9CA
+Recieved: 25 with E1:2506 & E2:0 degrees
+8205
+EDIFFS:
+-1988.00518.00
+6550
+Set Reg 31 with val: 38
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3877
+9DB
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+47 - 3
+0 - 4
+0 - 5
+9 - 6
+DB - 7
+
+d.both:
+9DB
+Recieved: 25 with E1:2523 & E2:0 degrees
+8229
+EDIFFS:
+-2005.00518.00
+6350
+Set Reg 31 with val: 36
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3677
+9EC
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+4B - 3
+0 - 4
+0 - 5
+9 - 6
+EC - 7
+
+d.both:
+9EC
+Recieved: 25 with E1:2540 & E2:0 degrees
+8253
+EDIFFS:
+-2022.00518.00
+6150
+Set Reg 31 with val: 34
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3477
+9FD
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+50 - 3
+0 - 4
+0 - 5
+9 - 6
+FD - 7
+
+d.both:
+9FD
+Recieved: 25 with E1:2557 & E2:0 degrees
+8276
+EDIFFS:
+-2039.00518.00
+6050
+Set Reg 31 with val: 33
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3377
+A0E
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+55 - 3
+0 - 4
+0 - 5
+A - 6
+E - 7
+
+d.both:
+A0E
+Recieved: 25 with E1:2574 & E2:0 degrees
+8300
+EDIFFS:
+-2056.00518.00
+5850
+Set Reg 31 with val: 31
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3177
+A1E
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+5B - 3
+0 - 4
+0 - 5
+A - 6
+1E - 7
+
+d.both:
+A1E
+Recieved: 25 with E1:2590 & E2:0 degrees
+8324
+EDIFFS:
+-2072.00518.00
+5650
+Set Reg 31 with val: 29
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+2977
+A2F
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+60 - 3
+0 - 4
+0 - 5
+A - 6
+2F - 7
+
+d.both:
+A2F
+Recieved: 25 with E1:2607 & E2:0 degrees
+8347
+EDIFFS:
+-2089.00518.00
+5550
+Set Reg 31 with val: 28
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+2877
+A40
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+66 - 3
+0 - 4
+0 - 5
+A - 6
+40 - 7
+
+d.both:
+A40
+Recieved: 25 with E1:2624 & E2:0 degrees
+8371
+EDIFFS:
+-2106.00518.00
+5350
+Set Reg 31 with val: 26
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+2677
+A51
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+6C - 3
+0 - 4
+0 - 5
+A - 6
+51 - 7
+
+d.both:
+A51
+Recieved: 25 with E1:2641 & E2:0 degrees
+8394
+EDIFFS:
+-2123.00518.00
+5250
+Set Reg 31 with val: 25
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+2577
+A62
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+73 - 3
+0 - 4
+0 - 5
+A - 6
+62 - 7
+
+d.both:
+A62
+Recieved: 25 with E1:2658 & E2:0 degrees
+8418
+EDIFFS:
+-2140.00518.00
+5050
+Set Reg 31 with val: 23
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+2377
+A73
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+78 - 3
+0 - 4
+0 - 5
+A - 6
+73 - 7
+
+d.both:
+A73
+Recieved: 25 with E1:2675 & E2:0 degrees
+8441
+EDIFFS:
+-2157.00518.00
+4850
+Set Reg 31 with val: 21
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+2177
+A84
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+7D - 3
+0 - 4
+0 - 5
+A - 6
+84 - 7
+
+d.both:
+A84
+Recieved: 25 with E1:2692 & E2:0 degrees
+8465
+EDIFFS:
+-2174.00518.00
+4750
+Set Reg 31 with val: 20
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+2077
+A95
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+82 - 3
+0 - 4
+0 - 5
+A - 6
+95 - 7
+
+d.both:
+A95
+Recieved: 25 with E1:2709 & E2:0 degrees
+8488
+EDIFFS:
+-2191.00518.00
+4550
+Set Reg 31 with val: 18
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+1877
+AA6
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+87 - 3
+0 - 4
+0 - 5
+A - 6
+A6 - 7
+
+d.both:
+AA6
+Recieved: 25 with E1:2726 & E2:0 degrees
+8512
+EDIFFS:
+-2208.00518.00
+4350
+Set Reg 31 with val: 16
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+1677
+AB7
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+8B - 3
+0 - 4
+0 - 5
+A - 6
+B7 - 7
+
+d.both:
+AB7
+Recieved: 25 with E1:2743 & E2:0 degrees
+8536
+EDIFFS:
+-2225.00518.00
+4250
+Set Reg 31 with val: 15
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+1577
+AC8
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+8F - 3
+0 - 4
+0 - 5
+A - 6
+C8 - 7
+
+d.both:
+AC8
+Recieved: 25 with E1:2760 & E2:0 degrees
+8559
+EDIFFS:
+-2242.00518.00
+4050
+Set Reg 31 with val: 13
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+1377
+AD8
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+93 - 3
+0 - 4
+0 - 5
+A - 6
+D8 - 7
+
+d.both:
+AD8
+Recieved: 25 with E1:2776 & E2:0 degrees
+8583
+EDIFFS:
+-2258.00518.00
+3950
+Set Reg 31 with val: 12
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+1277
+AEA
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+97 - 3
+0 - 4
+0 - 5
+A - 6
+EA - 7
+
+d.both:
+AEA
+Recieved: 25 with E1:2794 & E2:0 degrees
+8606
+EDIFFS:
+-2276.00518.00
+3750
+Set Reg 31 with val: 10
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+1077
+AFB
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+9A - 3
+0 - 4
+0 - 5
+A - 6
+FB - 7
+
+d.both:
+AFB
+Recieved: 25 with E1:2811 & E2:0 degrees
+8631
+EDIFFS:
+-2293.00518.00
+3550
+Set Reg 31 with val: 8
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+877
+B0C
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+9D - 3
+0 - 4
+0 - 5
+B - 6
+C - 7
+
+d.both:
+B0C
+Recieved: 25 with E1:2828 & E2:0 degrees
+8653
+EDIFFS:
+-2310.00518.00
+3450
+Set Reg 31 with val: 7
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+777
+B1C
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+A0 - 3
+0 - 4
+0 - 5
+B - 6
+1C - 7
+
+d.both:
+B1C
+Recieved: 25 with E1:2844 & E2:0 degrees
+8677
+EDIFFS:
+-2326.00518.00
+3250
+Set Reg 31 with val: 5
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+577
+B2C
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+A2 - 3
+0 - 4
+0 - 5
+B - 6
+2C - 7
+
+d.both:
+B2C
+Recieved: 25 with E1:2860 & E2:0 degrees
+8700
+EDIFFS:
+-2342.00518.00
+3050
+Set Reg 31 with val: 3
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+377
+B3D
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+A4 - 3
+0 - 4
+0 - 5
+B - 6
+3D - 7
+
+d.both:
+B3D
+Recieved: 25 with E1:2877 & E2:0 degrees
+8724
+EDIFFS:
+-2359.00518.00
+2950
+Set Reg 31 with val: 2
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+277
+B4E
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+A5 - 3
+0 - 4
+0 - 5
+B - 6
+4E - 7
+
+d.both:
+B4E
+Recieved: 25 with E1:2894 & E2:0 degrees
+8748
+EDIFFS:
+-2376.00518.00
+2750
+Set Reg 31 with val: 0
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+077
+B60
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+A7 - 3
+0 - 4
+0 - 5
+B - 6
+60 - 7
+
+d.both:
+B60
+Recieved: 25 with E1:2912 & E2:0 degrees
+8771
+EDIFFS:
+-2394.00518.00
+2550
+Set Reg 31 with val: -2
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-277
+B70
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+A8 - 3
+0 - 4
+0 - 5
+B - 6
+70 - 7
+
+d.both:
+B70
+Recieved: 25 with E1:2928 & E2:0 degrees
+8795
+EDIFFS:
+-2410.00518.00
+2450
+Set Reg 31 with val: -3
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-377
+B81
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+A9 - 3
+0 - 4
+0 - 5
+B - 6
+81 - 7
+
+d.both:
+B81
+Recieved: 25 with E1:2945 & E2:0 degrees
+8818
+EDIFFS:
+-2427.00518.00
+2250
+Set Reg 31 with val: -5
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-577
+B92
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+A9 - 3
+0 - 4
+0 - 5
+B - 6
+92 - 7
+
+d.both:
+B92
+Recieved: 25 with E1:2962 & E2:0 degrees
+8842
+EDIFFS:
+-2444.00518.00
+2150
+Set Reg 31 with val: -6
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-677
+BA3
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+AA - 3
+0 - 4
+0 - 5
+B - 6
+A3 - 7
+
+d.both:
+BA3
+Recieved: 25 with E1:2979 & E2:0 degrees
+8865
+EDIFFS:
+-2461.00518.00
+1950
+Set Reg 31 with val: -8
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-877
+BB4
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+AA - 3
+0 - 4
+0 - 5
+B - 6
+B4 - 7
+
+d.both:
+BB4
+Recieved: 25 with E1:2996 & E2:0 degrees
+8889
+EDIFFS:
+-2478.00518.00
+1750
+Set Reg 31 with val: -10
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-1077
+BC5
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+AA - 3
+0 - 4
+0 - 5
+B - 6
+C5 - 7
+
+d.both:
+BC5
+Recieved: 25 with E1:3013 & E2:0 degrees
+8912
+EDIFFS:
+-2495.00518.00
+1650
+Set Reg 31 with val: -11
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-1177
+BD6
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+A9 - 3
+0 - 4
+0 - 5
+B - 6
+D6 - 7
+
+d.both:
+BD6
+Recieved: 25 with E1:3030 & E2:0 degrees
+8936
+EDIFFS:
+-2512.00518.00
+1450
+Set Reg 31 with val: -13
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-1377
+BE7
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+A9 - 3
+0 - 4
+0 - 5
+B - 6
+E7 - 7
+
+d.both:
+BE7
+Recieved: 25 with E1:3047 & E2:0 degrees
+8961
+EDIFFS:
+-2529.00518.00
+1250
+Set Reg 31 with val: -15
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-1577
+BF8
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+A9 - 3
+0 - 4
+0 - 5
+B - 6
+F8 - 7
+
+d.both:
+BF8
+Recieved: 25 with E1:3064 & E2:0 degrees
+8984
+EDIFFS:
+-2546.00518.00
+1150
+Set Reg 31 with val: -16
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-1677
+C09
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+A8 - 3
+0 - 4
+0 - 5
+C - 6
+9 - 7
+
+d.both:
+C09
+Recieved: 25 with E1:3081 & E2:0 degrees
+9008
+EDIFFS:
+-2563.00518.00
+950
+Set Reg 31 with val: -18
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-1877
+C1A
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+A5 - 3
+0 - 4
+0 - 5
+C - 6
+1A - 7
+
+d.both:
+C1A
+Recieved: 25 with E1:3098 & E2:0 degrees
+9031
+EDIFFS:
+-2580.00518.00
+750
+Set Reg 31 with val: -20
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-2077
+C2B
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+A3 - 3
+0 - 4
+0 - 5
+C - 6
+2B - 7
+
+d.both:
+C2B
+Recieved: 25 with E1:3115 & E2:0 degrees
+9055
+EDIFFS:
+-2597.00518.00
+650
+Set Reg 31 with val: -21
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-2177
+C3C
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+A1 - 3
+0 - 4
+0 - 5
+C - 6
+3C - 7
+
+d.both:
+C3C
+Recieved: 25 with E1:3132 & E2:0 degrees
+9079
+EDIFFS:
+-2614.00518.00
+450
+Set Reg 31 with val: -23
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-2377
+C4D
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+9F - 3
+0 - 4
+0 - 5
+C - 6
+4D - 7
+
+d.both:
+C4D
+Recieved: 25 with E1:3149 & E2:0 degrees
+9103
+EDIFFS:
+-2631.00518.00
+350
+Set Reg 31 with val: -24
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-2477
+C5E
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+9C - 3
+0 - 4
+0 - 5
+C - 6
+5E - 7
+
+d.both:
+C5E
+Recieved: 25 with E1:3166 & E2:0 degrees
+9126
+EDIFFS:
+-2648.00518.00
+150
+Set Reg 31 with val: -26
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-2677
+C6F
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+99 - 3
+0 - 4
+0 - 5
+C - 6
+6F - 7
+
+d.both:
+C6F
+Recieved: 25 with E1:3183 & E2:0 degrees
+9150
+EDIFFS:
+-2665.00518.00
+-150
+Set Reg 31 with val: -28
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-2877
+C80
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+95 - 3
+0 - 4
+0 - 5
+C - 6
+80 - 7
+
+d.both:
+C80
+Recieved: 25 with E1:3200 & E2:0 degrees
+9174
+EDIFFS:
+-2682.00518.00
+-250
+Set Reg 31 with val: -29
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-2977
+C91
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+91 - 3
+0 - 4
+0 - 5
+C - 6
+91 - 7
+
+d.both:
+C91
+Recieved: 25 with E1:3217 & E2:0 degrees
+9197
+EDIFFS:
+-2699.00518.00
+-450
+Set Reg 31 with val: -31
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-3177
+CA2
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+8D - 3
+0 - 4
+0 - 5
+C - 6
+A2 - 7
+
+d.both:
+CA2
+Recieved: 25 with E1:3234 & E2:0 degrees
+9222
+EDIFFS:
+-2716.00518.00
+-650
+Set Reg 31 with val: -33
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-3377
+CB3
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+89 - 3
+0 - 4
+0 - 5
+C - 6
+B3 - 7
+
+d.both:
+CB3
+Recieved: 25 with E1:3251 & E2:0 degrees
+9245
+EDIFFS:
+-2733.00518.00
+-750
+Set Reg 31 with val: -34
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-3477
+CC4
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+84 - 3
+0 - 4
+0 - 5
+C - 6
+C4 - 7
+
+d.both:
+CC4
+Recieved: 25 with E1:3268 & E2:0 degrees
+9269
+EDIFFS:
+-2750.00518.00
+-950
+Set Reg 31 with val: -36
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-3677
+CD5
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+7F - 3
+0 - 4
+0 - 5
+C - 6
+D5 - 7
+
+d.both:
+CD5
+Recieved: 25 with E1:3285 & E2:0 degrees
+9292
+EDIFFS:
+-2767.00518.00
+-1150
+Set Reg 31 with val: -38
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-3877
+CE6
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+7A - 3
+0 - 4
+0 - 5
+C - 6
+E6 - 7
+
+d.both:
+CE6
+Recieved: 25 with E1:3302 & E2:0 degrees
+9317
+EDIFFS:
+-2784.00518.00
+-1250
+Set Reg 31 with val: -39
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-3977
+CF8
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+75 - 3
+0 - 4
+0 - 5
+C - 6
+F8 - 7
+
+d.both:
+CF8
+Recieved: 25 with E1:3320 & E2:0 degrees
+9340
+EDIFFS:
+-2802.00518.00
+-1450
+Set Reg 31 with val: -41
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-4177
+D08
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+6F - 3
+0 - 4
+0 - 5
+D - 6
+8 - 7
+
+d.both:
+D08
+Recieved: 25 with E1:3336 & E2:0 degrees
+9364
+EDIFFS:
+-2818.00518.00
+-1650
+Set Reg 31 with val: -43
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-4377
+D19
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+68 - 3
+0 - 4
+0 - 5
+D - 6
+19 - 7
+
+d.both:
+D19
+Recieved: 25 with E1:3353 & E2:0 degrees
+9388
+EDIFFS:
+-2835.00518.00
+-1750
+Set Reg 31 with val: -44
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-4477
+D2A
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+62 - 3
+0 - 4
+0 - 5
+D - 6
+2A - 7
+
+d.both:
+D2A
+Recieved: 25 with E1:3370 & E2:0 degrees
+9412
+EDIFFS:
+-2852.00518.00
+-1950
+Set Reg 31 with val: -46
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-4677
+D3B
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+5B - 3
+0 - 4
+0 - 5
+D - 6
+3B - 7
+
+d.both:
+D3B
+Recieved: 25 with E1:3387 & E2:0 degrees
+9436
+EDIFFS:
+-2869.00518.00
+-2050
+Set Reg 31 with val: -47
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-4777
+D4C
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+54 - 3
+0 - 4
+0 - 5
+D - 6
+4C - 7
+
+d.both:
+D4C
+Recieved: 25 with E1:3404 & E2:0 degrees
+9459
+EDIFFS:
+-2886.00518.00
+-2250
+Set Reg 31 with val: -49
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-4977
+D5E
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+4C - 3
+0 - 4
+0 - 5
+D - 6
+5E - 7
+
+d.both:
+D5E
+Recieved: 25 with E1:3422 & E2:0 degrees
+9483
+EDIFFS:
+-2904.00518.00
+-2450
+Set Reg 31 with val: -51
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-5177
+D6F
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+44 - 3
+0 - 4
+0 - 5
+D - 6
+6F - 7
+
+d.both:
+D6F
+Recieved: 25 with E1:3439 & E2:0 degrees
+9507
+EDIFFS:
+-2921.00518.00
+-2550
+Set Reg 31 with val: -52
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-5277
+D7F
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+3D - 3
+0 - 4
+0 - 5
+D - 6
+7F - 7
+
+d.both:
+D7F
+Recieved: 25 with E1:3455 & E2:0 degrees
+9531
+EDIFFS:
+-2937.00518.00
+-2750
+Set Reg 31 with val: -54
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-5477
+D90
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+35 - 3
+0 - 4
+0 - 5
+D - 6
+90 - 7
+
+d.both:
+D90
+Recieved: 25 with E1:3472 & E2:0 degrees
+9554
+EDIFFS:
+-2954.00518.00
+-2950
+Set Reg 31 with val: -56
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-5677
+DA2
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+2C - 3
+0 - 4
+0 - 5
+D - 6
+A2 - 7
+
+d.both:
+DA2
+Recieved: 25 with E1:3490 & E2:0 degrees
+9578
+EDIFFS:
+-2972.00518.00
+-3050
+Set Reg 31 with val: -57
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-5777
+DB3
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+23 - 3
+0 - 4
+0 - 5
+D - 6
+B3 - 7
+
+d.both:
+DB3
+Recieved: 25 with E1:3507 & E2:0 degrees
+9603
+EDIFFS:
+-2989.00518.00
+-3250
+Set Reg 31 with val: -59
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-5977
+DC4
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+1A - 3
+0 - 4
+0 - 5
+D - 6
+C4 - 7
+
+d.both:
+DC4
+Recieved: 25 with E1:3524 & E2:0 degrees
+9626
+EDIFFS:
+-3006.00518.00
+-3450
+Set Reg 31 with val: -61
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-6177
+DD6
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+10 - 3
+0 - 4
+0 - 5
+D - 6
+D6 - 7
+
+d.both:
+DD6
+Recieved: 25 with E1:3542 & E2:0 degrees
+9650
+EDIFFS:
+-3024.00518.00
+-3550
+Set Reg 31 with val: -62
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-6277
+DE6
+Serial Buffer: 0 - 0
+0 - 1
+0 - 2
+7 - 3
+0 - 4
+0 - 5
+D - 6
+E6 - 7
+
+d.both:
+DE6
+Recieved: 25 with E1:3558 & E2:0 degrees
+9674
+EDIFFS:
+-3040.00518.00
+-3750
+Set Reg 31 with val: -64
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-6477
+DF7
+Serial Buffer: FF - 0
+FF - 1
+FF - 2
+FD - 3
+0 - 4
+0 - 5
+D - 6
+F7 - 7
+
+d.both:
+DF7
+Recieved: 25 with E1:3575 & E2:0 degrees
+9698
+EDIFFS:
+-3057.00518.00
+-3950
+Set Reg 31 with val: -66
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-6677
+E08
+Serial Buffer: FF - 0
+FF - 1
+FF - 2
+F2 - 3
+0 - 4
+0 - 5
+E - 6
+8 - 7
+
+d.both:
+E08
+Recieved: 25 with E1:3592 & E2:0 degrees
+9722
+EDIFFS:
+-3074.00518.00
+-4050
+Set Reg 31 with val: -67
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-6777
+E1A
+Serial Buffer: FF - 0
+FF - 1
+FF - 2
+E8 - 3
+0 - 4
+0 - 5
+E - 6
+1A - 7
+
+d.both:
+E1A
+Recieved: 25 with E1:3610 & E2:0 degrees
+9746
+EDIFFS:
+-3092.00518.00
+-4250
+Set Reg 31 with val: -69
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-6977
+E2B
+Serial Buffer: FF - 0
+FF - 1
+FF - 2
+DD - 3
+0 - 4
+0 - 5
+E - 6
+2B - 7
+
+d.both:
+E2B
+Recieved: 25 with E1:3627 & E2:0 degrees
+9771
+EDIFFS:
+-3109.00518.00
+-4450
+Set Reg 31 with val: -71
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-7177
+E3C
+Serial Buffer: FF - 0
+FF - 1
+FF - 2
+D1 - 3
+0 - 4
+0 - 5
+E - 6
+3C - 7
+
+d.both:
+E3C
+Recieved: 25 with E1:3644 & E2:0 degrees
+9794
+EDIFFS:
+-3126.00518.00
+-4550
+Set Reg 31 with val: -72
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-7277
+E4D
+Serial Buffer: FF - 0
+FF - 1
+FF - 2
+C5 - 3
+0 - 4
+0 - 5
+E - 6
+4D - 7
+
+d.both:
+E4D
+Recieved: 25 with E1:3661 & E2:0 degrees
+9819
+EDIFFS:
+-3143.00518.00
+-4750
+Set Reg 31 with val: -74
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-7477
+E5F
+Serial Buffer: FF - 0
+FF - 1
+FF - 2
+B9 - 3
+0 - 4
+0 - 5
+E - 6
+5F - 7
+
+d.both:
+E5F
+Recieved: 25 with E1:3679 & E2:0 degrees
+9842
+EDIFFS:
+-3161.00518.00
+-4950
+Set Reg 31 with val: -76
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-7677
+E70
+Serial Buffer: FF - 0
+FF - 1
+FF - 2
+AD - 3
+0 - 4
+0 - 5
+E - 6
+70 - 7
+
+d.both:
+E70
+Recieved: 25 with E1:3696 & E2:0 degrees
+9867
+EDIFFS:
+-3178.00518.00
+-5050
+Set Reg 31 with val: -77
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-7777
+E82
+Serial Buffer: FF - 0
+FF - 1
+FF - 2
+A1 - 3
+0 - 4
+0 - 5
+E - 6
+82 - 7
+
+d.both:
+E82
+Recieved: 25 with E1:3714 & E2:0 degrees
+9890
+EDIFFS:
+-3196.00518.00
+-5250
+Set Reg 31 with val: -79
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-7977
+E93
+Serial Buffer: FF - 0
+FF - 1
+FF - 2
+94 - 3
+0 - 4
+0 - 5
+E - 6
+93 - 7
+
+d.both:
+E93
+Recieved: 25 with E1:3731 & E2:0 degrees
+9915
+EDIFFS:
+-3213.00518.00
+-5450
+Set Reg 31 with val: -81
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-8177
+EA4
+Serial Buffer: FF - 0
+FF - 1
+FF - 2
+86 - 3
+0 - 4
+0 - 5
+E - 6
+A4 - 7
+
+d.both:
+EA4
+Recieved: 25 with E1:3748 & E2:0 degrees
+9939
+EDIFFS:
+-3230.00518.00
+-5550
+Set Reg 31 with val: -82
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-8277
+EB5
+Serial Buffer: FF - 0
+FF - 1
+FF - 2
+79 - 3
+0 - 4
+0 - 5
+E - 6
+B5 - 7
+
+d.both:
+EB5
+Recieved: 25 with E1:3765 & E2:0 degrees
+9963
+EDIFFS:
+-3247.00518.00
+-5750
+Set Reg 31 with val: -84
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-8477
+EC6
+Serial Buffer: FF - 0
+FF - 1
+FF - 2
+6B - 3
+0 - 4
+0 - 5
+E - 6
+C6 - 7
+
+d.both:
+EC6
+Recieved: 25 with E1:3782 & E2:0 degrees
+9988
+EDIFFS:
+-3264.00518.00
+-5950
+Set Reg 31 with val: -86
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-8677
+ED8
+Serial Buffer: FF - 0
+FF - 1
+FF - 2
+5D - 3
+0 - 4
+0 - 5
+E - 6
+D8 - 7
+
+d.both:
+ED8
+Recieved: 25 with E1:3800 & E2:0 degrees
+10011
+EDIFFS:
+-3282.00518.00
+-6050
+Set Reg 31 with val: -87
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-8777
+EE9
+Serial Buffer: FF - 0
+FF - 1
+FF - 2
+4E - 3
+0 - 4
+0 - 5
+E - 6
+E9 - 7
+
+d.both:
+EE9
+Recieved: 25 with E1:3817 & E2:0 degrees
+10036
+EDIFFS:
+-3299.00518.00
+-6250
+Set Reg 31 with val: -89
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-8977
+EFB
+Serial Buffer: FF - 0
+FF - 1
+FF - 2
+3F - 3
+0 - 4
+0 - 5
+E - 6
+FB - 7
+
+d.both:
+EFB
+Recieved: 25 with E1:3835 & E2:0 degrees
+10059
+EDIFFS:
+-3317.00518.00
+-6450
+Set Reg 31 with val: -91
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-9177
+F0C
+Serial Buffer: FF - 0
+FF - 1
+FF - 2
+31 - 3
+0 - 4
+0 - 5
+F - 6
+C - 7
+
+d.both:
+F0C
+Recieved: 25 with E1:3852 & E2:0 degrees
+10084
+EDIFFS:
+-3334.00518.00
+-6550
+Set Reg 31 with val: -92
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-9277
+F1D
+Serial Buffer: FF - 0
+FF - 1
+FF - 2
+21 - 3
+0 - 4
+0 - 5
+F - 6
+1D - 7
+
+d.both:
+F1D
+Recieved: 25 with E1:3869 & E2:0 degrees
+10108
+EDIFFS:
+-3351.00518.00
+-6750
+Set Reg 31 with val: -94
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-9477
+F2E
+Serial Buffer: FF - 0
+FF - 1
+FF - 2
+11 - 3
+0 - 4
+0 - 5
+F - 6
+2E - 7
+
+d.both:
+F2E
+Recieved: 25 with E1:3886 & E2:0 degrees
+10132
+EDIFFS:
+-3368.00518.00
+-6950
+Set Reg 31 with val: -96
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-9677
+F40
+Serial Buffer: FF - 0
+FF - 1
+FF - 2
+1 - 3
+0 - 4
+0 - 5
+F - 6
+40 - 7
+
+d.both:
+F40
+Recieved: 25 with E1:3904 & E2:0 degrees
+10157
+EDIFFS:
+-3386.00518.00
+-7050
+Set Reg 31 with val: -97
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-9777
+F51
+Serial Buffer: FF - 0
+FF - 1
+FE - 2
+F0 - 3
+0 - 4
+0 - 5
+F - 6
+51 - 7
+
+d.both:
+F51
+Recieved: 25 with E1:3921 & E2:0 degrees
+10181
+EDIFFS:
+-3403.00518.00
+-7250
+Set Reg 31 with val: -99
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-9977
+F62
+Serial Buffer: FF - 0
+FF - 1
+FE - 2
+E0 - 3
+0 - 4
+0 - 5
+F - 6
+62 - 7
+
+d.both:
+F62
+Recieved: 25 with E1:3938 & E2:0 degrees
+10205
+EDIFFS:
+-3420.00518.00
+-7450
+Set Reg 31 with val: -101
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-10177
+F74
+Serial Buffer: FF - 0
+FF - 1
+FE - 2
+CF - 3
+0 - 4
+0 - 5
+F - 6
+74 - 7
+
+d.both:
+F74
+Recieved: 25 with E1:3956 & E2:0 degrees
+10229
+EDIFFS:
+-3438.00518.00
+-7550
+Set Reg 31 with val: -102
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-10277
+F85
+Serial Buffer: FF - 0
+FF - 1
+FE - 2
+BD - 3
+0 - 4
+0 - 5
+F - 6
+85 - 7
+
+d.both:
+F85
+Recieved: 25 with E1:3973 & E2:0 degrees
+10254
+EDIFFS:
+-3455.00518.00
+-7750
+Set Reg 31 with val: -104
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-10477
+F97
+Serial Buffer: FF - 0
+FF - 1
+FE - 2
+AB - 3
+0 - 4
+0 - 5
+F - 6
+97 - 7
+
+d.both:
+F97
+Recieved: 25 with E1:3991 & E2:0 degrees
+10278
+EDIFFS:
+-3473.00518.00
+-7950
+Set Reg 31 with val: -106
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-10677
+FA8
+Serial Buffer: FF - 0
+FF - 1
+FE - 2
+99 - 3
+0 - 4
+0 - 5
+F - 6
+A8 - 7
+
+d.both:
+FA8
+Recieved: 25 with E1:4008 & E2:0 degrees
+10302
+EDIFFS:
+-3490.00518.00
+-8050
+Set Reg 31 with val: -107
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-10777
+FBA
+Serial Buffer: FF - 0
+FF - 1
+FE - 2
+87 - 3
+0 - 4
+0 - 5
+F - 6
+BA - 7
+
+d.both:
+FBA
+Recieved: 25 with E1:4026 & E2:0 degrees
+10327
+EDIFFS:
+-3508.00518.00
+-8250
+Set Reg 31 with val: -109
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-10977
+FCB
+Serial Buffer: FF - 0
+FF - 1
+FE - 2
+75 - 3
+0 - 4
+0 - 5
+F - 6
+CB - 7
+
+d.both:
+FCB
+Recieved: 25 with E1:4043 & E2:0 degrees
+10351
+EDIFFS:
+-3525.00518.00
+-8450
+Set Reg 31 with val: -111
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-11177
+FDC
+Serial Buffer: FF - 0
+FF - 1
+FE - 2
+62 - 3
+0 - 4
+0 - 5
+F - 6
+DC - 7
+
+d.both:
+FDC
+Recieved: 25 with E1:4060 & E2:0 degrees
+10376
+EDIFFS:
+-3542.00518.00
+-8550
+Set Reg 31 with val: -112
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-11277
+FEE
+Serial Buffer: FF - 0
+FF - 1
+FE - 2
+4E - 3
+0 - 4
+0 - 5
+F - 6
+EE - 7
+
+d.both:
+FEE
+Recieved: 25 with E1:4078 & E2:0 degrees
+10400
+EDIFFS:
+-3560.00518.00
+-8750
+Set Reg 31 with val: -114
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-11477
+1000
+Serial Buffer: FF - 0
+FF - 1
+FE - 2
+3B - 3
+0 - 4
+0 - 5
+10 - 6
+0 - 7
+
+d.both:
+1000
+Recieved: 25 with E1:4096 & E2:0 degrees
+10424
+EDIFFS:
+-3578.00518.00
+-8950
+Set Reg 31 with val: -116
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-11677
+1011
+Serial Buffer: FF - 0
+FF - 1
+FE - 2
+27 - 3
+0 - 4
+0 - 5
+10 - 6
+11 - 7
+
+d.both:
+1011
+Recieved: 25 with E1:4113 & E2:0 degrees
+10449
+EDIFFS:
+-3595.00518.00
+-9150
+Set Reg 31 with val: -118
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-11877
+1023
+Serial Buffer: FF - 0
+FF - 1
+FE - 2
+12 - 3
+0 - 4
+0 - 5
+10 - 6
+23 - 7
+
+d.both:
+1023
+Recieved: 25 with E1:4131 & E2:0 degrees
+10474
+EDIFFS:
+-3613.00518.00
+-9250
+Set Reg 31 with val: -119
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-11977
+1035
+Serial Buffer: FF - 0
+FF - 1
+FD - 2
+FE - 3
+0 - 4
+0 - 5
+10 - 6
+35 - 7
+
+d.both:
+1035
+Recieved: 25 with E1:4149 & E2:0 degrees
+10499
+EDIFFS:
+-3631.00518.00
+-9450
+Set Reg 31 with val: -121
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-12177
+1046
+Serial Buffer: FF - 0
+FF - 1
+FD - 2
+E9 - 3
+0 - 4
+0 - 5
+10 - 6
+46 - 7
+
+d.both:
+1046
+Recieved: 25 with E1:4166 & E2:0 degrees
+10523
+EDIFFS:
+-3648.00518.00
+-9650
+Set Reg 31 with val: -123
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-12377
+1057
+Serial Buffer: FF - 0
+FF - 1
+FD - 2
+D3 - 3
+0 - 4
+0 - 5
+10 - 6
+57 - 7
+
+d.both:
+1057
+Recieved: 25 with E1:4183 & E2:0 degrees
+10548
+EDIFFS:
+-3665.00518.00
+-9750
+Set Reg 31 with val: -124
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-12477
+1069
+Serial Buffer: FF - 0
+FF - 1
+FD - 2
+BD - 3
+0 - 4
+0 - 5
+10 - 6
+69 - 7
+
+d.both:
+1069
+Recieved: 25 with E1:4201 & E2:0 degrees
+10572
+EDIFFS:
+-3683.00518.00
+-9950
+Set Reg 31 with val: -126
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-12677
+107B
+Serial Buffer: FF - 0
+FF - 1
+FD - 2
+A8 - 3
+0 - 4
+0 - 5
+10 - 6
+7B - 7
+
+d.both:
+107B
+Recieved: 25 with E1:4219 & E2:0 degrees
+10597
+EDIFFS:
+-3701.00518.00
+-10150
+Set Reg 31 with val: -128
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-12877
+108D
+Serial Buffer: FF - 0
+FF - 1
+FD - 2
+91 - 3
+0 - 4
+0 - 5
+10 - 6
+8D - 7
+
+d.both:
+108D
+Recieved: 25 with E1:4237 & E2:0 degrees
+10621
+EDIFFS:
+-3719.00518.00
+-10250
+Set Reg 31 with val: 127
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+12777
+109F
+Serial Buffer: FF - 0
+FF - 1
+FD - 2
+7B - 3
+0 - 4
+0 - 5
+10 - 6
+9F - 7
+
+d.both:
+109F
+Recieved: 25 with E1:4255 & E2:0 degrees
+10646
+EDIFFS:
+-3737.00518.00
+-10450
+Set Reg 31 with val: 125
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+12577
+10B0
+Serial Buffer: FF - 0
+FF - 1
+FD - 2
+64 - 3
+0 - 4
+0 - 5
+10 - 6
+B0 - 7
+
+d.both:
+10B0
+Recieved: 25 with E1:4272 & E2:0 degrees
+10671
+EDIFFS:
+-3754.00518.00
+-10650
+Set Reg 31 with val: 123
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+12377
+10C1
+Serial Buffer: FF - 0
+FF - 1
+FD - 2
+4E - 3
+0 - 4
+0 - 5
+10 - 6
+C1 - 7
+
+d.both:
+10C1
+Recieved: 25 with E1:4289 & E2:0 degrees
+10695
+EDIFFS:
+-3771.00518.00
+-10750
+Set Reg 31 with val: 122
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+12277
+10D3
+Serial Buffer: FF - 0
+FF - 1
+FD - 2
+38 - 3
+0 - 4
+0 - 5
+10 - 6
+D3 - 7
+
+d.both:
+10D3
+Recieved: 25 with E1:4307 & E2:0 degrees
+10720
+EDIFFS:
+-3789.00518.00
+-10950
+Set Reg 31 with val: 120
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+12077
+10E4
+Serial Buffer: FF - 0
+FF - 1
+FD - 2
+22 - 3
+0 - 4
+0 - 5
+10 - 6
+E4 - 7
+
+d.both:
+10E4
+Recieved: 25 with E1:4324 & E2:0 degrees
+10744
+EDIFFS:
+-3806.00518.00
+-11150
+Set Reg 31 with val: 118
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+11877
+10F6
+Serial Buffer: FF - 0
+FF - 1
+FD - 2
+C - 3
+0 - 4
+0 - 5
+10 - 6
+F6 - 7
+
+d.both:
+10F6
+Recieved: 25 with E1:4342 & E2:0 degrees
+10769
+EDIFFS:
+-3824.00518.00
+-11350
+Set Reg 31 with val: 116
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+11677
+1108
+Serial Buffer: FF - 0
+FF - 1
+FC - 2
+F7 - 3
+0 - 4
+0 - 5
+11 - 6
+8 - 7
+
+d.both:
+1108
+Recieved: 25 with E1:4360 & E2:0 degrees
+10793
+EDIFFS:
+-3842.00518.00
+-11450
+Set Reg 31 with val: 115
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+11577
+111A
+Serial Buffer: FF - 0
+FF - 1
+FC - 2
+E3 - 3
+0 - 4
+0 - 5
+11 - 6
+1A - 7
+
+d.both:
+111A
+Recieved: 25 with E1:4378 & E2:0 degrees
+10818
+EDIFFS:
+-3860.00518.00
+-11650
+Set Reg 31 with val: 113
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+11377
+112B
+Serial Buffer: FF - 0
+FF - 1
+FC - 2
+CF - 3
+0 - 4
+0 - 5
+11 - 6
+2B - 7
+
+d.both:
+112B
+Recieved: 25 with E1:4395 & E2:0 degrees
+10842
+EDIFFS:
+-3877.00518.00
+-11850
+Set Reg 31 with val: 111
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+11177
+113D
+Serial Buffer: FF - 0
+FF - 1
+FC - 2
+BB - 3
+0 - 4
+0 - 5
+11 - 6
+3D - 7
+
+d.both:
+113D
+Recieved: 25 with E1:4413 & E2:0 degrees
+10866
+EDIFFS:
+-3895.00518.00
+-11950
+Set Reg 31 with val: 110
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+11077
+114E
+Serial Buffer: FF - 0
+FF - 1
+FC - 2
+A7 - 3
+0 - 4
+0 - 5
+11 - 6
+4E - 7
+
+d.both:
+114E
+Recieved: 25 with E1:4430 & E2:0 degrees
+10891
+EDIFFS:
+-3912.00518.00
+-12150
+Set Reg 31 with val: 108
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+10877
+1160
+Serial Buffer: FF - 0
+FF - 1
+FC - 2
+94 - 3
+0 - 4
+0 - 5
+11 - 6
+60 - 7
+
+d.both:
+1160
+Recieved: 25 with E1:4448 & E2:0 degrees
+10915
+EDIFFS:
+-3930.00518.00
+-12350
+Set Reg 31 with val: 106
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+10677
+1171
+Serial Buffer: FF - 0
+FF - 1
+FC - 2
+80 - 3
+0 - 4
+0 - 5
+11 - 6
+71 - 7
+
+d.both:
+1171
+Recieved: 25 with E1:4465 & E2:0 degrees
+10940
+EDIFFS:
+-3947.00518.00
+-12450
+Set Reg 31 with val: 105
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+10577
+1183
+Serial Buffer: FF - 0
+FF - 1
+FC - 2
+6E - 3
+0 - 4
+0 - 5
+11 - 6
+83 - 7
+
+d.both:
+1183
+Recieved: 25 with E1:4483 & E2:0 degrees
+10964
+EDIFFS:
+-3965.00518.00
+-12650
+Set Reg 31 with val: 103
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+10377
+1194
+Serial Buffer: FF - 0
+FF - 1
+FC - 2
+5C - 3
+0 - 4
+0 - 5
+11 - 6
+94 - 7
+
+d.both:
+1194
+Recieved: 25 with E1:4500 & E2:0 degrees
+10989
+EDIFFS:
+-3982.00518.00
+-12850
+Set Reg 31 with val: 101
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+10177
+11A6
+Serial Buffer: FF - 0
+FF - 1
+FC - 2
+4A - 3
+0 - 4
+0 - 5
+11 - 6
+A6 - 7
+
+d.both:
+11A6
+Recieved: 25 with E1:4518 & E2:0 degrees
+11014
+EDIFFS:
+-4000.00518.00
+12650
+Set Reg 31 with val: 99
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+9977
+11B7
+Serial Buffer: FF - 0
+FF - 1
+FC - 2
+38 - 3
+0 - 4
+0 - 5
+11 - 6
+B7 - 7
+
+d.both:
+11B7
+Recieved: 25 with E1:4535 & E2:0 degrees
+11038
+EDIFFS:
+-4017.00518.00
+12550
+Set Reg 31 with val: 98
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+9877
+11C9
+Serial Buffer: FF - 0
+FF - 1
+FC - 2
+27 - 3
+0 - 4
+0 - 5
+11 - 6
+C9 - 7
+
+d.both:
+11C9
+Recieved: 25 with E1:4553 & E2:0 degrees
+11063
+EDIFFS:
+-4035.00518.00
+12350
+Set Reg 31 with val: 96
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+9677
+11DA
+Serial Buffer: FF - 0
+FF - 1
+FC - 2
+16 - 3
+0 - 4
+0 - 5
+11 - 6
+DA - 7
+
+d.both:
+11DA
+Recieved: 25 with E1:4570 & E2:0 degrees
+11087
+EDIFFS:
+-4052.00518.00
+12150
+Set Reg 31 with val: 94
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+9477
+11EC
+Serial Buffer: FF - 0
+FF - 1
+FC - 2
+5 - 3
+0 - 4
+0 - 5
+11 - 6
+EC - 7
+
+d.both:
+11EC
+Recieved: 25 with E1:4588 & E2:0 degrees
+11111
+EDIFFS:
+-4070.00518.00
+12050
+Set Reg 31 with val: 93
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+9377
+11FD
+Serial Buffer: FF - 0
+FF - 1
+FB - 2
+F5 - 3
+0 - 4
+0 - 5
+11 - 6
+FD - 7
+
+d.both:
+11FD
+Recieved: 25 with E1:4605 & E2:0 degrees
+11136
+EDIFFS:
+-4087.00518.00
+11850
+Set Reg 31 with val: 91
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+9177
+120E
+Serial Buffer: FF - 0
+FF - 1
+FB - 2
+E5 - 3
+0 - 4
+0 - 5
+12 - 6
+E - 7
+
+d.both:
+120E
+Recieved: 25 with E1:4622 & E2:0 degrees
+11160
+EDIFFS:
+-4104.00518.00
+11650
+Set Reg 31 with val: 89
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+8977
+1220
+Serial Buffer: FF - 0
+FF - 1
+FB - 2
+D5 - 3
+0 - 4
+0 - 5
+12 - 6
+20 - 7
+
+d.both:
+1220
+Recieved: 25 with E1:4640 & E2:0 degrees
+11184
+EDIFFS:
+-4122.00518.00
+11550
+Set Reg 31 with val: 88
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+8877
+1231
+Serial Buffer: FF - 0
+FF - 1
+FB - 2
+C5 - 3
+0 - 4
+0 - 5
+12 - 6
+31 - 7
+
+d.both:
+1231
+Recieved: 25 with E1:4657 & E2:0 degrees
+11208
+EDIFFS:
+-4139.00518.00
+11350
+Set Reg 31 with val: 86
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+8677
+1242
+Serial Buffer: FF - 0
+FF - 1
+FB - 2
+B6 - 3
+0 - 4
+0 - 5
+12 - 6
+42 - 7
+
+d.both:
+1242
+Recieved: 25 with E1:4674 & E2:0 degrees
+11233
+EDIFFS:
+-4156.00518.00
+11150
+Set Reg 31 with val: 84
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+8477
+1253
+Serial Buffer: FF - 0
+FF - 1
+FB - 2
+A7 - 3
+0 - 4
+0 - 5
+12 - 6
+53 - 7
+
+d.both:
+1253
+Recieved: 25 with E1:4691 & E2:0 degrees
+11256
+EDIFFS:
+-4173.00518.00
+11050
+Set Reg 31 with val: 83
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+8377
+1265
+Serial Buffer: FF - 0
+FF - 1
+FB - 2
+99 - 3
+0 - 4
+0 - 5
+12 - 6
+65 - 7
+
+d.both:
+1265
+Recieved: 25 with E1:4709 & E2:0 degrees
+11281
+EDIFFS:
+-4191.00518.00
+10850
+Set Reg 31 with val: 81
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+8177
+1276
+Serial Buffer: FF - 0
+FF - 1
+FB - 2
+8B - 3
+0 - 4
+0 - 5
+12 - 6
+76 - 7
+
+d.both:
+1276
+Recieved: 25 with E1:4726 & E2:0 degrees
+11305
+EDIFFS:
+-4208.00518.00
+10650
+Set Reg 31 with val: 79
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7977
+1288
+Serial Buffer: FF - 0
+FF - 1
+FB - 2
+7D - 3
+0 - 4
+0 - 5
+12 - 6
+88 - 7
+
+d.both:
+1288
+Recieved: 25 with E1:4744 & E2:0 degrees
+11329
+EDIFFS:
+-4226.00518.00
+10550
+Set Reg 31 with val: 78
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7877
+129A
+Serial Buffer: FF - 0
+FF - 1
+FB - 2
+6F - 3
+0 - 4
+0 - 5
+12 - 6
+9A - 7
+
+d.both:
+129A
+Recieved: 25 with E1:4762 & E2:0 degrees
+11354
+EDIFFS:
+-4244.00518.00
+10350
+Set Reg 31 with val: 76
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7677
+12AA
+Serial Buffer: FF - 0
+FF - 1
+FB - 2
+62 - 3
+0 - 4
+0 - 5
+12 - 6
+AA - 7
+
+d.both:
+12AA
+Recieved: 25 with E1:4778 & E2:0 degrees
+11378
+EDIFFS:
+-4260.00518.00
+10150
+Set Reg 31 with val: 74
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7477
+12BC
+Serial Buffer: FF - 0
+FF - 1
+FB - 2
+55 - 3
+0 - 4
+0 - 5
+12 - 6
+BC - 7
+
+d.both:
+12BC
+Recieved: 25 with E1:4796 & E2:0 degrees
+11403
+EDIFFS:
+-4278.00518.00
+10050
+Set Reg 31 with val: 73
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7377
+12CD
+Serial Buffer: FF - 0
+FF - 1
+FB - 2
+49 - 3
+0 - 4
+0 - 5
+12 - 6
+CD - 7
+
+d.both:
+12CD
+Recieved: 25 with E1:4813 & E2:0 degrees
+11426
+EDIFFS:
+-4295.00518.00
+9850
+Set Reg 31 with val: 71
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7177
+12DF
+Serial Buffer: FF - 0
+FF - 1
+FB - 2
+3C - 3
+0 - 4
+0 - 5
+12 - 6
+DF - 7
+
+d.both:
+12DF
+Recieved: 25 with E1:4831 & E2:0 degrees
+11451
+EDIFFS:
+-4313.00518.00
+9650
+Set Reg 31 with val: 69
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6977
+12F0
+Serial Buffer: FF - 0
+FF - 1
+FB - 2
+30 - 3
+0 - 4
+0 - 5
+12 - 6
+F0 - 7
+
+d.both:
+12F0
+Recieved: 25 with E1:4848 & E2:0 degrees
+11475
+EDIFFS:
+-4330.00518.00
+9550
+Set Reg 31 with val: 68
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6877
+1302
+Serial Buffer: FF - 0
+FF - 1
+FB - 2
+24 - 3
+0 - 4
+0 - 5
+13 - 6
+2 - 7
+
+d.both:
+1302
+Recieved: 25 with E1:4866 & E2:0 degrees
+11499
+EDIFFS:
+-4348.00518.00
+9350
+Set Reg 31 with val: 66
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6677
+1313
+Serial Buffer: FF - 0
+FF - 1
+FB - 2
+19 - 3
+0 - 4
+0 - 5
+13 - 6
+13 - 7
+
+d.both:
+1313
+Recieved: 25 with E1:4883 & E2:0 degrees
+11524
+EDIFFS:
+-4365.00518.00
+9150
+Set Reg 31 with val: 64
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6477
+1324
+Serial Buffer: FF - 0
+FF - 1
+FB - 2
+E - 3
+0 - 4
+0 - 5
+13 - 6
+24 - 7
+
+d.both:
+1324
+Recieved: 25 with E1:4900 & E2:0 degrees
+11547
+EDIFFS:
+-4382.00518.00
+9050
+Set Reg 31 with val: 63
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6377
+1336
+Serial Buffer: FF - 0
+FF - 1
+FB - 2
+3 - 3
+0 - 4
+0 - 5
+13 - 6
+36 - 7
+
+d.both:
+1336
+Recieved: 25 with E1:4918 & E2:0 degrees
+11572
+EDIFFS:
+-4400.00518.00
+8850
+Set Reg 31 with val: 61
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6177
+1347
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+F9 - 3
+0 - 4
+0 - 5
+13 - 6
+47 - 7
+
+d.both:
+1347
+Recieved: 25 with E1:4935 & E2:0 degrees
+11596
+EDIFFS:
+-4417.00518.00
+8650
+Set Reg 31 with val: 59
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5977
+1358
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+EF - 3
+0 - 4
+0 - 5
+13 - 6
+58 - 7
+
+d.both:
+1358
+Recieved: 25 with E1:4952 & E2:0 degrees
+11620
+EDIFFS:
+-4434.00518.00
+8550
+Set Reg 31 with val: 58
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5877
+1369
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+E5 - 3
+0 - 4
+0 - 5
+13 - 6
+69 - 7
+
+d.both:
+1369
+Recieved: 25 with E1:4969 & E2:0 degrees
+11644
+EDIFFS:
+-4451.00518.00
+8350
+Set Reg 31 with val: 56
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5677
+137A
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+DC - 3
+0 - 4
+0 - 5
+13 - 6
+7A - 7
+
+d.both:
+137A
+Recieved: 25 with E1:4986 & E2:0 degrees
+11668
+EDIFFS:
+-4468.00518.00
+8150
+Set Reg 31 with val: 54
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5477
+138C
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+D3 - 3
+0 - 4
+0 - 5
+13 - 6
+8C - 7
+
+d.both:
+138C
+Recieved: 25 with E1:5004 & E2:0 degrees
+11693
+EDIFFS:
+-4486.00518.00
+7950
+Set Reg 31 with val: 52
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5277
+139D
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+CA - 3
+0 - 4
+0 - 5
+13 - 6
+9D - 7
+
+d.both:
+139D
+Recieved: 25 with E1:5021 & E2:0 degrees
+11717
+EDIFFS:
+-4503.00518.00
+7850
+Set Reg 31 with val: 51
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5177
+13AF
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+C1 - 3
+0 - 4
+0 - 5
+13 - 6
+AF - 7
+
+d.both:
+13AF
+Recieved: 25 with E1:5039 & E2:0 degrees
+11741
+EDIFFS:
+-4521.00518.00
+7650
+Set Reg 31 with val: 49
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4977
+13C1
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+B9 - 3
+0 - 4
+0 - 5
+13 - 6
+C1 - 7
+
+d.both:
+13C1
+Recieved: 25 with E1:5057 & E2:0 degrees
+11765
+EDIFFS:
+-4539.00518.00
+7450
+Set Reg 31 with val: 47
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4777
+13D2
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+B1 - 3
+0 - 4
+0 - 5
+13 - 6
+D2 - 7
+
+d.both:
+13D2
+Recieved: 25 with E1:5074 & E2:0 degrees
+11790
+EDIFFS:
+-4556.00518.00
+7350
+Set Reg 31 with val: 46
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4677
+13E3
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+A9 - 3
+0 - 4
+0 - 5
+13 - 6
+E3 - 7
+
+d.both:
+13E3
+Recieved: 25 with E1:5091 & E2:0 degrees
+11813
+EDIFFS:
+-4573.00518.00
+7150
+Set Reg 31 with val: 44
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4477
+13F4
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+A2 - 3
+0 - 4
+0 - 5
+13 - 6
+F4 - 7
+
+d.both:
+13F4
+Recieved: 25 with E1:5108 & E2:0 degrees
+11838
+EDIFFS:
+-4590.00518.00
+6950
+Set Reg 31 with val: 42
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4277
+1406
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+9B - 3
+0 - 4
+0 - 5
+14 - 6
+6 - 7
+
+d.both:
+1406
+Recieved: 25 with E1:5126 & E2:0 degrees
+11863
+EDIFFS:
+-4608.00518.00
+6850
+Set Reg 31 with val: 41
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4177
+1417
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+95 - 3
+0 - 4
+0 - 5
+14 - 6
+17 - 7
+
+d.both:
+1417
+Recieved: 25 with E1:5143 & E2:0 degrees
+11886
+EDIFFS:
+-4625.00518.00
+6650
+Set Reg 31 with val: 39
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3977
+1428
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+8E - 3
+0 - 4
+0 - 5
+14 - 6
+28 - 7
+
+d.both:
+1428
+Recieved: 25 with E1:5160 & E2:0 degrees
+11911
+EDIFFS:
+-4642.00518.00
+6450
+Set Reg 31 with val: 37
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3777
+143A
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+88 - 3
+0 - 4
+0 - 5
+14 - 6
+3A - 7
+
+d.both:
+143A
+Recieved: 25 with E1:5178 & E2:0 degrees
+11934
+EDIFFS:
+-4660.00518.00
+6350
+Set Reg 31 with val: 36
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3677
+144B
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+82 - 3
+0 - 4
+0 - 5
+14 - 6
+4B - 7
+
+d.both:
+144B
+Recieved: 25 with E1:5195 & E2:0 degrees
+11959
+EDIFFS:
+-4677.00518.00
+6150
+Set Reg 31 with val: 34
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3477
+145C
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+7D - 3
+0 - 4
+0 - 5
+14 - 6
+5C - 7
+
+d.both:
+145C
+Recieved: 25 with E1:5212 & E2:0 degrees
+11983
+EDIFFS:
+-4694.00518.00
+5950
+Set Reg 31 with val: 32
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3277
+146E
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+77 - 3
+0 - 4
+0 - 5
+14 - 6
+6E - 7
+
+d.both:
+146E
+Recieved: 25 with E1:5230 & E2:0 degrees
+12007
+EDIFFS:
+-4712.00518.00
+5850
+Set Reg 31 with val: 31
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3177
+147F
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+73 - 3
+0 - 4
+0 - 5
+14 - 6
+7F - 7
+
+d.both:
+147F
+Recieved: 25 with E1:5247 & E2:0 degrees
+12032
+EDIFFS:
+-4729.00518.00
+5650
+Set Reg 31 with val: 29
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+2977
+1490
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+6E - 3
+0 - 4
+0 - 5
+14 - 6
+90 - 7
+
+d.both:
+1490
+Recieved: 25 with E1:5264 & E2:0 degrees
+12056
+EDIFFS:
+-4746.00518.00
+5450
+Set Reg 31 with val: 27
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+2777
+14A1
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+6A - 3
+0 - 4
+0 - 5
+14 - 6
+A1 - 7
+
+d.both:
+14A1
+Recieved: 25 with E1:5281 & E2:0 degrees
+12080
+EDIFFS:
+-4763.00518.00
+5350
+Set Reg 31 with val: 26
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+2677
+14B3
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+66 - 3
+0 - 4
+0 - 5
+14 - 6
+B3 - 7
+
+d.both:
+14B3
+Recieved: 25 with E1:5299 & E2:0 degrees
+12104
+EDIFFS:
+-4781.00518.00
+5150
+Set Reg 31 with val: 24
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+2477
+14C5
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+63 - 3
+0 - 4
+0 - 5
+14 - 6
+C5 - 7
+
+d.both:
+14C5
+Recieved: 25 with E1:5317 & E2:0 degrees
+12129
+EDIFFS:
+-4799.00518.00
+4950
+Set Reg 31 with val: 22
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+2277
+14D6
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+5F - 3
+0 - 4
+0 - 5
+14 - 6
+D6 - 7
+
+d.both:
+14D6
+Recieved: 25 with E1:5334 & E2:0 degrees
+12152
+EDIFFS:
+-4816.00518.00
+4850
+Set Reg 31 with val: 21
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+2177
+14E7
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+5B - 3
+0 - 4
+0 - 5
+14 - 6
+E7 - 7
+
+d.both:
+14E7
+Recieved: 25 with E1:5351 & E2:0 degrees
+12177
+EDIFFS:
+-4833.00518.00
+4650
+Set Reg 31 with val: 19
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+1977
+14F8
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+59 - 3
+0 - 4
+0 - 5
+14 - 6
+F8 - 7
+
+d.both:
+14F8
+Recieved: 25 with E1:5368 & E2:0 degrees
+12200
+EDIFFS:
+-4850.00518.00
+4450
+Set Reg 31 with val: 17
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+1777
+150A
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+57 - 3
+0 - 4
+0 - 5
+15 - 6
+A - 7
+
+d.both:
+150A
+Recieved: 25 with E1:5386 & E2:0 degrees
+12225
+EDIFFS:
+-4868.00518.00
+4350
+Set Reg 31 with val: 16
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+1677
+151B
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+55 - 3
+0 - 4
+0 - 5
+15 - 6
+1B - 7
+
+d.both:
+151B
+Recieved: 25 with E1:5403 & E2:0 degrees
+12249
+EDIFFS:
+-4885.00518.00
+4150
+Set Reg 31 with val: 14
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+1477
+152C
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+52 - 3
+0 - 4
+0 - 5
+15 - 6
+2C - 7
+
+d.both:
+152C
+Recieved: 25 with E1:5420 & E2:0 degrees
+12273
+EDIFFS:
+-4902.00518.00
+3950
+Set Reg 31 with val: 12
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+1277
+153D
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+51 - 3
+0 - 4
+0 - 5
+15 - 6
+3D - 7
+
+d.both:
+153D
+Recieved: 25 with E1:5437 & E2:0 degrees
+12298
+EDIFFS:
+-4919.00518.00
+3850
+Set Reg 31 with val: 11
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+1177
+154F
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+50 - 3
+0 - 4
+0 - 5
+15 - 6
+4F - 7
+
+d.both:
+154F
+Recieved: 25 with E1:5455 & E2:0 degrees
+12321
+EDIFFS:
+-4937.00518.00
+3650
+Set Reg 31 with val: 9
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+977
+1560
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+4F - 3
+0 - 4
+0 - 5
+15 - 6
+60 - 7
+
+d.both:
+1560
+Recieved: 25 with E1:5472 & E2:0 degrees
+12346
+EDIFFS:
+-4954.00518.00
+3450
+Set Reg 31 with val: 7
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+777
+1572
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+4E - 3
+0 - 4
+0 - 5
+15 - 6
+72 - 7
+
+d.both:
+1572
+Recieved: 25 with E1:5490 & E2:0 degrees
+12369
+EDIFFS:
+-4972.00518.00
+3350
+Set Reg 31 with val: 6
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+677
+1583
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+4E - 3
+0 - 4
+0 - 5
+15 - 6
+83 - 7
+
+d.both:
+1583
+Recieved: 25 with E1:5507 & E2:0 degrees
+12394
+EDIFFS:
+-4989.00518.00
+3150
+Set Reg 31 with val: 4
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+477
+1594
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+4E - 3
+0 - 4
+0 - 5
+15 - 6
+94 - 7
+
+d.both:
+1594
+Recieved: 25 with E1:5524 & E2:0 degrees
+12418
+EDIFFS:
+-5006.00518.00
+2950
+Set Reg 31 with val: 2
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+277
+15A5
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+4E - 3
+0 - 4
+0 - 5
+15 - 6
+A5 - 7
+
+d.both:
+15A5
+Recieved: 25 with E1:5541 & E2:0 degrees
+12442
+EDIFFS:
+-5023.00518.00
+2850
+Set Reg 31 with val: 1
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+177
+15B6
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+4E - 3
+0 - 4
+0 - 5
+15 - 6
+B6 - 7
+
+d.both:
+15B6
+Recieved: 25 with E1:5558 & E2:0 degrees
+12466
+EDIFFS:
+-5040.00518.00
+2650
+Set Reg 31 with val: -1
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-177
+15C8
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+4E - 3
+0 - 4
+0 - 5
+15 - 6
+C8 - 7
+
+d.both:
+15C8
+Recieved: 25 with E1:5576 & E2:0 degrees
+12490
+EDIFFS:
+-5058.00518.00
+2450
+Set Reg 31 with val: -3
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-377
+15D9
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+4F - 3
+0 - 4
+0 - 5
+15 - 6
+D9 - 7
+
+d.both:
+15D9
+Recieved: 25 with E1:5593 & E2:0 degrees
+12514
+EDIFFS:
+-5075.00518.00
+2350
+Set Reg 31 with val: -4
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-477
+15EA
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+4F - 3
+0 - 4
+0 - 5
+15 - 6
+EA - 7
+
+d.both:
+15EA
+Recieved: 25 with E1:5610 & E2:0 degrees
+12538
+EDIFFS:
+-5092.00518.00
+2150
+Set Reg 31 with val: -6
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-677
+15FC
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+4F - 3
+0 - 4
+0 - 5
+15 - 6
+FC - 7
+
+d.both:
+15FC
+Recieved: 25 with E1:5628 & E2:0 degrees
+12563
+EDIFFS:
+-5110.00518.00
+1950
+Set Reg 31 with val: -8
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-877
+160D
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+4E - 3
+0 - 4
+0 - 5
+16 - 6
+D - 7
+
+d.both:
+160D
+Recieved: 25 with E1:5645 & E2:0 degrees
+12587
+EDIFFS:
+-5127.00518.00
+1850
+Set Reg 31 with val: -9
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-977
+161E
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+4E - 3
+0 - 4
+0 - 5
+16 - 6
+1E - 7
+
+d.both:
+161E
+Recieved: 25 with E1:5662 & E2:0 degrees
+12611
+EDIFFS:
+-5144.00518.00
+1650
+Set Reg 31 with val: -11
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-1177
+1630
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+4D - 3
+0 - 4
+0 - 5
+16 - 6
+30 - 7
+
+d.both:
+1630
+Recieved: 25 with E1:5680 & E2:0 degrees
+12636
+EDIFFS:
+-5162.00518.00
+1450
+Set Reg 31 with val: -13
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-1377
+1641
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+4B - 3
+0 - 4
+0 - 5
+16 - 6
+41 - 7
+
+d.both:
+1641
+Recieved: 25 with E1:5697 & E2:0 degrees
+12660
+EDIFFS:
+-5179.00518.00
+1350
+Set Reg 31 with val: -14
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-1477
+1652
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+48 - 3
+0 - 4
+0 - 5
+16 - 6
+52 - 7
+
+d.both:
+1652
+Recieved: 25 with E1:5714 & E2:0 degrees
+12684
+EDIFFS:
+-5196.00518.00
+1150
+Set Reg 31 with val: -16
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-1677
+1664
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+46 - 3
+0 - 4
+0 - 5
+16 - 6
+64 - 7
+
+d.both:
+1664
+Recieved: 25 with E1:5732 & E2:0 degrees
+12708
+EDIFFS:
+-5214.00518.00
+950
+Set Reg 31 with val: -18
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-1877
+1675
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+44 - 3
+0 - 4
+0 - 5
+16 - 6
+75 - 7
+
+d.both:
+1675
+Recieved: 25 with E1:5749 & E2:0 degrees
+12733
+EDIFFS:
+-5231.00518.00
+850
+Set Reg 31 with val: -19
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-1977
+1687
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+41 - 3
+0 - 4
+0 - 5
+16 - 6
+87 - 7
+
+d.both:
+1687
+Recieved: 25 with E1:5767 & E2:0 degrees
+12758
+EDIFFS:
+-5249.00518.00
+650
+Set Reg 31 with val: -21
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-2177
+1698
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+3D - 3
+0 - 4
+0 - 5
+16 - 6
+98 - 7
+
+d.both:
+1698
+Recieved: 25 with E1:5784 & E2:0 degrees
+12781
+EDIFFS:
+-5266.00518.00
+450
+Set Reg 31 with val: -23
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-2377
+16AA
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+3A - 3
+0 - 4
+0 - 5
+16 - 6
+AA - 7
+
+d.both:
+16AA
+Recieved: 25 with E1:5802 & E2:0 degrees
+12806
+EDIFFS:
+-5284.00518.00
+250
+Set Reg 31 with val: -25
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-2577
+16BB
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+36 - 3
+0 - 4
+0 - 5
+16 - 6
+BB - 7
+
+d.both:
+16BB
+Recieved: 25 with E1:5819 & E2:0 degrees
+12830
+EDIFFS:
+-5301.00518.00
+150
+Set Reg 31 with val: -26
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-2677
+16CC
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+32 - 3
+0 - 4
+0 - 5
+16 - 6
+CC - 7
+
+d.both:
+16CC
+Recieved: 25 with E1:5836 & E2:0 degrees
+12855
+EDIFFS:
+-5318.00518.00
+-150
+Set Reg 31 with val: -28
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-2877
+16DE
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+2D - 3
+0 - 4
+0 - 5
+16 - 6
+DE - 7
+
+d.both:
+16DE
+Recieved: 25 with E1:5854 & E2:0 degrees
+12879
+EDIFFS:
+-5336.00518.00
+-350
+Set Reg 31 with val: -30
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-3077
+16EF
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+29 - 3
+0 - 4
+0 - 5
+16 - 6
+EF - 7
+
+d.both:
+16EF
+Recieved: 25 with E1:5871 & E2:0 degrees
+12903
+EDIFFS:
+-5353.00518.00
+-450
+Set Reg 31 with val: -31
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-3177
+1701
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+23 - 3
+0 - 4
+0 - 5
+17 - 6
+1 - 7
+
+d.both:
+1701
+Recieved: 25 with E1:5889 & E2:0 degrees
+12928
+EDIFFS:
+-5371.00518.00
+-650
+Set Reg 31 with val: -33
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-3377
+1712
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+1E - 3
+0 - 4
+0 - 5
+17 - 6
+12 - 7
+
+d.both:
+1712
+Recieved: 25 with E1:5906 & E2:0 degrees
+12952
+EDIFFS:
+-5388.00518.00
+-850
+Set Reg 31 with val: -35
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-3577
+1724
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+18 - 3
+0 - 4
+0 - 5
+17 - 6
+24 - 7
+
+d.both:
+1724
+Recieved: 25 with E1:5924 & E2:0 degrees
+12977
+EDIFFS:
+-5406.00518.00
+-950
+Set Reg 31 with val: -36
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-3677
+1736
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+12 - 3
+0 - 4
+0 - 5
+17 - 6
+36 - 7
+
+d.both:
+1736
+Recieved: 25 with E1:5942 & E2:0 degrees
+13000
+EDIFFS:
+-5424.00518.00
+-1150
+Set Reg 31 with val: -38
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-3877
+1748
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+B - 3
+0 - 4
+0 - 5
+17 - 6
+48 - 7
+
+d.both:
+1748
+Recieved: 25 with E1:5960 & E2:0 degrees
+13025
+EDIFFS:
+-5442.00518.00
+-1350
+Set Reg 31 with val: -40
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-4077
+1759
+Serial Buffer: FF - 0
+FF - 1
+FA - 2
+5 - 3
+0 - 4
+0 - 5
+17 - 6
+59 - 7
+
+d.both:
+1759
+Recieved: 25 with E1:5977 & E2:0 degrees
+13049
+EDIFFS:
+-5459.00518.00
+-1450
+Set Reg 31 with val: -41
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-4177
+176A
+Serial Buffer: FF - 0
+FF - 1
+F9 - 2
+FE - 3
+0 - 4
+0 - 5
+17 - 6
+6A - 7
+
+d.both:
+176A
+Recieved: 25 with E1:5994 & E2:0 degrees
+13074
+EDIFFS:
+-5476.00518.00
+-1650
+Set Reg 31 with val: -43
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-4377
+177B
+Serial Buffer: FF - 0
+FF - 1
+F9 - 2
+F7 - 3
+0 - 4
+0 - 5
+17 - 6
+7B - 7
+
+d.both:
+177B
+Recieved: 25 with E1:6011 & E2:0 degrees
+13099
+EDIFFS:
+-5493.00518.00
+-1850
+Set Reg 31 with val: -45
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-4577
+178E
+Serial Buffer: FF - 0
+FF - 1
+F9 - 2
+EF - 3
+0 - 4
+0 - 5
+17 - 6
+8E - 7
+
+d.both:
+178E
+Recieved: 25 with E1:6030 & E2:0 degrees
+13123
+EDIFFS:
+-5512.00518.00
+-2050
+Set Reg 31 with val: -47
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-4777
+179F
+Serial Buffer: FF - 0
+FF - 1
+F9 - 2
+E7 - 3
+0 - 4
+0 - 5
+17 - 6
+9F - 7
+
+d.both:
+179F
+Recieved: 25 with E1:6047 & E2:0 degrees
+13147
+EDIFFS:
+-5529.00518.00
+-2150
+Set Reg 31 with val: -48
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-4877
+17B0
+Serial Buffer: FF - 0
+FF - 1
+F9 - 2
+DF - 3
+0 - 4
+0 - 5
+17 - 6
+B0 - 7
+
+d.both:
+17B0
+Recieved: 25 with E1:6064 & E2:0 degrees
+13171
+EDIFFS:
+-5546.00518.00
+-2350
+Set Reg 31 with val: -50
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-5077
+17C2
+Serial Buffer: FF - 0
+FF - 1
+F9 - 2
+D6 - 3
+0 - 4
+0 - 5
+17 - 6
+C2 - 7
+
+d.both:
+17C2
+Recieved: 25 with E1:6082 & E2:0 degrees
+13196
+EDIFFS:
+-5564.00518.00
+-2550
+Set Reg 31 with val: -52
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-5277
+17D4
+Serial Buffer: FF - 0
+FF - 1
+F9 - 2
+CD - 3
+0 - 4
+0 - 5
+17 - 6
+D4 - 7
+
+d.both:
+17D4
+Recieved: 25 with E1:6100 & E2:0 degrees
+13220
+EDIFFS:
+-5582.00518.00
+-2650
+Set Reg 31 with val: -53
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-5377
+17E5
+Serial Buffer: FF - 0
+FF - 1
+F9 - 2
+C4 - 3
+0 - 4
+0 - 5
+17 - 6
+E5 - 7
+
+d.both:
+17E5
+Recieved: 25 with E1:6117 & E2:0 degrees
+13245
+EDIFFS:
+-5599.00518.00
+-2850
+Set Reg 31 with val: -55
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-5577
+17F7
+Serial Buffer: FF - 0
+FF - 1
+F9 - 2
+BB - 3
+0 - 4
+0 - 5
+17 - 6
+F7 - 7
+
+d.both:
+17F7
+Recieved: 25 with E1:6135 & E2:0 degrees
+13270
+EDIFFS:
+-5617.00518.00
+-3050
+Set Reg 31 with val: -57
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-5777
+1808
+Serial Buffer: FF - 0
+FF - 1
+F9 - 2
+B1 - 3
+0 - 4
+0 - 5
+18 - 6
+8 - 7
+
+d.both:
+1808
+Recieved: 25 with E1:6152 & E2:0 degrees
+13294
+EDIFFS:
+-5634.00518.00
+-3150
+Set Reg 31 with val: -58
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-5877
+181A
+Serial Buffer: FF - 0
+FF - 1
+F9 - 2
+A7 - 3
+0 - 4
+0 - 5
+18 - 6
+1A - 7
+
+d.both:
+181A
+Recieved: 25 with E1:6170 & E2:0 degrees
+13319
+EDIFFS:
+-5652.00518.00
+-3350
+Set Reg 31 with val: -60
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-6077
+182B
+Serial Buffer: FF - 0
+FF - 1
+F9 - 2
+9C - 3
+0 - 4
+0 - 5
+18 - 6
+2B - 7
+
+d.both:
+182B
+Recieved: 25 with E1:6187 & E2:0 degrees
+13343
+EDIFFS:
+-5669.00518.00
+-3550
+Set Reg 31 with val: -62
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-6277
+183D
+Serial Buffer: FF - 0
+FF - 1
+F9 - 2
+91 - 3
+0 - 4
+0 - 5
+18 - 6
+3D - 7
+
+d.both:
+183D
+Recieved: 25 with E1:6205 & E2:0 degrees
+13367
+EDIFFS:
+-5687.00518.00
+-3650
+Set Reg 31 with val: -63
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-6377
+184E
+Serial Buffer: FF - 0
+FF - 1
+F9 - 2
+86 - 3
+0 - 4
+0 - 5
+18 - 6
+4E - 7
+
+d.both:
+184E
+Recieved: 25 with E1:6222 & E2:0 degrees
+13391
+EDIFFS:
+-5704.00518.00
+-3850
+Set Reg 31 with val: -65
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-6577
+1860
+Serial Buffer: FF - 0
+FF - 1
+F9 - 2
+7B - 3
+0 - 4
+0 - 5
+18 - 6
+60 - 7
+
+d.both:
+1860
+Recieved: 25 with E1:6240 & E2:0 degrees
+13416
+EDIFFS:
+-5722.00518.00
+-4050
+Set Reg 31 with val: -67
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-6777
+1871
+Serial Buffer: FF - 0
+FF - 1
+F9 - 2
+6F - 3
+0 - 4
+0 - 5
+18 - 6
+71 - 7
+
+d.both:
+1871
+Recieved: 25 with E1:6257 & E2:0 degrees
+13441
+EDIFFS:
+-5739.00518.00
+-4150
+Set Reg 31 with val: -68
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-6877
+1882
+Serial Buffer: FF - 0
+FF - 1
+F9 - 2
+62 - 3
+0 - 4
+0 - 5
+18 - 6
+82 - 7
+
+d.both:
+1882
+Recieved: 25 with E1:6274 & E2:0 degrees
+13465
+EDIFFS:
+-5756.00518.00
+-4350
+Set Reg 31 with val: -70
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-7077
+1894
+Serial Buffer: FF - 0
+FF - 1
+F9 - 2
+56 - 3
+0 - 4
+0 - 5
+18 - 6
+94 - 7
+
+d.both:
+1894
+Recieved: 25 with E1:6292 & E2:0 degrees
+13490
+EDIFFS:
+-5774.00518.00
+-4550
+Set Reg 31 with val: -72
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-7277
+18A5
+Serial Buffer: FF - 0
+FF - 1
+F9 - 2
+49 - 3
+0 - 4
+0 - 5
+18 - 6
+A5 - 7
+
+d.both:
+18A5
+Recieved: 25 with E1:6309 & E2:0 degrees
+13514
+EDIFFS:
+-5791.00518.00
+-4650
+Set Reg 31 with val: -73
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-7377
+18B7
+Serial Buffer: FF - 0
+FF - 1
+F9 - 2
+3C - 3
+0 - 4
+0 - 5
+18 - 6
+B7 - 7
+
+d.both:
+18B7
+Recieved: 25 with E1:6327 & E2:0 degrees
+13539
+EDIFFS:
+-5809.00518.00
+-4850
+Set Reg 31 with val: -75
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-7577
+18C8
+Serial Buffer: FF - 0
+FF - 1
+F9 - 2
+2F - 3
+0 - 4
+0 - 5
+18 - 6
+C8 - 7
+
+d.both:
+18C8
+Recieved: 25 with E1:6344 & E2:0 degrees
+13562
+EDIFFS:
+-5826.00518.00
+-5050
+Set Reg 31 with val: -77
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-7777
+18DA
+Serial Buffer: FF - 0
+FF - 1
+F9 - 2
+21 - 3
+0 - 4
+0 - 5
+18 - 6
+DA - 7
+
+d.both:
+18DA
+Recieved: 25 with E1:6362 & E2:0 degrees
+13587
+EDIFFS:
+-5844.00518.00
+-5250
+Set Reg 31 with val: -79
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-7977
+18EC
+Serial Buffer: FF - 0
+FF - 1
+F9 - 2
+13 - 3
+0 - 4
+0 - 5
+18 - 6
+EC - 7
+
+d.both:
+18EC
+Recieved: 25 with E1:6380 & E2:0 degrees
+13612
+EDIFFS:
+-5862.00518.00
+-5350
+Set Reg 31 with val: -80
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-8077
+18FD
+Serial Buffer: FF - 0
+FF - 1
+F9 - 2
+5 - 3
+0 - 4
+0 - 5
+18 - 6
+FD - 7
+
+d.both:
+18FD
+Recieved: 25 with E1:6397 & E2:0 degrees
+13636
+EDIFFS:
+-5879.00518.00
+-5550
+Set Reg 31 with val: -82
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-8277
+190F
+Serial Buffer: FF - 0
+FF - 1
+F8 - 2
+F7 - 3
+0 - 4
+0 - 5
+19 - 6
+F - 7
+
+d.both:
+190F
+Recieved: 25 with E1:6415 & E2:0 degrees
+13661
+EDIFFS:
+-5897.00518.00
+-5750
+Set Reg 31 with val: -84
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-8477
+1920
+Serial Buffer: FF - 0
+FF - 1
+F8 - 2
+E8 - 3
+0 - 4
+0 - 5
+19 - 6
+20 - 7
+
+d.both:
+1920
+Recieved: 25 with E1:6432 & E2:0 degrees
+13685
+EDIFFS:
+-5914.00518.00
+-5850
+Set Reg 31 with val: -85
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-8577
+1932
+Serial Buffer: FF - 0
+FF - 1
+F8 - 2
+D9 - 3
+0 - 4
+0 - 5
+19 - 6
+32 - 7
+
+d.both:
+1932
+Recieved: 25 with E1:6450 & E2:0 degrees
+13710
+EDIFFS:
+-5932.00518.00
+-6050
+Set Reg 31 with val: -87
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-8777
+1943
+Serial Buffer: FF - 0
+FF - 1
+F8 - 2
+CA - 3
+0 - 4
+0 - 5
+19 - 6
+43 - 7
+
+d.both:
+1943
+Recieved: 25 with E1:6467 & E2:0 degrees
+13733
+EDIFFS:
+-5949.00518.00
+-6250
+Set Reg 31 with val: -89
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-8977
+1955
+Serial Buffer: FF - 0
+FF - 1
+F8 - 2
+B9 - 3
+0 - 4
+0 - 5
+19 - 6
+55 - 7
+
+d.both:
+1955
+Recieved: 25 with E1:6485 & E2:0 degrees
+13758
+EDIFFS:
+-5967.00518.00
+-6350
+Set Reg 31 with val: -90
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-9077
+1966
+Serial Buffer: FF - 0
+FF - 1
+F8 - 2
+A8 - 3
+0 - 4
+0 - 5
+19 - 6
+66 - 7
+
+d.both:
+1966
+Recieved: 25 with E1:6502 & E2:0 degrees
+13783
+EDIFFS:
+-5984.00518.00
+-6550
+Set Reg 31 with val: -92
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-9277
+1978
+Serial Buffer: FF - 0
+FF - 1
+F8 - 2
+98 - 3
+0 - 4
+0 - 5
+19 - 6
+78 - 7
+
+d.both:
+1978
+Recieved: 25 with E1:6520 & E2:0 degrees
+13807
+EDIFFS:
+-6002.00518.00
+-6750
+Set Reg 31 with val: -94
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-9477
+1989
+Serial Buffer: FF - 0
+FF - 1
+F8 - 2
+87 - 3
+0 - 4
+0 - 5
+19 - 6
+89 - 7
+
+d.both:
+1989
+Recieved: 25 with E1:6537 & E2:0 degrees
+13832
+EDIFFS:
+-6019.00518.00
+-6850
+Set Reg 31 with val: -95
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-9577
+199B
+Serial Buffer: FF - 0
+FF - 1
+F8 - 2
+77 - 3
+0 - 4
+0 - 5
+19 - 6
+9B - 7
+
+d.both:
+199B
+Recieved: 25 with E1:6555 & E2:0 degrees
+13856
+EDIFFS:
+-6037.00518.00
+-7050
+Set Reg 31 with val: -97
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-9777
+19AD
+Serial Buffer: FF - 0
+FF - 1
+F8 - 2
+65 - 3
+0 - 4
+0 - 5
+19 - 6
+AD - 7
+
+d.both:
+19AD
+Recieved: 25 with E1:6573 & E2:0 degrees
+13881
+EDIFFS:
+-6055.00518.00
+-7250
+Set Reg 31 with val: -99
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-9977
+19BE
+Serial Buffer: FF - 0
+FF - 1
+F8 - 2
+53 - 3
+0 - 4
+0 - 5
+19 - 6
+BE - 7
+
+d.both:
+19BE
+Recieved: 25 with E1:6590 & E2:0 degrees
+13904
+EDIFFS:
+-6072.00518.00
+-7450
+Set Reg 31 with val: -101
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-10177
+19D0
+Serial Buffer: FF - 0
+FF - 1
+F8 - 2
+41 - 3
+0 - 4
+0 - 5
+19 - 6
+D0 - 7
+
+d.both:
+19D0
+Recieved: 25 with E1:6608 & E2:0 degrees
+13929
+EDIFFS:
+-6090.00518.00
+-7550
+Set Reg 31 with val: -102
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-10277
+19E2
+Serial Buffer: FF - 0
+FF - 1
+F8 - 2
+2F - 3
+0 - 4
+0 - 5
+19 - 6
+E2 - 7
+
+d.both:
+19E2
+Recieved: 25 with E1:6626 & E2:0 degrees
+13955
+EDIFFS:
+-6108.00518.00
+-7750
+Set Reg 31 with val: -104
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-10477
+19F4
+Serial Buffer: FF - 0
+FF - 1
+F8 - 2
+1C - 3
+0 - 4
+0 - 5
+19 - 6
+F4 - 7
+
+d.both:
+19F4
+Recieved: 25 with E1:6644 & E2:0 degrees
+13979
+EDIFFS:
+-6126.00518.00
+-7950
+Set Reg 31 with val: -106
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-10677
+1A05
+Serial Buffer: FF - 0
+FF - 1
+F8 - 2
+8 - 3
+0 - 4
+0 - 5
+1A - 6
+5 - 7
+
+d.both:
+1A05
+Recieved: 25 with E1:6661 & E2:0 degrees
+14003
+EDIFFS:
+-6143.00518.00
+-8050
+Set Reg 31 with val: -107
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-10777
+1A16
+Serial Buffer: FF - 0
+FF - 1
+F7 - 2
+F5 - 3
+0 - 4
+0 - 5
+1A - 6
+16 - 7
+
+d.both:
+1A16
+Recieved: 25 with E1:6678 & E2:0 degrees
+14027
+EDIFFS:
+-6160.00518.00
+-8250
+Set Reg 31 with val: -109
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-10977
+1A28
+Serial Buffer: FF - 0
+FF - 1
+F7 - 2
+E1 - 3
+0 - 4
+0 - 5
+1A - 6
+28 - 7
+
+d.both:
+1A28
+Recieved: 25 with E1:6696 & E2:0 degrees
+14052
+EDIFFS:
+-6178.00518.00
+-8450
+Set Reg 31 with val: -111
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-11177
+1A3A
+Serial Buffer: FF - 0
+FF - 1
+F7 - 2
+CD - 3
+0 - 4
+0 - 5
+1A - 6
+3A - 7
+
+d.both:
+1A3A
+Recieved: 25 with E1:6714 & E2:0 degrees
+14077
+EDIFFS:
+-6196.00518.00
+-8650
+Set Reg 31 with val: -113
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-11377
+1A4B
+Serial Buffer: FF - 0
+FF - 1
+F7 - 2
+B9 - 3
+0 - 4
+0 - 5
+1A - 6
+4B - 7
+
+d.both:
+1A4B
+Recieved: 25 with E1:6731 & E2:0 degrees
+14102
+EDIFFS:
+-6213.00518.00
+-8750
+Set Reg 31 with val: -114
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-11477
+1A5D
+Serial Buffer: FF - 0
+FF - 1
+F7 - 2
+A4 - 3
+0 - 4
+0 - 5
+1A - 6
+5D - 7
+
+d.both:
+1A5D
+Recieved: 25 with E1:6749 & E2:0 degrees
+14127
+EDIFFS:
+-6231.00518.00
+-8950
+Set Reg 31 with val: -116
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-11677
+1A6E
+Serial Buffer: FF - 0
+FF - 1
+F7 - 2
+8F - 3
+0 - 4
+0 - 5
+1A - 6
+6E - 7
+
+d.both:
+1A6E
+Recieved: 25 with E1:6766 & E2:0 degrees
+14151
+EDIFFS:
+-6248.00518.00
+-9150
+Set Reg 31 with val: -118
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-11877
+1A80
+Serial Buffer: FF - 0
+FF - 1
+F7 - 2
+79 - 3
+0 - 4
+0 - 5
+1A - 6
+80 - 7
+
+d.both:
+1A80
+Recieved: 25 with E1:6784 & E2:0 degrees
+14176
+EDIFFS:
+-6266.00518.00
+-9250
+Set Reg 31 with val: -119
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-11977
+1A92
+Serial Buffer: FF - 0
+FF - 1
+F7 - 2
+64 - 3
+0 - 4
+0 - 5
+1A - 6
+92 - 7
+
+d.both:
+1A92
+Recieved: 25 with E1:6802 & E2:0 degrees
+14200
+EDIFFS:
+-6284.00518.00
+-9450
+Set Reg 31 with val: -121
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-12177
+1AA4
+Serial Buffer: FF - 0
+FF - 1
+F7 - 2
+4E - 3
+0 - 4
+0 - 5
+1A - 6
+A4 - 7
+
+d.both:
+1AA4
+Recieved: 25 with E1:6820 & E2:0 degrees
+14225
+EDIFFS:
+-6302.00518.00
+-9650
+Set Reg 31 with val: -123
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-12377
+1AB5
+Serial Buffer: FF - 0
+FF - 1
+F7 - 2
+38 - 3
+0 - 4
+0 - 5
+1A - 6
+B5 - 7
+
+d.both:
+1AB5
+Recieved: 25 with E1:6837 & E2:0 degrees
+14249
+EDIFFS:
+-6319.00518.00
+-9750
+Set Reg 31 with val: -124
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-12477
+1AC6
+Serial Buffer: FF - 0
+FF - 1
+F7 - 2
+21 - 3
+0 - 4
+0 - 5
+1A - 6
+C6 - 7
+
+d.both:
+1AC6
+Recieved: 25 with E1:6854 & E2:0 degrees
+14274
+EDIFFS:
+-6336.00518.00
+-9950
+Set Reg 31 with val: -126
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-12677
+1AD8
+Serial Buffer: FF - 0
+FF - 1
+F7 - 2
+A - 3
+0 - 4
+0 - 5
+1A - 6
+D8 - 7
+
+d.both:
+1AD8
+Recieved: 25 with E1:6872 & E2:0 degrees
+14299
+EDIFFS:
+-6354.00518.00
+-10150
+Set Reg 31 with val: -128
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-12877
+1AEA
+Serial Buffer: FF - 0
+FF - 1
+F6 - 2
+F3 - 3
+0 - 4
+0 - 5
+1A - 6
+EA - 7
+
+d.both:
+1AEA
+Recieved: 25 with E1:6890 & E2:0 degrees
+14323
+EDIFFS:
+-6372.00518.00
+-10350
+Set Reg 31 with val: 126
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+12677
+1AFC
+Serial Buffer: FF - 0
+FF - 1
+F6 - 2
+DB - 3
+0 - 4
+0 - 5
+1A - 6
+FC - 7
+
+d.both:
+1AFC
+Recieved: 25 with E1:6908 & E2:0 degrees
+14348
+EDIFFS:
+-6390.00518.00
+-10450
+Set Reg 31 with val: 125
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+12577
+1B0D
+Serial Buffer: FF - 0
+FF - 1
+F6 - 2
+C4 - 3
+0 - 4
+0 - 5
+1B - 6
+D - 7
+
+d.both:
+1B0D
+Recieved: 25 with E1:6925 & E2:0 degrees
+14372
+EDIFFS:
+-6407.00518.00
+-10650
+Set Reg 31 with val: 123
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+12377
+1B1F
+Serial Buffer: FF - 0
+FF - 1
+F6 - 2
+AD - 3
+0 - 4
+0 - 5
+1B - 6
+1F - 7
+
+d.both:
+1B1F
+Recieved: 25 with E1:6943 & E2:0 degrees
+14397
+EDIFFS:
+-6425.00518.00
+-10850
+Set Reg 31 with val: 121
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+12177
+1B30
+Serial Buffer: FF - 0
+FF - 1
+F6 - 2
+95 - 3
+0 - 4
+0 - 5
+1B - 6
+30 - 7
+
+d.both:
+1B30
+Recieved: 25 with E1:6960 & E2:0 degrees
+14422
+EDIFFS:
+-6442.00518.00
+-10950
+Set Reg 31 with val: 120
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+12077
+1B42
+Serial Buffer: FF - 0
+FF - 1
+F6 - 2
+7F - 3
+0 - 4
+0 - 5
+1B - 6
+42 - 7
+
+d.both:
+1B42
+Recieved: 25 with E1:6978 & E2:0 degrees
+14446
+EDIFFS:
+-6460.00518.00
+-11150
+Set Reg 31 with val: 118
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+11877
+1B53
+Serial Buffer: FF - 0
+FF - 1
+F6 - 2
+69 - 3
+0 - 4
+0 - 5
+1B - 6
+53 - 7
+
+d.both:
+1B53
+Recieved: 25 with E1:6995 & E2:0 degrees
+14471
+EDIFFS:
+-6477.00518.00
+-11350
+Set Reg 31 with val: 116
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+11677
+1B64
+Serial Buffer: FF - 0
+FF - 1
+F6 - 2
+54 - 3
+0 - 4
+0 - 5
+1B - 6
+64 - 7
+
+d.both:
+1B64
+Recieved: 25 with E1:7012 & E2:0 degrees
+14495
+EDIFFS:
+-6494.00518.00
+-11450
+Set Reg 31 with val: 115
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+11577
+1B77
+Serial Buffer: FF - 0
+FF - 1
+F6 - 2
+3E - 3
+0 - 4
+0 - 5
+1B - 6
+77 - 7
+
+d.both:
+1B77
+Recieved: 25 with E1:7031 & E2:0 degrees
+14520
+EDIFFS:
+-6513.00518.00
+-11650
+Set Reg 31 with val: 113
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+11377
+1B88
+Serial Buffer: FF - 0
+FF - 1
+F6 - 2
+28 - 3
+0 - 4
+0 - 5
+1B - 6
+88 - 7
+
+d.both:
+1B88
+Recieved: 25 with E1:7048 & E2:0 degrees
+14544
+EDIFFS:
+-6530.00518.00
+-11850
+Set Reg 31 with val: 111
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+11177
+1B9A
+Serial Buffer: FF - 0
+FF - 1
+F6 - 2
+13 - 3
+0 - 4
+0 - 5
+1B - 6
+9A - 7
+
+d.both:
+1B9A
+Recieved: 25 with E1:7066 & E2:0 degrees
+14569
+EDIFFS:
+-6548.00518.00
+-12050
+Set Reg 31 with val: 109
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+10977
+1BAC
+Serial Buffer: FF - 0
+FF - 1
+F5 - 2
+FF - 3
+0 - 4
+0 - 5
+1B - 6
+AC - 7
+
+d.both:
+1BAC
+Recieved: 25 with E1:7084 & E2:0 degrees
+14593
+EDIFFS:
+-6566.00518.00
+-12150
+Set Reg 31 with val: 108
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+10877
+1BBD
+Serial Buffer: FF - 0
+FF - 1
+F5 - 2
+EB - 3
+0 - 4
+0 - 5
+1B - 6
+BD - 7
+
+d.both:
+1BBD
+Recieved: 25 with E1:7101 & E2:0 degrees
+14617
+EDIFFS:
+-6583.00518.00
+-12350
+Set Reg 31 with val: 106
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+10677
+1BCE
+Serial Buffer: FF - 0
+FF - 1
+F5 - 2
+D7 - 3
+0 - 4
+0 - 5
+1B - 6
+CE - 7
+
+d.both:
+1BCE
+Recieved: 25 with E1:7118 & E2:0 degrees
+14642
+EDIFFS:
+-6600.00518.00
+-12550
+Set Reg 31 with val: 104
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+10477
+1BE0
+Serial Buffer: FF - 0
+FF - 1
+F5 - 2
+C4 - 3
+0 - 4
+0 - 5
+1B - 6
+E0 - 7
+
+d.both:
+1BE0
+Recieved: 25 with E1:7136 & E2:0 degrees
+14666
+EDIFFS:
+-6618.00518.00
+-12650
+Set Reg 31 with val: 103
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+10377
+1BF2
+Serial Buffer: FF - 0
+FF - 1
+F5 - 2
+B0 - 3
+0 - 4
+0 - 5
+1B - 6
+F2 - 7
+
+d.both:
+1BF2
+Recieved: 25 with E1:7154 & E2:0 degrees
+14691
+EDIFFS:
+-6636.00518.00
+-12850
+Set Reg 31 with val: 101
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+10177
+1C03
+Serial Buffer: FF - 0
+FF - 1
+F5 - 2
+9D - 3
+0 - 4
+0 - 5
+1C - 6
+3 - 7
+
+d.both:
+1C03
+Recieved: 25 with E1:7171 & E2:0 degrees
+14715
+EDIFFS:
+-6653.00518.00
+12650
+Set Reg 31 with val: 99
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+9977
+1C15
+Serial Buffer: FF - 0
+FF - 1
+F5 - 2
+8B - 3
+0 - 4
+0 - 5
+1C - 6
+15 - 7
+
+d.both:
+1C15
+Recieved: 25 with E1:7189 & E2:0 degrees
+14740
+EDIFFS:
+-6671.00518.00
+12550
+Set Reg 31 with val: 98
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+9877
+1C26
+Serial Buffer: FF - 0
+FF - 1
+F5 - 2
+79 - 3
+0 - 4
+0 - 5
+1C - 6
+26 - 7
+
+d.both:
+1C26
+Recieved: 25 with E1:7206 & E2:0 degrees
+14764
+EDIFFS:
+-6688.00518.00
+12350
+Set Reg 31 with val: 96
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+9677
+1C37
+Serial Buffer: FF - 0
+FF - 1
+F5 - 2
+67 - 3
+0 - 4
+0 - 5
+1C - 6
+37 - 7
+
+d.both:
+1C37
+Recieved: 25 with E1:7223 & E2:0 degrees
+14788
+EDIFFS:
+-6705.00518.00
+12150
+Set Reg 31 with val: 94
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+9477
+1C49
+Serial Buffer: FF - 0
+FF - 1
+F5 - 2
+55 - 3
+0 - 4
+0 - 5
+1C - 6
+49 - 7
+
+d.both:
+1C49
+Recieved: 25 with E1:7241 & E2:0 degrees
+14813
+EDIFFS:
+-6723.00518.00
+12050
+Set Reg 31 with val: 93
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+9377
+1C5A
+Serial Buffer: FF - 0
+FF - 1
+F5 - 2
+44 - 3
+0 - 4
+0 - 5
+1C - 6
+5A - 7
+
+d.both:
+1C5A
+Recieved: 25 with E1:7258 & E2:0 degrees
+14837
+EDIFFS:
+-6740.00518.00
+11850
+Set Reg 31 with val: 91
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+9177
+1C6C
+Serial Buffer: FF - 0
+FF - 1
+F5 - 2
+33 - 3
+0 - 4
+0 - 5
+1C - 6
+6C - 7
+
+d.both:
+1C6C
+Recieved: 25 with E1:7276 & E2:0 degrees
+14861
+EDIFFS:
+-6758.00518.00
+11650
+Set Reg 31 with val: 89
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+8977
+1C7D
+Serial Buffer: FF - 0
+FF - 1
+F5 - 2
+23 - 3
+0 - 4
+0 - 5
+1C - 6
+7D - 7
+
+d.both:
+1C7D
+Recieved: 25 with E1:7293 & E2:0 degrees
+14885
+EDIFFS:
+-6775.00518.00
+11550
+Set Reg 31 with val: 88
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+8877
+1C8F
+Serial Buffer: FF - 0
+FF - 1
+F5 - 2
+12 - 3
+0 - 4
+0 - 5
+1C - 6
+8F - 7
+
+d.both:
+1C8F
+Recieved: 25 with E1:7311 & E2:0 degrees
+14910
+EDIFFS:
+-6793.00518.00
+11350
+Set Reg 31 with val: 86
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+8677
+1CA0
+Serial Buffer: FF - 0
+FF - 1
+F5 - 2
+2 - 3
+0 - 4
+0 - 5
+1C - 6
+A0 - 7
+
+d.both:
+1CA0
+Recieved: 25 with E1:7328 & E2:0 degrees
+14935
+EDIFFS:
+-6810.00518.00
+11150
+Set Reg 31 with val: 84
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+8477
+1CB2
+Serial Buffer: FF - 0
+FF - 1
+F4 - 2
+F2 - 3
+0 - 4
+0 - 5
+1C - 6
+B2 - 7
+
+d.both:
+1CB2
+Recieved: 25 with E1:7346 & E2:0 degrees
+14958
+EDIFFS:
+-6828.00518.00
+10950
+Set Reg 31 with val: 82
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+8277
+1CC3
+Serial Buffer: FF - 0
+FF - 1
+F4 - 2
+E3 - 3
+0 - 4
+0 - 5
+1C - 6
+C3 - 7
+
+d.both:
+1CC3
+Recieved: 25 with E1:7363 & E2:0 degrees
+14983
+EDIFFS:
+-6845.00518.00
+10850
+Set Reg 31 with val: 81
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+8177
+1CD4
+Serial Buffer: FF - 0
+FF - 1
+F4 - 2
+D4 - 3
+0 - 4
+0 - 5
+1C - 6
+D4 - 7
+
+d.both:
+1CD4
+Recieved: 25 with E1:7380 & E2:0 degrees
+15007
+EDIFFS:
+-6862.00518.00
+10650
+Set Reg 31 with val: 79
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7977
+1CE6
+Serial Buffer: FF - 0
+FF - 1
+F4 - 2
+C5 - 3
+0 - 4
+0 - 5
+1C - 6
+E6 - 7
+
+d.both:
+1CE6
+Recieved: 25 with E1:7398 & E2:0 degrees
+15031
+EDIFFS:
+-6880.00518.00
+10450
+Set Reg 31 with val: 77
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7777
+1CF7
+Serial Buffer: FF - 0
+FF - 1
+F4 - 2
+B7 - 3
+0 - 4
+0 - 5
+1C - 6
+F7 - 7
+
+d.both:
+1CF7
+Recieved: 25 with E1:7415 & E2:0 degrees
+15055
+EDIFFS:
+-6897.00518.00
+10350
+Set Reg 31 with val: 76
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7677
+1D08
+Serial Buffer: FF - 0
+FF - 1
+F4 - 2
+A9 - 3
+0 - 4
+0 - 5
+1D - 6
+8 - 7
+
+d.both:
+1D08
+Recieved: 25 with E1:7432 & E2:0 degrees
+15080
+EDIFFS:
+-6914.00518.00
+10150
+Set Reg 31 with val: 74
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7477
+1D19
+Serial Buffer: FF - 0
+FF - 1
+F4 - 2
+9A - 3
+0 - 4
+0 - 5
+1D - 6
+19 - 7
+
+d.both:
+1D19
+Recieved: 25 with E1:7449 & E2:0 degrees
+15104
+EDIFFS:
+-6931.00518.00
+9950
+Set Reg 31 with val: 72
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7277
+1D2B
+Serial Buffer: FF - 0
+FF - 1
+F4 - 2
+8D - 3
+0 - 4
+0 - 5
+1D - 6
+2B - 7
+
+d.both:
+1D2B
+Recieved: 25 with E1:7467 & E2:0 degrees
+15128
+EDIFFS:
+-6949.00518.00
+9850
+Set Reg 31 with val: 71
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+7177
+1D3C
+Serial Buffer: FF - 0
+FF - 1
+F4 - 2
+80 - 3
+0 - 4
+0 - 5
+1D - 6
+3C - 7
+
+d.both:
+1D3C
+Recieved: 25 with E1:7484 & E2:0 degrees
+15153
+EDIFFS:
+-6966.00518.00
+9650
+Set Reg 31 with val: 69
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6977
+1D4E
+Serial Buffer: FF - 0
+FF - 1
+F4 - 2
+73 - 3
+0 - 4
+0 - 5
+1D - 6
+4E - 7
+
+d.both:
+1D4E
+Recieved: 25 with E1:7502 & E2:0 degrees
+15176
+EDIFFS:
+-6984.00518.00
+9450
+Set Reg 31 with val: 67
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6777
+1D5F
+Serial Buffer: FF - 0
+FF - 1
+F4 - 2
+67 - 3
+0 - 4
+0 - 5
+1D - 6
+5F - 7
+
+d.both:
+1D5F
+Recieved: 25 with E1:7519 & E2:0 degrees
+15201
+EDIFFS:
+-7001.00518.00
+9350
+Set Reg 31 with val: 66
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6677
+1D70
+Serial Buffer: FF - 0
+FF - 1
+F4 - 2
+5A - 3
+0 - 4
+0 - 5
+1D - 6
+70 - 7
+
+d.both:
+1D70
+Recieved: 25 with E1:7536 & E2:0 degrees
+15224
+EDIFFS:
+-7018.00518.00
+9150
+Set Reg 31 with val: 64
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6477
+1D82
+Serial Buffer: FF - 0
+FF - 1
+F4 - 2
+4E - 3
+0 - 4
+0 - 5
+1D - 6
+82 - 7
+
+d.both:
+1D82
+Recieved: 25 with E1:7554 & E2:0 degrees
+15249
+EDIFFS:
+-7036.00518.00
+8950
+Set Reg 31 with val: 62
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6277
+1D93
+Serial Buffer: FF - 0
+FF - 1
+F4 - 2
+43 - 3
+0 - 4
+0 - 5
+1D - 6
+93 - 7
+
+d.both:
+1D93
+Recieved: 25 with E1:7571 & E2:0 degrees
+15273
+EDIFFS:
+-7053.00518.00
+8850
+Set Reg 31 with val: 61
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+6177
+1DA4
+Serial Buffer: FF - 0
+FF - 1
+F4 - 2
+38 - 3
+0 - 4
+0 - 5
+1D - 6
+A4 - 7
+
+d.both:
+1DA4
+Recieved: 25 with E1:7588 & E2:0 degrees
+15297
+EDIFFS:
+-7070.00518.00
+8650
+Set Reg 31 with val: 59
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5977
+1DB6
+Serial Buffer: FF - 0
+FF - 1
+F4 - 2
+2C - 3
+0 - 4
+0 - 5
+1D - 6
+B6 - 7
+
+d.both:
+1DB6
+Recieved: 25 with E1:7606 & E2:0 degrees
+15322
+EDIFFS:
+-7088.00518.00
+8450
+Set Reg 31 with val: 57
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5777
+1DC7
+Serial Buffer: FF - 0
+FF - 1
+F4 - 2
+22 - 3
+0 - 4
+0 - 5
+1D - 6
+C7 - 7
+
+d.both:
+1DC7
+Recieved: 25 with E1:7623 & E2:0 degrees
+15346
+EDIFFS:
+-7105.00518.00
+8350
+Set Reg 31 with val: 56
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5677
+1DD8
+Serial Buffer: FF - 0
+FF - 1
+F4 - 2
+17 - 3
+0 - 4
+0 - 5
+1D - 6
+D8 - 7
+
+d.both:
+1DD8
+Recieved: 25 with E1:7640 & E2:0 degrees
+15370
+EDIFFS:
+-7122.00518.00
+8150
+Set Reg 31 with val: 54
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5477
+1DEA
+Serial Buffer: FF - 0
+FF - 1
+F4 - 2
+D - 3
+0 - 4
+0 - 5
+1D - 6
+EA - 7
+
+d.both:
+1DEA
+Recieved: 25 with E1:7658 & E2:0 degrees
+15394
+EDIFFS:
+-7140.00518.00
+7950
+Set Reg 31 with val: 52
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5277
+1DFB
+Serial Buffer: FF - 0
+FF - 1
+F4 - 2
+3 - 3
+0 - 4
+0 - 5
+1D - 6
+FB - 7
+
+d.both:
+1DFB
+Recieved: 25 with E1:7675 & E2:0 degrees
+15418
+EDIFFS:
+-7157.00518.00
+7850
+Set Reg 31 with val: 51
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+5177
+1E0C
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+F9 - 3
+0 - 4
+0 - 5
+1E - 6
+C - 7
+
+d.both:
+1E0C
+Recieved: 25 with E1:7692 & E2:0 degrees
+15442
+EDIFFS:
+-7174.00518.00
+7650
+Set Reg 31 with val: 49
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4977
+1E1E
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+F1 - 3
+0 - 4
+0 - 5
+1E - 6
+1E - 7
+
+d.both:
+1E1E
+Recieved: 25 with E1:7710 & E2:0 degrees
+15467
+EDIFFS:
+-7192.00518.00
+7450
+Set Reg 31 with val: 47
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4777
+1E2F
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+E8 - 3
+0 - 4
+0 - 5
+1E - 6
+2F - 7
+
+d.both:
+1E2F
+Recieved: 25 with E1:7727 & E2:0 degrees
+15491
+EDIFFS:
+-7209.00518.00
+7350
+Set Reg 31 with val: 46
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4677
+1E40
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+DF - 3
+0 - 4
+0 - 5
+1E - 6
+40 - 7
+
+d.both:
+1E40
+Recieved: 25 with E1:7744 & E2:0 degrees
+15515
+EDIFFS:
+-7226.00518.00
+7150
+Set Reg 31 with val: 44
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4477
+1E52
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+D6 - 3
+0 - 4
+0 - 5
+1E - 6
+52 - 7
+
+d.both:
+1E52
+Recieved: 25 with E1:7762 & E2:0 degrees
+15539
+EDIFFS:
+-7244.00518.00
+6950
+Set Reg 31 with val: 42
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4277
+1E63
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+CF - 3
+0 - 4
+0 - 5
+1E - 6
+63 - 7
+
+d.both:
+1E63
+Recieved: 25 with E1:7779 & E2:0 degrees
+15563
+EDIFFS:
+-7261.00518.00
+6850
+Set Reg 31 with val: 41
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+4177
+1E75
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+C7 - 3
+0 - 4
+0 - 5
+1E - 6
+75 - 7
+
+d.both:
+1E75
+Recieved: 25 with E1:7797 & E2:0 degrees
+15588
+EDIFFS:
+-7279.00518.00
+6650
+Set Reg 31 with val: 39
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3977
+1E86
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+BF - 3
+0 - 4
+0 - 5
+1E - 6
+86 - 7
+
+d.both:
+1E86
+Recieved: 25 with E1:7814 & E2:0 degrees
+15611
+EDIFFS:
+-7296.00518.00
+6450
+Set Reg 31 with val: 37
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3777
+1E97
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+B9 - 3
+0 - 4
+0 - 5
+1E - 6
+97 - 7
+
+d.both:
+1E97
+Recieved: 25 with E1:7831 & E2:0 degrees
+15636
+EDIFFS:
+-7313.00518.00
+6350
+Set Reg 31 with val: 36
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3677
+1EA9
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+B2 - 3
+0 - 4
+0 - 5
+1E - 6
+A9 - 7
+
+d.both:
+1EA9
+Recieved: 25 with E1:7849 & E2:0 degrees
+15661
+EDIFFS:
+-7331.00518.00
+6150
+Set Reg 31 with val: 34
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3477
+1EBA
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+AC - 3
+0 - 4
+0 - 5
+1E - 6
+BA - 7
+
+d.both:
+1EBA
+Recieved: 25 with E1:7866 & E2:0 degrees
+15684
+EDIFFS:
+-7348.00518.00
+5950
+Set Reg 31 with val: 32
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3277
+1ECC
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+A5 - 3
+0 - 4
+0 - 5
+1E - 6
+CC - 7
+
+d.both:
+1ECC
+Recieved: 25 with E1:7884 & E2:0 degrees
+15709
+EDIFFS:
+-7366.00518.00
+5750
+Set Reg 31 with val: 30
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+3077
+1EDD
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+A0 - 3
+0 - 4
+0 - 5
+1E - 6
+DD - 7
+
+d.both:
+1EDD
+Recieved: 25 with E1:7901 & E2:0 degrees
+15733
+EDIFFS:
+-7383.00518.00
+5650
+Set Reg 31 with val: 29
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+2977
+1EEF
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+9A - 3
+0 - 4
+0 - 5
+1E - 6
+EF - 7
+
+d.both:
+1EEF
+Recieved: 25 with E1:7919 & E2:0 degrees
+15757
+EDIFFS:
+-7401.00518.00
+5450
+Set Reg 31 with val: 27
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+2777
+1F00
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+95 - 3
+0 - 4
+0 - 5
+1F - 6
+0 - 7
+
+d.both:
+1F00
+Recieved: 25 with E1:7936 & E2:0 degrees
+15781
+EDIFFS:
+-7418.00518.00
+5250
+Set Reg 31 with val: 25
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+2577
+1F11
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+90 - 3
+0 - 4
+0 - 5
+1F - 6
+11 - 7
+
+d.both:
+1F11
+Recieved: 25 with E1:7953 & E2:0 degrees
+15805
+EDIFFS:
+-7435.00518.00
+5150
+Set Reg 31 with val: 24
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+2477
+1F22
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+8C - 3
+0 - 4
+0 - 5
+1F - 6
+22 - 7
+
+d.both:
+1F22
+Recieved: 25 with E1:7970 & E2:0 degrees
+15830
+EDIFFS:
+-7452.00518.00
+4950
+Set Reg 31 with val: 22
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+2277
+1F34
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+87 - 3
+0 - 4
+0 - 5
+1F - 6
+34 - 7
+
+d.both:
+1F34
+Recieved: 25 with E1:7988 & E2:0 degrees
+15854
+EDIFFS:
+-7470.00518.00
+4750
+Set Reg 31 with val: 20
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+2077
+1F45
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+83 - 3
+0 - 4
+0 - 5
+1F - 6
+45 - 7
+
+d.both:
+1F45
+Recieved: 25 with E1:8005 & E2:0 degrees
+15878
+EDIFFS:
+-7487.00518.00
+4650
+Set Reg 31 with val: 19
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+1977
+1F56
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+80 - 3
+0 - 4
+0 - 5
+1F - 6
+56 - 7
+
+d.both:
+1F56
+Recieved: 25 with E1:8022 & E2:0 degrees
+15902
+EDIFFS:
+-7504.00518.00
+4450
+Set Reg 31 with val: 17
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+1777
+1F67
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+7D - 3
+0 - 4
+0 - 5
+1F - 6
+67 - 7
+
+d.both:
+1F67
+Recieved: 25 with E1:8039 & E2:0 degrees
+15927
+EDIFFS:
+-7521.00518.00
+4350
+Set Reg 31 with val: 16
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+1677
+1F79
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+79 - 3
+0 - 4
+0 - 5
+1F - 6
+79 - 7
+
+d.both:
+1F79
+Recieved: 25 with E1:8057 & E2:0 degrees
+15950
+EDIFFS:
+-7539.00518.00
+4150
+Set Reg 31 with val: 14
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+1477
+1F8A
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+76 - 3
+0 - 4
+0 - 5
+1F - 6
+8A - 7
+
+d.both:
+1F8A
+Recieved: 25 with E1:8074 & E2:0 degrees
+15975
+EDIFFS:
+-7556.00518.00
+3950
+Set Reg 31 with val: 12
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+1277
+1F9C
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+74 - 3
+0 - 4
+0 - 5
+1F - 6
+9C - 7
+
+d.both:
+1F9C
+Recieved: 25 with E1:8092 & E2:0 degrees
+16000
+EDIFFS:
+-7574.00518.00
+3750
+Set Reg 31 with val: 10
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+1077
+1FAD
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+72 - 3
+0 - 4
+0 - 5
+1F - 6
+AD - 7
+
+d.both:
+1FAD
+Recieved: 25 with E1:8109 & E2:0 degrees
+16023
+EDIFFS:
+-7591.00518.00
+3650
+Set Reg 31 with val: 9
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+977
+1FBE
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+70 - 3
+0 - 4
+0 - 5
+1F - 6
+BE - 7
+
+d.both:
+1FBE
+Recieved: 25 with E1:8126 & E2:0 degrees
+16048
+EDIFFS:
+-7608.00518.00
+3450
+Set Reg 31 with val: 7
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+777
+1FCF
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+6F - 3
+0 - 4
+0 - 5
+1F - 6
+CF - 7
+
+d.both:
+1FCF
+Recieved: 25 with E1:8143 & E2:0 degrees
+16071
+EDIFFS:
+-7625.00518.00
+3250
+Set Reg 31 with val: 5
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+577
+1FE1
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+6D - 3
+0 - 4
+0 - 5
+1F - 6
+E1 - 7
+
+d.both:
+1FE1
+Recieved: 25 with E1:8161 & E2:0 degrees
+16096
+EDIFFS:
+-7643.00518.00
+3150
+Set Reg 31 with val: 4
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+477
+1FF2
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+6D - 3
+0 - 4
+0 - 5
+1F - 6
+F2 - 7
+
+d.both:
+1FF2
+Recieved: 25 with E1:8178 & E2:0 degrees
+16119
+EDIFFS:
+-7660.00518.00
+2950
+Set Reg 31 with val: 2
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+277
+2003
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+6D - 3
+0 - 4
+0 - 5
+20 - 6
+3 - 7
+
+d.both:
+2003
+Recieved: 25 with E1:8195 & E2:0 degrees
+16144
+EDIFFS:
+-7677.00518.00
+2750
+Set Reg 31 with val: 0
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+077
+2015
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+6D - 3
+0 - 4
+0 - 5
+20 - 6
+15 - 7
+
+d.both:
+2015
+Recieved: 25 with E1:8213 & E2:0 degrees
+16167
+EDIFFS:
+-7695.00518.00
+2650
+Set Reg 31 with val: -1
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-177
+2026
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+6D - 3
+0 - 4
+0 - 5
+20 - 6
+26 - 7
+
+d.both:
+2026
+Recieved: 25 with E1:8230 & E2:0 degrees
+16192
+EDIFFS:
+-7712.00518.00
+2450
+Set Reg 31 with val: -3
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-377
+2037
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+6D - 3
+0 - 4
+0 - 5
+20 - 6
+37 - 7
+
+d.both:
+2037
+Recieved: 25 with E1:8247 & E2:0 degrees
+16216
+EDIFFS:
+-7729.00518.00
+2250
+Set Reg 31 with val: -5
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-577
+2048
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+6C - 3
+0 - 4
+0 - 5
+20 - 6
+48 - 7
+
+d.both:
+2048
+Recieved: 25 with E1:8264 & E2:0 degrees
+16240
+EDIFFS:
+-7746.00518.00
+2150
+Set Reg 31 with val: -6
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-677
+205A
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+6B - 3
+0 - 4
+0 - 5
+20 - 6
+5A - 7
+
+d.both:
+205A
+Recieved: 25 with E1:8282 & E2:0 degrees
+16265
+EDIFFS:
+-7764.00518.00
+1950
+Set Reg 31 with val: -8
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-877
+206B
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+6B - 3
+0 - 4
+0 - 5
+20 - 6
+6B - 7
+
+d.both:
+206B
+Recieved: 25 with E1:8299 & E2:0 degrees
+16288
+EDIFFS:
+-7781.00518.00
+1750
+Set Reg 31 with val: -10
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-1077
+207D
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+6A - 3
+0 - 4
+0 - 5
+20 - 6
+7D - 7
+
+d.both:
+207D
+Recieved: 25 with E1:8317 & E2:0 degrees
+16313
+EDIFFS:
+-7799.00518.00
+1650
+Set Reg 31 with val: -11
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-1177
+208E
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+68 - 3
+0 - 4
+0 - 5
+20 - 6
+8E - 7
+
+d.both:
+208E
+Recieved: 25 with E1:8334 & E2:0 degrees
+16337
+EDIFFS:
+-7816.00518.00
+1450
+Set Reg 31 with val: -13
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-1377
+20A0
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+65 - 3
+0 - 4
+0 - 5
+20 - 6
+A0 - 7
+
+d.both:
+20A0
+Recieved: 25 with E1:8352 & E2:0 degrees
+16362
+EDIFFS:
+-7834.00518.00
+1250
+Set Reg 31 with val: -15
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-1577
+20B1
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+63 - 3
+0 - 4
+0 - 5
+20 - 6
+B1 - 7
+
+d.both:
+20B1
+Recieved: 25 with E1:8369 & E2:0 degrees
+16386
+EDIFFS:
+-7851.00518.00
+1150
+Set Reg 31 with val: -16
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-1677
+20C3
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+61 - 3
+0 - 4
+0 - 5
+20 - 6
+C3 - 7
+
+d.both:
+20C3
+Recieved: 25 with E1:8387 & E2:0 degrees
+16410
+EDIFFS:
+-7869.00518.00
+950
+Set Reg 31 with val: -18
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-1877
+20D4
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+5F - 3
+0 - 4
+0 - 5
+20 - 6
+D4 - 7
+
+d.both:
+20D4
+Recieved: 25 with E1:8404 & E2:0 degrees
+16435
+EDIFFS:
+-7886.00518.00
+750
+Set Reg 31 with val: -20
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-2077
+20E6
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+5B - 3
+0 - 4
+0 - 5
+20 - 6
+E6 - 7
+
+d.both:
+20E6
+Recieved: 25 with E1:8422 & E2:0 degrees
+16459
+EDIFFS:
+-7904.00518.00
+650
+Set Reg 31 with val: -21
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-2177
+20F6
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+57 - 3
+0 - 4
+0 - 5
+20 - 6
+F6 - 7
+
+d.both:
+20F6
+Recieved: 25 with E1:8438 & E2:0 degrees
+16483
+EDIFFS:
+-7920.00518.00
+450
+Set Reg 31 with val: -23
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-2377
+2108
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+53 - 3
+0 - 4
+0 - 5
+21 - 6
+8 - 7
+
+d.both:
+2108
+Recieved: 25 with E1:8456 & E2:0 degrees
+16507
+EDIFFS:
+-7938.00518.00
+250
+Set Reg 31 with val: -25
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-2577
+2119
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+50 - 3
+0 - 4
+0 - 5
+21 - 6
+19 - 7
+
+d.both:
+2119
+Recieved: 25 with E1:8473 & E2:0 degrees
+16532
+EDIFFS:
+-7955.00518.00
+150
+Set Reg 31 with val: -26
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-2677
+212A
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+4C - 3
+0 - 4
+0 - 5
+21 - 6
+2A - 7
+
+d.both:
+212A
+Recieved: 25 with E1:8490 & E2:0 degrees
+16556
+EDIFFS:
+-7972.00518.00
+-150
+Set Reg 31 with val: -28
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-2877
+213C
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+47 - 3
+0 - 4
+0 - 5
+21 - 6
+3C - 7
+
+d.both:
+213C
+Recieved: 25 with E1:8508 & E2:0 degrees
+16580
+EDIFFS:
+-7990.00518.00
+-350
+Set Reg 31 with val: -30
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-3077
+214E
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+42 - 3
+0 - 4
+0 - 5
+21 - 6
+4E - 7
+
+d.both:
+214E
+Recieved: 25 with E1:8526 & E2:0 degrees
+16605
+EDIFFS:
+-8008.00518.00
+-450
+Set Reg 31 with val: -31
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-3177
+215F
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+3D - 3
+0 - 4
+0 - 5
+21 - 6
+5F - 7
+
+d.both:
+215F
+Recieved: 25 with E1:8543 & E2:0 degrees
+16629
+EDIFFS:
+-8025.00518.00
+-650
+Set Reg 31 with val: -33
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-3377
+2171
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+37 - 3
+0 - 4
+0 - 5
+21 - 6
+71 - 7
+
+d.both:
+2171
+Recieved: 25 with E1:8561 & E2:0 degrees
+16654
+EDIFFS:
+-8043.00518.00
+-850
+Set Reg 31 with val: -35
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-3577
+2182
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+31 - 3
+0 - 4
+0 - 5
+21 - 6
+82 - 7
+
+d.both:
+2182
+Recieved: 25 with E1:8578 & E2:0 degrees
+16677
+EDIFFS:
+-8060.00518.00
+-950
+Set Reg 31 with val: -36
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-3677
+2194
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+2B - 3
+0 - 4
+0 - 5
+21 - 6
+94 - 7
+
+d.both:
+2194
+Recieved: 25 with E1:8596 & E2:0 degrees
+16702
+EDIFFS:
+-8078.00518.00
+-1150
+Set Reg 31 with val: -38
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-3877
+21A5
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+24 - 3
+0 - 4
+0 - 5
+21 - 6
+A5 - 7
+
+d.both:
+21A5
+Recieved: 25 with E1:8613 & E2:0 degrees
+16727
+EDIFFS:
+-8095.00518.00
+-1350
+Set Reg 31 with val: -40
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-4077
+21B7
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+1D - 3
+0 - 4
+0 - 5
+21 - 6
+B7 - 7
+
+d.both:
+21B7
+Recieved: 25 with E1:8631 & E2:0 degrees
+16751
+EDIFFS:
+-8113.00518.00
+-1550
+Set Reg 31 with val: -42
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-4277
+21C8
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+16 - 3
+0 - 4
+0 - 5
+21 - 6
+C8 - 7
+
+d.both:
+21C8
+Recieved: 25 with E1:8648 & E2:0 degrees
+16776
+EDIFFS:
+-8130.00518.00
+-1650
+Set Reg 31 with val: -43
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-4377
+21DA
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+E - 3
+0 - 4
+0 - 5
+21 - 6
+DA - 7
+
+d.both:
+21DA
+Recieved: 25 with E1:8666 & E2:0 degrees
+16800
+EDIFFS:
+-8148.00518.00
+-1850
+Set Reg 31 with val: -45
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-4577
+21EB
+Serial Buffer: FF - 0
+FF - 1
+F3 - 2
+6 - 3
+0 - 4
+0 - 5
+21 - 6
+EB - 7
+
+d.both:
+21EB
+Recieved: 25 with E1:8683 & E2:0 degrees
+16824
+EDIFFS:
+-8165.00518.00
+-2050
+Set Reg 31 with val: -47
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-4777
+21FD
+Serial Buffer: FF - 0
+FF - 1
+F2 - 2
+FE - 3
+0 - 4
+0 - 5
+21 - 6
+FD - 7
+
+d.both:
+21FD
+Recieved: 25 with E1:8701 & E2:0 degrees
+16848
+EDIFFS:
+-8183.00518.00
+-2150
+Set Reg 31 with val: -48
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-4877
+220E
+Serial Buffer: FF - 0
+FF - 1
+F2 - 2
+F6 - 3
+0 - 4
+0 - 5
+22 - 6
+E - 7
+
+d.both:
+220E
+Recieved: 25 with E1:8718 & E2:0 degrees
+16873
+EDIFFS:
+-8200.00518.00
+-2350
+Set Reg 31 with val: -50
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-5077
+2220
+Serial Buffer: FF - 0
+FF - 1
+F2 - 2
+ED - 3
+0 - 4
+0 - 5
+22 - 6
+20 - 7
+
+d.both:
+2220
+Recieved: 25 with E1:8736 & E2:0 degrees
+16898
+EDIFFS:
+-8218.00518.00
+-2550
+Set Reg 31 with val: -52
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-5277
+2231
+Serial Buffer: FF - 0
+FF - 1
+F2 - 2
+E5 - 3
+0 - 4
+0 - 5
+22 - 6
+31 - 7
+
+d.both:
+2231
+Recieved: 25 with E1:8753 & E2:0 degrees
+16922
+EDIFFS:
+-8235.00518.00
+-2650
+Set Reg 31 with val: -53
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-5377
+2243
+Serial Buffer: FF - 0
+FF - 1
+F2 - 2
+DB - 3
+0 - 4
+0 - 5
+22 - 6
+43 - 7
+
+d.both:
+2243
+Recieved: 25 with E1:8771 & E2:0 degrees
+16947
+EDIFFS:
+-8253.00518.00
+-2850
+Set Reg 31 with val: -55
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-5577
+2254
+Serial Buffer: FF - 0
+FF - 1
+F2 - 2
+D1 - 3
+0 - 4
+0 - 5
+22 - 6
+54 - 7
+
+d.both:
+2254
+Recieved: 25 with E1:8788 & E2:0 degrees
+16971
+EDIFFS:
+-8270.00518.00
+-3050
+Set Reg 31 with val: -57
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-5777
+2266
+Serial Buffer: FF - 0
+FF - 1
+F2 - 2
+C7 - 3
+0 - 4
+0 - 5
+22 - 6
+66 - 7
+
+d.both:
+2266
+Recieved: 25 with E1:8806 & E2:0 degrees
+16996
+EDIFFS:
+-8288.00518.00
+-3250
+Set Reg 31 with val: -59
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-5977
+2277
+Serial Buffer: FF - 0
+FF - 1
+F2 - 2
+BC - 3
+0 - 4
+0 - 5
+22 - 6
+77 - 7
+
+d.both:
+2277
+Recieved: 25 with E1:8823 & E2:0 degrees
+17020
+EDIFFS:
+-8305.00518.00
+-3350
+Set Reg 31 with val: -60
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-6077
+2289
+Serial Buffer: FF - 0
+FF - 1
+F2 - 2
+B1 - 3
+0 - 4
+0 - 5
+22 - 6
+89 - 7
+
+d.both:
+2289
+Recieved: 25 with E1:8841 & E2:0 degrees
+17044
+EDIFFS:
+-8323.00518.00
+-3550
+Set Reg 31 with val: -62
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-6277
+229B
+Serial Buffer: FF - 0
+FF - 1
+F2 - 2
+A7 - 3
+0 - 4
+0 - 5
+22 - 6
+9B - 7
+
+d.both:
+229B
+Recieved: 25 with E1:8859 & E2:0 degrees
+17069
+EDIFFS:
+-8341.00518.00
+-3750
+Set Reg 31 with val: -64
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-6477
+22AC
+Serial Buffer: FF - 0
+FF - 1
+F2 - 2
+9C - 3
+0 - 4
+0 - 5
+22 - 6
+AC - 7
+
+d.both:
+22AC
+Recieved: 25 with E1:8876 & E2:0 degrees
+17093
+EDIFFS:
+-8358.00518.00
+-3850
+Set Reg 31 with val: -65
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-6577
+22BD
+Serial Buffer: FF - 0
+FF - 1
+F2 - 2
+90 - 3
+0 - 4
+0 - 5
+22 - 6
+BD - 7
+
+d.both:
+22BD
+Recieved: 25 with E1:8893 & E2:0 degrees
+17118
+EDIFFS:
+-8375.00518.00
+-4050
+Set Reg 31 with val: -67
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-6777
+22CF
+Serial Buffer: FF - 0
+FF - 1
+F2 - 2
+84 - 3
+0 - 4
+0 - 5
+22 - 6
+CF - 7
+
+d.both:
+22CF
+Recieved: 25 with E1:8911 & E2:0 degrees
+17142
+EDIFFS:
+-8393.00518.00
+-4250
+Set Reg 31 with val: -69
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-6977
+22E1
+Serial Buffer: FF - 0
+FF - 1
+F2 - 2
+77 - 3
+0 - 4
+0 - 5
+22 - 6
+E1 - 7
+
+d.both:
+22E1
+Recieved: 25 with E1:8929 & E2:0 degrees
+17167
+EDIFFS:
+-8411.00518.00
+-4350
+Set Reg 31 with val: -70
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-7077
+22F3
+Serial Buffer: FF - 0
+FF - 1
+F2 - 2
+6B - 3
+0 - 4
+0 - 5
+22 - 6
+F3 - 7
+
+d.both:
+22F3
+Recieved: 25 with E1:8947 & E2:0 degrees
+17191
+EDIFFS:
+-8429.00518.00
+-4550
+Set Reg 31 with val: -72
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-7277
+2304
+Serial Buffer: FF - 0
+FF - 1
+F2 - 2
+5E - 3
+0 - 4
+0 - 5
+23 - 6
+4 - 7
+
+d.both:
+2304
+Recieved: 25 with E1:8964 & E2:0 degrees
+17216
+EDIFFS:
+-8446.00518.00
+-4750
+Set Reg 31 with val: -74
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-7477
+2316
+Serial Buffer: FF - 0
+FF - 1
+F2 - 2
+51 - 3
+0 - 4
+0 - 5
+23 - 6
+16 - 7
+
+d.both:
+2316
+Recieved: 25 with E1:8982 & E2:0 degrees
+17241
+EDIFFS:
+-8464.00518.00
+-4850
+Set Reg 31 with val: -75
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-7577
+2327
+Serial Buffer: FF - 0
+FF - 1
+F2 - 2
+43 - 3
+0 - 4
+0 - 5
+23 - 6
+27 - 7
+
+d.both:
+2327
+Recieved: 25 with E1:8999 & E2:0 degrees
+17264
+EDIFFS:
+-8481.00518.00
+-5050
+Set Reg 31 with val: -77
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-7777
+2339
+Serial Buffer: FF - 0
+FF - 1
+F2 - 2
+35 - 3
+0 - 4
+0 - 5
+23 - 6
+39 - 7
+
+d.both:
+2339
+Recieved: 25 with E1:9017 & E2:0 degrees
+17289
+EDIFFS:
+-8499.00518.00
+-5250
+Set Reg 31 with val: -79
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-7977
+234A
+Serial Buffer: FF - 0
+FF - 1
+F2 - 2
+27 - 3
+0 - 4
+0 - 5
+23 - 6
+4A - 7
+
+d.both:
+234A
+Recieved: 25 with E1:9034 & E2:0 degrees
+17313
+EDIFFS:
+-8516.00518.00
+-5450
+Set Reg 31 with val: -81
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-8177
+235C
+Serial Buffer: FF - 0
+FF - 1
+F2 - 2
+18 - 3
+0 - 4
+0 - 5
+23 - 6
+5C - 7
+
+d.both:
+235C
+Recieved: 25 with E1:9052 & E2:0 degrees
+17338
+EDIFFS:
+-8534.00518.00
+-5550
+Set Reg 31 with val: -82
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-8277
+236D
+Serial Buffer: FF - 0
+FF - 1
+F2 - 2
+A - 3
+0 - 4
+0 - 5
+23 - 6
+6D - 7
+
+d.both:
+236D
+Recieved: 25 with E1:9069 & E2:0 degrees
+17362
+EDIFFS:
+-8551.00518.00
+-5750
+Set Reg 31 with val: -84
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-8477
+237E
+Serial Buffer: FF - 0
+FF - 1
+F1 - 2
+FA - 3
+0 - 4
+0 - 5
+23 - 6
+7E - 7
+
+d.both:
+237E
+Recieved: 25 with E1:9086 & E2:0 degrees
+17387
+EDIFFS:
+-8568.00518.00
+-5950
+Set Reg 31 with val: -86
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-8677
+2390
+Serial Buffer: FF - 0
+FF - 1
+F1 - 2
+EB - 3
+0 - 4
+0 - 5
+23 - 6
+90 - 7
+
+d.both:
+2390
+Recieved: 25 with E1:9104 & E2:0 degrees
+17412
+EDIFFS:
+-8586.00518.00
+-6050
+Set Reg 31 with val: -87
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-8777
+23A2
+Serial Buffer: FF - 0
+FF - 1
+F1 - 2
+DB - 3
+0 - 4
+0 - 5
+23 - 6
+A2 - 7
+
+d.both:
+23A2
+Recieved: 25 with E1:9122 & E2:0 degrees
+17436
+EDIFFS:
+-8604.00518.00
+-6250
+Set Reg 31 with val: -89
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-8977
+23B3
+Serial Buffer: FF - 0
+FF - 1
+F1 - 2
+CB - 3
+0 - 4
+0 - 5
+23 - 6
+B3 - 7
+
+d.both:
+23B3
+Recieved: 25 with E1:9139 & E2:0 degrees
+17461
+EDIFFS:
+-8621.00518.00
+-6450
+Set Reg 31 with val: -91
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-9177
+23C5
+Serial Buffer: FF - 0
+FF - 1
+F1 - 2
+BB - 3
+0 - 4
+0 - 5
+23 - 6
+C5 - 7
+
+d.both:
+23C5
+Recieved: 25 with E1:9157 & E2:0 degrees
+17484
+EDIFFS:
+-8639.00518.00
+-6550
+Set Reg 31 with val: -92
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-9277
+23D6
+Serial Buffer: FF - 0
+FF - 1
+F1 - 2
+AA - 3
+0 - 4
+0 - 5
+23 - 6
+D6 - 7
+
+d.both:
+23D6
+Recieved: 25 with E1:9174 & E2:0 degrees
+17509
+EDIFFS:
+-8656.00518.00
+-6750
+Set Reg 31 with val: -94
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-9477
+23E8
+Serial Buffer: FF - 0
+FF - 1
+F1 - 2
+99 - 3
+0 - 4
+0 - 5
+23 - 6
+E8 - 7
+
+d.both:
+23E8
+Recieved: 25 with E1:9192 & E2:0 degrees
+17533
+EDIFFS:
+-8674.00518.00
+-6950
+Set Reg 31 with val: -96
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-9677
+23FA
+Serial Buffer: FF - 0
+FF - 1
+F1 - 2
+87 - 3
+0 - 4
+0 - 5
+23 - 6
+FA - 7
+
+d.both:
+23FA
+Recieved: 25 with E1:9210 & E2:0 degrees
+17558
+EDIFFS:
+-8692.00518.00
+-7050
+Set Reg 31 with val: -97
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-9777
+240B
+Serial Buffer: FF - 0
+FF - 1
+F1 - 2
+76 - 3
+0 - 4
+0 - 5
+24 - 6
+B - 7
+
+d.both:
+240B
+Recieved: 25 with E1:9227 & E2:0 degrees
+17583
+EDIFFS:
+-8709.00518.00
+-7250
+Set Reg 31 with val: -99
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-9977
+241C
+Serial Buffer: FF - 0
+FF - 1
+F1 - 2
+64 - 3
+0 - 4
+0 - 5
+24 - 6
+1C - 7
+
+d.both:
+241C
+Recieved: 25 with E1:9244 & E2:0 degrees
+17607
+EDIFFS:
+-8726.00518.00
+-7450
+Set Reg 31 with val: -101
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-10177
+242E
+Serial Buffer: FF - 0
+FF - 1
+F1 - 2
+52 - 3
+0 - 4
+0 - 5
+24 - 6
+2E - 7
+
+d.both:
+242E
+Recieved: 25 with E1:9262 & E2:0 degrees
+17632
+EDIFFS:
+-8744.00518.00
+-7650
+Set Reg 31 with val: -103
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-10377
+2440
+Serial Buffer: FF - 0
+FF - 1
+F1 - 2
+3F - 3
+0 - 4
+0 - 5
+24 - 6
+40 - 7
+
+d.both:
+2440
+Recieved: 25 with E1:9280 & E2:0 degrees
+17656
+EDIFFS:
+-8762.00518.00
+-7750
+Set Reg 31 with val: -104
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-10477
+2451
+Serial Buffer: FF - 0
+FF - 1
+F1 - 2
+2B - 3
+0 - 4
+0 - 5
+24 - 6
+51 - 7
+
+d.both:
+2451
+Recieved: 25 with E1:9297 & E2:0 degrees
+17681
+EDIFFS:
+-8779.00518.00
+-7950
+Set Reg 31 with val: -106
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-10677
+2463
+Serial Buffer: FF - 0
+FF - 1
+F1 - 2
+18 - 3
+0 - 4
+0 - 5
+24 - 6
+63 - 7
+
+d.both:
+2463
+Recieved: 25 with E1:9315 & E2:0 degrees
+17705
+EDIFFS:
+-8797.00518.00
+-8150
+Set Reg 31 with val: -108
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-10877
+2475
+Serial Buffer: FF - 0
+FF - 1
+F1 - 2
+5 - 3
+0 - 4
+0 - 5
+24 - 6
+75 - 7
+
+d.both:
+2475
+Recieved: 25 with E1:9333 & E2:0 degrees
+17730
+EDIFFS:
+-8815.00518.00
+-8250
+Set Reg 31 with val: -109
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-10977
+2486
+Serial Buffer: FF - 0
+FF - 1
+F0 - 2
+F1 - 3
+0 - 4
+0 - 5
+24 - 6
+86 - 7
+
+d.both:
+2486
+Recieved: 25 with E1:9350 & E2:0 degrees
+17755
+EDIFFS:
+-8832.00518.00
+-8450
+Set Reg 31 with val: -111
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-11177
+2498
+Serial Buffer: FF - 0
+FF - 1
+F0 - 2
+DD - 3
+0 - 4
+0 - 5
+24 - 6
+98 - 7
+
+d.both:
+2498
+Recieved: 25 with E1:9368 & E2:0 degrees
+17779
+EDIFFS:
+-8850.00518.00
+-8650
+Set Reg 31 with val: -113
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-11377
+24A9
+Serial Buffer: FF - 0
+FF - 1
+F0 - 2
+C8 - 3
+0 - 4
+0 - 5
+24 - 6
+A9 - 7
+
+d.both:
+24A9
+Recieved: 25 with E1:9385 & E2:0 degrees
+17804
+EDIFFS:
+-8867.00518.00
+-8750
+Set Reg 31 with val: -114
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-11477
+24BB
+Serial Buffer: FF - 0
+FF - 1
+F0 - 2
+B3 - 3
+0 - 4
+0 - 5
+24 - 6
+BB - 7
+
+d.both:
+24BB
+Recieved: 25 with E1:9403 & E2:0 degrees
+17828
+EDIFFS:
+-8885.00518.00
+-8950
+Set Reg 31 with val: -116
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-11677
+24CC
+Serial Buffer: FF - 0
+FF - 1
+F0 - 2
+9E - 3
+0 - 4
+0 - 5
+24 - 6
+CC - 7
+
+d.both:
+24CC
+Recieved: 25 with E1:9420 & E2:0 degrees
+17853
+EDIFFS:
+-8902.00518.00
+-9150
+Set Reg 31 with val: -118
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-11877
+24DE
+Serial Buffer: FF - 0
+FF - 1
+F0 - 2
+88 - 3
+0 - 4
+0 - 5
+24 - 6
+DE - 7
+
+d.both:
+24DE
+Recieved: 25 with E1:9438 & E2:0 degrees
+17878
+EDIFFS:
+-8920.00518.00
+-9350
+Set Reg 31 with val: -120
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-12077
+24F0
+Serial Buffer: FF - 0
+FF - 1
+F0 - 2
+72 - 3
+0 - 4
+0 - 5
+24 - 6
+F0 - 7
+
+d.both:
+24F0
+Recieved: 25 with E1:9456 & E2:0 degrees
+17902
+EDIFFS:
+-8938.00518.00
+-9450
+Set Reg 31 with val: -121
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-12177
+2502
+Serial Buffer: FF - 0
+FF - 1
+F0 - 2
+5C - 3
+0 - 4
+0 - 5
+25 - 6
+2 - 7
+
+d.both:
+2502
+Recieved: 25 with E1:9474 & E2:0 degrees
+17927
+EDIFFS:
+-8956.00518.00
+-9650
+Set Reg 31 with val: -123
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-12377
+2513
+Serial Buffer: FF - 0
+FF - 1
+F0 - 2
+45 - 3
+0 - 4
+0 - 5
+25 - 6
+13 - 7
+
+d.both:
+2513
+Recieved: 25 with E1:9491 & E2:0 degrees
+17951
+EDIFFS:
+-8973.00518.00
+-9850
+Set Reg 31 with val: -125
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-12577
+2525
+Serial Buffer: FF - 0
+FF - 1
+F0 - 2
+2F - 3
+0 - 4
+0 - 5
+25 - 6
+25 - 7
+
+d.both:
+2525
+Recieved: 25 with E1:9509 & E2:0 degrees
+17976
+EDIFFS:
+-8991.00518.00
+-9950
+Set Reg 31 with val: -126
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-12677
+2537
+Serial Buffer: FF - 0
+FF - 1
+F0 - 2
+17 - 3
+0 - 4
+0 - 5
+25 - 6
+37 - 7
+
+d.both:
+2537
+Recieved: 25 with E1:9527 & E2:0 degrees
+18000
+EDIFFS:
+-9009.00518.00
+-10150
+Set Reg 31 with val: -128
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+-12877
+2548
+Serial Buffer: FF - 0
+FF - 1
+F0 - 2
+0 - 3
+0 - 4
+0 - 5
+25 - 6
+48 - 7
+
+d.both:
+2548
+Recieved: 25 with E1:9544 & E2:0 degrees
+18025
+EDIFFS:
+-9026.00518.00
+-10350
+Set Reg 31 with val: 126
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+12677
+255A
+Serial Buffer: FF - 0
+FF - 1
+EF - 2
+E8 - 3
+0 - 4
+0 - 5
+25 - 6
+5A - 7
+
+d.both:
+255A
+Recieved: 25 with E1:9562 & E2:0 degrees
+18050
+EDIFFS:
+-9044.00518.00
+-10450
+Set Reg 31 with val: 125
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+12577
+256C
+Serial Buffer: FF - 0
+FF - 1
+EF - 2
+D0 - 3
+0 - 4
+0 - 5
+25 - 6
+6C - 7
+
+d.both:
+256C
+Recieved: 25 with E1:9580 & E2:0 degrees
+18074
+EDIFFS:
+-9062.00518.00
+-10650
+Set Reg 31 with val: 123
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+12377
+257D
+Serial Buffer: FF - 0
+FF - 1
+EF - 2
+B9 - 3
+0 - 4
+0 - 5
+25 - 6
+7D - 7
+
+d.both:
+257D
+Recieved: 25 with E1:9597 & E2:0 degrees
+18099
+EDIFFS:
+-9079.00518.00
+-10850
+Set Reg 31 with val: 121
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+12177
+258E
+Serial Buffer: FF - 0
+FF - 1
+EF - 2
+A1 - 3
+0 - 4
+0 - 5
+25 - 6
+8E - 7
+
+d.both:
+258E
+Recieved: 25 with E1:9614 & E2:0 degrees
+18123
+EDIFFS:
+-9096.00518.00
+-10950
+Set Reg 31 with val: 120
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+12077
+25A0
+Serial Buffer: FF - 0
+FF - 1
+EF - 2
+8A - 3
+0 - 4
+0 - 5
+25 - 6
+A0 - 7
+
+d.both:
+25A0
+Recieved: 25 with E1:9632 & E2:0 degrees
+18148
+EDIFFS:
+-9114.00518.00
+-11150
+Set Reg 31 with val: 118
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+11877
+25B2
+Serial Buffer: FF - 0
+FF - 1
+EF - 2
+74 - 3
+0 - 4
+0 - 5
+25 - 6
+B2 - 7
+
+d.both:
+25B2
+Recieved: 25 with E1:9650 & E2:0 degrees
+18172
+EDIFFS:
+-9132.00518.00
+-11350
+Set Reg 31 with val: 116
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+11677
+25C3
+Serial Buffer: FF - 0
+FF - 1
+EF - 2
+5E - 3
+0 - 4
+0 - 5
+25 - 6
+C3 - 7
+
+d.both:
+25C3
+Recieved: 25 with E1:9667 & E2:0 degrees
+18197
+EDIFFS:
+-9149.00518.00
+-11550
+Set Reg 31 with val: 114
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+11477
+25D5
+Serial Buffer: FF - 0
+FF - 1
+EF - 2
+48 - 3
+0 - 4
+0 - 5
+25 - 6
+D5 - 7
+
+d.both:
+25D5
+Recieved: 25 with E1:9685 & E2:0 degrees
+18222
+EDIFFS:
+-9167.00518.00
+-11650
+Set Reg 31 with val: 113
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+11377
+25E6
+Serial Buffer: FF - 0
+FF - 1
+EF - 2
+33 - 3
+0 - 4
+0 - 5
+25 - 6
+E6 - 7
+
+d.both:
+25E6
+Recieved: 25 with E1:9702 & E2:0 degrees
+18245
+EDIFFS:
+-9184.00518.00
+-11850
+Set Reg 31 with val: 111
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+11177
+25F8
+Serial Buffer: FF - 0
+FF - 1
+EF - 2
+1E - 3
+0 - 4
+0 - 5
+25 - 6
+F8 - 7
+
+d.both:
+25F8
+Recieved: 25 with E1:9720 & E2:0 degrees
+18270
+EDIFFS:
+-9202.00518.00
+-12050
+Set Reg 31 with val: 109
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+10977
+260A
+Serial Buffer: FF - 0
+FF - 1
+EF - 2
+9 - 3
+0 - 4
+0 - 5
+26 - 6
+A - 7
+
+d.both:
+260A
+Recieved: 25 with E1:9738 & E2:0 degrees
+18294
+EDIFFS:
+-9220.00518.00
+-12150
+Set Reg 31 with val: 108
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+10877
+261B
+Serial Buffer: FF - 0
+FF - 1
+EE - 2
+F5 - 3
+0 - 4
+0 - 5
+26 - 6
+1B - 7
+
+d.both:
+261B
+Recieved: 25 with E1:9755 & E2:0 degrees
+18319
+EDIFFS:
+-9237.00518.00
+-12350
+Set Reg 31 with val: 106
+Set Reg 32 with val: 77
+Speed Adjustment: S1, S2
+10677
+262C
+Serial Buffer: FF - 0
+FF - 1
+EE - 2
+E1 - 3
+0 - 4
+0 - 5
+26 - 6
+2C - 7
+
+d.both:
+262C
+Recieved: 25 with E1:9

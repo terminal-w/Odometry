@@ -113,20 +113,27 @@ long instruct(byte reg, char val = 0){
   MD25.write((byte)0x00);
   MD25.write(reg);
   if(reg == 0x25){
-    byte b[8];
+    byte b[9];
     MD25.flush();
-    MD25.readBytes(b, 8);
-    long r = b[2] << 24;
-    r += b[3] << 16;
-    r += b[6] << 8;
-    r += b[7];
+    MD25.readBytes(b, 9);
+    long r = 0L;
+    /*r |= b[2] << 24;
+    r |= b[3] << 16;
+    r |= b[6] << 8;
+    r |= b[7];*/
+    r |= b[2]*16777216;
+    r |= b[3]*65536;
+    r |= b[6]*256;
+    r |= b[7];
     Encs d;
     d.both = r;
     #if debug == 1
-      DEBUG.println(r, HEX);
-      DEBUG.print("Serial Buffer: ");
+      DEBUG.println((long)r, HEX);
+      DEBUG.println("Serial Buffer: ");
       for(byte i = 0; i<8; i++){
         DEBUG.print(b[i], HEX);
+        DEBUG.print(" - ");
+        DEBUG.println(i, DEC);
       }
       DEBUG.println();
       DEBUG.println("d.both:");
@@ -155,10 +162,11 @@ long instruct(byte reg, char val = 0){
       //encoders
       MD25.flush();
       MD25.readBytes(b, 5);
-      long r = b[0] << 24;
-      r += b[1] << 16;
-      r += b[2] << 8;         // (0x56 shifted 8 bits left, effectively * 256) 
-      r += b[3];              // (0x32)
+      long r = 0;
+      r |= b[0] << 24;
+      r |= b[1] << 16;
+      r |= b[2] << 8;         // (0x56 shifted 8 bits left, effectively * 256) 
+      r |= b[3];              // (0x32)
       #if debug == 1
       DEBUG.print("Serial Buffer: ");
       for(byte i = 0; i<5; i++){
