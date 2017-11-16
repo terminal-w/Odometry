@@ -45,8 +45,11 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+<<<<<<< HEAD
 .vs
 *.suo
 *.sqlite
 =======
 
+=======
+>>>>>>> parent of edc7725... GitIgnore Updated
