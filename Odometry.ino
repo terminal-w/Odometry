@@ -377,9 +377,9 @@ void setup() {
     #else
       MD25.begin(38400);
     #endif
-    robot.instruct(setMod, 1); // sets motors with 0 being stop and each independent of the other.
+    instruct(setMod, 1); // sets motors with 0 being stop and each independent of the other.
     Carouselle.write(sPos[0]);
-    robot.notify();
+    notify();
     bool go = 0;
     #if debug == 1
     DEBUG.print("Awaiting all clear @ ");
@@ -407,7 +407,7 @@ void loop() {
       DEBUG.print("Next WP: ");
       DEBUG.println(wp[0], DEC);
 #endif
-    robot.target(wp[1], wp[2]);
+    target(wp[1], wp[2]);
     if(wp[4] == 1){
       MandMrelease(MandMstock);
       MandMstock--;
