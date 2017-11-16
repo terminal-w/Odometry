@@ -117,7 +117,7 @@ long instruct(byte reg, char val = 0){
   DEBUG.print(reg, HEX);
   DEBUG.println(" Accessed");
   #endif
-  if(reg == getEs){
+  if(reg == 0x35){
     byte b[8];
     MD25.flush();
     MD25.readBytes(b, 8);
@@ -146,7 +146,7 @@ long instruct(byte reg, char val = 0){
   }
   if(reg > 0x34){return 0;}
   if(reg < 0x30){byte b[5];
-    if(reg <= 0x25 && reg >= 0x23){
+    if(reg <= 0x24 && reg >= 0x23){
       //encoders
       MD25.flush();
       MD25.readBytes(b, 5);
