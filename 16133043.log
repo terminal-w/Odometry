@@ -1,0 +1,1252 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2017.11.16 13:30:43 =~=~=~=~=~=~=~=~=~=~=~=
+Set Reg 34 with val: 1
+Set RegSet Reg 34 with val: 1
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+Awaiting all clear @ 509
+Setup Complete @ 2798
+Register: 35 Accessed
+Next WP: 12
+Targeting...
+4280
+29688.0488281250
+0.1212609171
+Encoder Target:518 degrees
+Straight Line, length: 4280
+Etars:
+518518
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+3812
+EDIFFS:
+30470.00519.00
+-10420
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+Register: 35 Accessed
+Next WP: 11
+Targeting...
+2833
+29688.0488281250
+0.1212609171
+Encoder Target:343 degrees
+Straight Line, length: 2833
+Etars:
+343343
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+5345
+EDIFFS:
+30295.00344.00
+-2620
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+turn: 0.00
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+Etars:
+00
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+6876
+EDIFFS:
+29952.001.00
+00
+Because I'm Happy
+Register: 35 Accessed
+Next WP: 10
+Targeting...
+D(i) = 250, D(o) = 1190 Return: D(o)
+D(i) = 250, D(o) = 1190 Return: D(i)
+11900
+29688.0488281250
+0.1212609171
+Encoder Target:1443 degrees
+2500
+29688.0488281250
+0.1212609171
+Encoder Target:303 degrees
+Swept Radius, length, radius: 8482, -1800 Anti-Clockwise
+Etars:
+1443303
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+7912
+EDIFFS:
+31395.00304.00
+-7720
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+M&M Deployed: 5
+Register: 35 Accessed
+Next WP: 9
+Targeting...
+1800
+29688.0488281250
+0.1212609171
+Encoder Target:218 degrees
+Straight Line, length: 1800
+Etars:
+218218
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+9446
+EDIFFS:
+30170.00219.00
+-4920
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+turn: 0.00
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+Etars:
+00
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+10977
+EDIFFS:
+29952.001.00
+00
+Because I'm Happy
+Register: 35 Accessed
+Next WP: 8
+Targeting...
+6223
+29688.0488281250
+0.1212609171
+Encoder Target:754 degrees
+Straight Line, length: 6223
+Etars:
+754754
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+11998
+EDIFFS:
+30706.00755.00
+4620
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+M&M Deployed: 4
+turn: 0.00
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+Etars:
+00
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+13531
+EDIFFS:
+29952.001.00
+00
+Because I'm Happy
+Register: 35 Accessed
+Next WP: 7
+Targeting...
+4000
+29688.0488281250
+0.1212609171
+Encoder Target:485 degrees
+Straight Line, length: 4000
+Etars:
+485485
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+14553
+EDIFFS:
+30437.00486.00
+-2520
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+turn: 0.00
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+Etars:
+00
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+16084
+EDIFFS:
+29952.001.00
+00
+Because I'm Happy
+Register: 35 Accessed
+Next WP: 6
+Targeting...
+4000
+29688.0488281250
+0.1212609171
+Encoder Target:485 degrees
+Straight Line, length: 4000
+Etars:
+485485
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+17106
+EDIFFS:
+30437.00486.00
+-2520
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+M&M Deployed: 3
+turn: 0.00
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+Etars:
+00
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+18640
+EDIFFS:
+29952.001.00
+00
+Because I'm Happy
+Register: 35 Accessed
+Next WP: 5
+Targeting...
+4000
+29688.0488281250
+0.1212609171
+Encoder Target:485 degrees
+Straight Line, length: 4000
+Etars:
+485485
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+19662
+EDIFFS:
+30437.00486.00
+-2520
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+turn: 0.00
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+Etars:
+00
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+21194
+EDIFFS:
+29952.001.00
+00
+Because I'm Happy
+Register: 35 Accessed
+Next WP: 4
+Targeting...
+6600
+29688.0488281250
+0.1212609171
+Encoder Target:800 degrees
+Straight Line, length: 6600
+Etars:
+800800
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+22216
+EDIFFS:
+30752.00801.00
+020
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+M&M Deployed: 2
+Register: 35 Accessed
+Next WP: 3
+Targeting...
+D(i) = 142, D(o) = 377 Return: D(o)
+D(i) = 142, D(o) = 377 Return: D(i)
+3775
+29688.0488281250
+0.1212609171
+Encoder Target:457 degrees
+1425
+29688.0488281250
+0.1212609171
+Encoder Target:172 degrees
+Swept Radius, length, radius: 4084, -2600 Anti-Clockwise
+Etars:
+457172
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+23766
+EDIFFS:
+30409.00173.00
+5020
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+turn: 0.00
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+Etars:
+00
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+25297
+EDIFFS:
+29952.001.00
+00
+Because I'm Happy
+Register: 35 Accessed
+Next WP: 2
+Targeting...
+5000
+29688.0488281250
+0.1212609171
+Encoder Target:606 degrees
+Straight Line, length: 5000
+Etars:
+606606
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+26319
+EDIFFS:
+30558.00607.00
+-1620
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+M&M Deployed: 1
+turn: 0.00
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+Etars:
+00
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+27853
+EDIFFS:
+29952.001.00
+00
+Because I'm Happy
+Register: 35 Accessed
+Next WP: 1
+Targeting...
+2600
+29688.0488281250
+0.1212609171
+Encoder Target:315 degrees
+Straight Line, length: 2600
+Etars:
+315315
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+28875
+EDIFFS:
+30267.00316.00
+-12720
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+Register: 35 Accessed
+Next WP: 0
+Targeting...
+3400
+29688.0488281250
+0.1212609171
+Encoder Target:412 degrees
+Straight Line, length: 3400
+Etars:
+412412
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+30409
+EDIFFS:
+30364.00413.00
+-6320
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+Register: 35 Accessed
+Next WP: 12
+Targeting...
+4280
+29688.0488281250
+0.1212609171
+Encoder Target:518 degrees
+Straight Line, length: 4280
+Etars:
+518518
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+31943
+EDIFFS:
+30470.00519.00
+-10420
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+Register: 35 Accessed
+Next WP: 11
+Targeting...
+2833
+29688.0488281250
+0.1212609171
+Encoder Target:343 degrees
+Straight Line, length: 2833
+Etars:
+343343
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+-32059
+EDIFFS:
+30295.00344.00
+-2620
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+turn: 0.00
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+Etars:
+00
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+-30527
+EDIFFS:
+29952.001.00
+00
+Because I'm Happy
+Register: 35 Accessed
+Next WP: 10
+Targeting...
+D(i) = 250, D(o) = 1190 Return: D(o)
+D(i) = 250, D(o) = 1190 Return: D(i)
+11900
+29688.0488281250
+0.1212609171
+Encoder Target:1443 degrees
+2500
+29688.0488281250
+0.1212609171
+Encoder Target:303 degrees
+Swept Radius, length, radius: 8482, -1800 Anti-Clockwise
+Etars:
+1443303
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+-29490
+EDIFFS:
+31395.00304.00
+-7720
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+M&M Deployed: 5
+Register: 35 Accessed
+Next WP: 9
+Targeting...
+1800
+29688.0488281250
+0.1212609171
+Encoder Target:218 degrees
+Straight Line, length: 1800
+Etars:
+218218
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+-27955
+EDIFFS:
+30170.00219.00
+-4920
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+turn: 0.00
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+Etars:
+00
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+-26423
+EDIFFS:
+29952.001.00
+00
+Because I'm Happy
+Register: 35 Accessed
+Next WP: 8
+Targeting...
+6223
+29688.0488281250
+0.1212609171
+Encoder Target:754 degrees
+Straight Line, length: 6223
+Etars:
+754754
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+-25401
+EDIFFS:
+30706.00755.00
+4620
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+M&M Deployed: 4
+turn: 0.00
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+Etars:
+00
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+-23867
+EDIFFS:
+29952.001.00
+00
+Because I'm Happy
+Register: 35 Accessed
+Next WP: 7
+Targeting...
+4000
+29688.0488281250
+0.1212609171
+Encoder Target:485 degrees
+Straight Line, length: 4000
+Etars:
+485485
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+-22845
+EDIFFS:
+30437.00486.00
+-2520
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+turn: 0.00
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+Etars:
+00
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+-21314
+EDIFFS:
+29952.001.00
+00
+Because I'm Happy
+Register: 35 Accessed
+Next WP: 6
+Targeting...
+4000
+29688.0488281250
+0.1212609171
+Encoder Target:485 degrees
+Straight Line, length: 4000
+Etars:
+485485
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+-20293
+EDIFFS:
+30437.00486.00
+-2520
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+M&M Deployed: 3
+turn: 0.00
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+Etars:
+00
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+-18760
+EDIFFS:
+29952.001.00
+00
+Because I'm Happy
+Register: 35 Accessed
+Next WP: 5
+Targeting...
+4000
+29688.0488281250
+0.1212609171
+Encoder Target:485 degrees
+Straight Line, length: 4000
+Etars:
+485485
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+-17739
+EDIFFS:
+30437.00486.00
+-2520
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+turn: 0.00
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+Etars:
+00
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+-16208
+EDIFFS:
+29952.001.00
+00
+Because I'm Happy
+Register: 35 Accessed
+Next WP: 4
+Targeting...
+6600
+29688.0488281250
+0.1212609171
+Encoder Target:800 degrees
+Straight Line, length: 6600
+Etars:
+800800
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+-15186
+EDIFFS:
+30752.00801.00
+020
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+M&M Deployed: 2
+Register: 35 Accessed
+Next WP: 3
+Targeting...
+D(i) = 142, D(o) = 377 Return: D(o)
+D(i) = 142, D(o) = 377 Return: D(i)
+3775
+29688.0488281250
+0.1212609171
+Encoder Target:457 degrees
+1425
+29688.0488281250
+0.1212609171
+Encoder Target:172 degrees
+Swept Radius, length, radius: 4084, -2600 Anti-Clockwise
+Etars:
+457172
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+-13638
+EDIFFS:
+30409.00173.00
+5020
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+turn: 0.00
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+Etars:
+00
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+-12107
+EDIFFS:
+29952.001.00
+00
+Because I'm Happy
+Register: 35 Accessed
+Next WP: 2
+Targeting...
+5000
+29688.0488281250
+0.1212609171
+Encoder Target:606 degrees
+Straight Line, length: 5000
+Etars:
+606606
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+-11086
+EDIFFS:
+30558.00607.00
+-1620
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+M&M Deployed: 1
+turn: 0.00
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+Etars:
+00
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+-9553
+EDIFFS:
+29952.001.00
+00
+Because I'm Happy
+Register: 35 Accessed
+Next WP: 1
+Targeting...
+2600
+29688.0488281250
+0.1212609171
+Encoder Target:315 degrees
+Straight Line, length: 2600
+Etars:
+315315
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+-8531
+EDIFFS:
+30267.00316.00
+-12720
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+Register: 35 Accessed
+Next WP: 0
+Targeting...
+3400
+29688.0488281250
+0.1212609171
+Encoder Target:412 degrees
+Straight Line, length: 3400
+Etars:
+412412
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+-6997
+EDIFFS:
+30364.00413.00
+-6320
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+Register: 35 Accessed
+Next WP: 12
+Targeting...
+4280
+29688.0488281250
+0.1212609171
+Encoder Target:518 degrees
+Straight Line, length: 4280
+Etars:
+518518
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+-5464
+EDIFFS:
+30470.00519.00
+-10420
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+Register: 35 Accessed
+Next WP: 11
+Targeting...
+2833
+29688.0488281250
+0.1212609171
+Encoder Target:343 degrees
+Straight Line, length: 2833
+Etars:
+343343
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+-3930
+EDIFFS:
+30295.00344.00
+-2620
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+turn: 0.00
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+Etars:
+00
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+-2398
+EDIFFS:
+29952.001.00
+00
+Because I'm Happy
+Register: 35 Accessed
+Next WP: 10
+Targeting...
+D(i) = 250, D(o) = 1190 Return: D(o)
+D(i) = 250, D(o) = 1190 Return: D(i)
+11900
+29688.0488281250
+0.1212609171
+Encoder Target:1443 degrees
+2500
+29688.0488281250
+0.1212609171
+Encoder Target:303 degrees
+Swept Radius, length, radius: 8482, -1800 Anti-Clockwise
+Etars:
+1443303
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+-1361
+EDIFFS:
+31395.00304.00
+-7720
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+M&M Deployed: 5
+Register: 35 Accessed
+Next WP: 9
+Targeting...
+1800
+29688.0488281250
+0.1212609171
+Encoder Target:218 degrees
+Straight Line, length: 1800
+Etars:
+218218
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+174
+EDIFFS:
+30170.00219.00
+-4920
+Because I'm Happy
+Set Reg 33 with val: 10
+Set Reg 31 with val: 0
+Set Reg 32 with val: 0
+Set Reg 33 with val: 5
+ACHTUNG!!! Ich habe gehaltet!
+Waypoint Notification
+Register: 35 Accessed
+turn: 0.00
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+0
+29688.0488281250
+0.1212609171
+Encoder Target:0 degrees
+Etars:
+00
+FFFF8B00
+Serial Buffer: 131E0298B0
+d.both:
+FFFF8B00
+Recieved: 25 with E1:-29952 & E2:-1 degrees
+1705
+EDIFFS:
+29952.001.00
+00
+Because I'm Happy
+Register: 35 Accessed
+Next WP: 8
+Targeting...
+6223
+29688.0488281250
+0.1212609171
+Encoder Target:754 degrees
+Straight Line, length: 6223
+Etars:
+754754
+F

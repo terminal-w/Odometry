@@ -35,7 +35,7 @@
   int indy[2];
   long both;
 };
-#define debug 1  //switch for Software Serial
+#define debug 0  //switch for Software Serial
 #define pi 3.1415926 //saves any errors typing
 
 #if debug == 1 // NOT THE SERIAL SWITCH DON'T CHANGE
@@ -50,7 +50,7 @@ Servo Carouselle;
 const int track = 23500; //trackwidth of robot in mm x100
 const int wheel_dia = 9450; //wheel diameter of robot in mm x100
 const int wheel_base = 15000; //distance from axle to M&M dispenser in mm x100
-const byte sPos[6] = {20, 0, 40, 73, 114, 150}; //defines servo drive positions for M&Ms 
+const byte sPos[6] = {20, 150, 114, 73, 40, 0}; //defines servo drive positions for M&Ms 
 
     
 /* multi dimension array describing waypoints 
@@ -117,10 +117,6 @@ long instruct(byte reg, char val = 0){
     MD25.flush();
     MD25.readBytes(b, 9);
     long r = 0L;
-    /*r |= b[2] << 24;
-    r |= b[3] << 16;
-    r |= b[6] << 8;
-    r |= b[7];*/
     r |= b[2]*16777216;
     r |= b[3]*65536;
     r |= b[6]*256;
@@ -129,11 +125,9 @@ long instruct(byte reg, char val = 0){
     d.both = r;
     #if debug == 1
       DEBUG.println((long)r, HEX);
-      DEBUG.println("Serial Buffer: ");
+      DEBUG.print("Serial Buffer: ");
       for(byte i = 0; i<8; i++){
         DEBUG.print(b[i], HEX);
-        DEBUG.print(" - ");
-        DEBUG.println(i, DEC);
       }
       DEBUG.println();
       DEBUG.println("d.both:");
@@ -298,7 +292,7 @@ void DriveTo(int E1tar, int E2tar) {
   DEBUG.println(E2tar, DEC);
   #endif
   while (!happy) {
-    float E1prog; float E2prog;
+    float E1prog; float E2prog; byte baseline = 0; bool e = 0;
     d.both = instruct(getEs);
     E1cur = d.indy[0];
     E2cur = d.indy[1];
@@ -306,8 +300,8 @@ void DriveTo(int E1tar, int E2tar) {
     E2diff = E2tar-E2cur;
     E1prog = E1diff/E1tar;
     E2prog = E2diff/E2tar;
-    S1 = 50 * E1prog;
-    S2 = 50 * E2prog;
+    S1 = 20 * E1prog;
+    S2 = 20 * E2prog;
 #if debug == 1
   DEBUG.println("EDIFFS:");
   DEBUG.print(E1diff);
@@ -315,48 +309,43 @@ void DriveTo(int E1tar, int E2tar) {
    DEBUG.print(S1, DEC);
    DEBUG.println(S2, DEC);
    #endif
-    if (E1cur == E1tar) {
+    if(abs(E1diff)<10) {
       happy = 1;
-      S1 = 0;
+      halt;
+      break;
     }
-    else if (E1tar - E1cur < 0) {
-      S1 -= 27;
+    else if (E1diff < 0) {
+      S1 -= baseline;
     }
     else {
-      S1 += 27;
+      S1 += baseline;
     }
-    if (E2cur == E2tar) {
+    if (abs(E2diff)<10) {
       happy = 1;
-      S2 = 0;
+      halt;
+      break;
     }
-    else if (E2tar - E2cur < 0) {
-      S2 -= 27;
+    else if (E2diff < 0) {
+      S2 -= baseline;
     }
     else {
-      S2 += 27;
+      S2 += baseline;
     }
+    if(e){
     instruct(setS1, S1);
     instruct(setS2, S2);
+    }
+    else{
+      instruct(setS2, S2);
+      instruct(setS1, S1);
+    }
+    e = !e;
 #if debug == 1
     DEBUG.println("Speed Adjustment: S1, S2");
     DEBUG.print(S1, DEC);
     DEBUG.println(S2, DEC);
 #endif
   }
- instruct(setAcc, 10);
- #if debug == 1
- DEBUG.println("GOES LOOPY");
- #endif
- while(E1cur != E1tar || E2cur != E2tar){
-  d.both = instruct(getEs);
-  E1cur = d.indy[0];
-  E2cur = d.indy[1];
-  S1 = 50 * (E1tar -E1cur)/90;
-  S2 = 50 * (E2tar-E2cur)/90;
-  instruct(setS1, S1);
-  instruct(setS1, S2);
- }
- instruct(setAcc, 5);
 #if debug ==1
   DEBUG.println("Because I'm Happy");
 #endif
@@ -455,7 +444,6 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   byte MandMstock = 5;
-  instruct(setAcc, 1);
   for(int i = 0; i < 13; i++){ // for loop to work through waypoints
     int wp[5];
    instruct(reset);
