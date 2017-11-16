@@ -3,15 +3,21 @@
 // 
 
 #include "OdometryTasks.h"
+#include "Arduino.h"
+#include <Servo.h>
+#include <SoftwareSerial.h>
 
 
 
-
-OdometryTasks::OdometryTasks()
+OdometryTasks::OdometryTasks(byte sPosa, int wheel_diaa, int wheel_basea, int tracka, Servo *Carousellea)
 {
-
-
+	_sPos = sPosa;
+	_wheel_dia = wheel_diaa;
+	_wheel_base = wheel_basea;
+	_track = tracka;
+	_Carouselle = *Carousellea;
 }
+
 int OdometryTasks::instruct(byte reg, char val = 0) {
 	if (reg == getPow || reg == getEs) {
 #if debug == 1
@@ -94,7 +100,7 @@ void OdometryTasks::halt() {
 
 int OdometryTasks::enc_target(int distance) {
 	/* takes the required travel distance in mm x10 an converts it to an encoder target*/
-	float den = pi*wheel_dia;
+	float den = pi*_wheel_dia;
 	float frac = 3600 / den;
 	int out = distance * frac;
 
@@ -112,13 +118,15 @@ void OdometryTasks::turn(int theta) {
 	to determine whether the angle is to describe an arc or a spot turn.
 	executes turn */
 	float distance; //distance to be traveled per in mm
-	distance = (theta / 3600)*pi*(track);
+	distance = (theta*pi);
+	distance /= 36000;
+	distance *= _track;
 #if debug == 1
 	DEBUG.print("turn: ");
 	DEBUG.println(distance);
 #endif 
-	int E2tar = enc_target((int)distance * 10);
-	int E1tar = enc_target(-(int)distance * 10);
+	int E2tar = enc_target((int)distance);
+	int E1tar = enc_target(-(int)distance);
 
 	DriveTo(E1tar, E2tar);
 	return;
@@ -127,15 +135,22 @@ void OdometryTasks::turn(int theta) {
 int OdometryTasks::sweep(int distance, int radius, bool in = 0) {
 	/* code to allow robot to describe an arc
 	returns the inner & outer arc lengths in mm x10*/
-	int Ri = radius - track / 20;
-	int Ro = radius + track / 20;
-	int Di = (distance / radius)*Ri;
-	int Do = (distance / radius)*Ro;
+	float halftrack = _track*0.05;
+	float rat = distance;
+	rat /= radius;
+	int Ri = radius - halftrack;
+	int Ro = radius + halftrack;
+	float Di = (rat)*Ri;
+	float Do = (rat)*Ro;
 #if debug == 1
+	DEBUG.println(Ro);
+	DEBUG.println(Ri);
+	DEBUG.println(halftrack);
+	DEBUG.println(rat);
 	DEBUG.print("D(i) = ");
-	DEBUG.print(Di / 10, DEC);
+	DEBUG.print(Di, DEC);
 	DEBUG.print(", D(o) = ");
-	DEBUG.print(Do / 10, DEC);
+	DEBUG.print(Do, DEC);
 	if (in) { DEBUG.println(" Return: D(i)"); }
 	else { DEBUG.println(" Return: D(o)"); }
 #endif
@@ -269,7 +284,7 @@ void OdometryTasks::MandMrelease(byte remaining) {
 	/*This Function drops M&Ms
 	* Author: Luka - lzd1u16@soton.ac.uk
 	*/
-	Carouselle.write(sPos[remaining]);
+	_Carouselle.write(_sPos[remaining]);
 #if debug == 1
 	DEBUG.print("M&M Deployed: ");
 	DEBUG.println(remaining, DEC);

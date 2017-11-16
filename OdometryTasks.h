@@ -3,15 +3,13 @@
 #ifndef _ODOMETRYTASKS_h
 #define _ODOMETRYTASKS_h
 
-#if defined(ARDUINO) && ARDUINO >= 100
-	#include "Arduino.h"
-	#include <Servo.h>
-	#include <SoftwareSerial.h>
-#else
-	#include "WProgram.h"
-#endif
+
+#include "Arduino.h"
+#include <Servo.h>
+#include <SoftwareSerial.h>
+
 #ifndef debug
-	debug == 1
+#define debug  1
 #endif // !debug
 #ifndef registers
 	enum registers :byte
@@ -55,7 +53,7 @@ class OdometryTasks
 
 
  public:
-	 OdometryTasks();
+	 OdometryTasks(byte sPosa, int wheel_diaa, int wheel_basea, int tracka, Servo Carousellea);
 	 int instruct(byte reg, char val);
 	 void halt();
 	 int enc_target(int distance);
@@ -67,10 +65,11 @@ class OdometryTasks
 	 void MandMrelease(byte remaining);
 	 void kmn();
 private:
-	int _track;
-	int _wheel_dia;
-	int _wheel_base;
-	byte _sPos[6];
+	const int _track;
+	const int _wheel_dia;
+	const int _wheel_base;
+	const byte _sPos[6];
+	Servo _Carouselle;
 };
 
 #endif
