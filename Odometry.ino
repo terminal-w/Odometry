@@ -117,7 +117,7 @@ long instruct(byte reg, char val = 0){
   DEBUG.print(reg, HEX);
   DEBUG.println(" Accessed");
   #endif
-  if(reg == 0x35){
+  if(reg == 0x25){
     byte b[8];
     MD25.flush();
     MD25.readBytes(b, 8);
