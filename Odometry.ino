@@ -32,7 +32,7 @@
  * -
  */
 
-#define debug 0  //switch for Software Serial
+#define debug 1  //switch for Software Serial
 #define pi 3.1415926 //saves any errors typing
 
 #if debug == 1 // NOT THE SERIAL SWITCH DON'T CHANGE
@@ -196,13 +196,15 @@ void turn(int theta){
     to determine whether the angle is to describe an arc or a spot turn.
     executes turn */
     float distance; //distance to be traveled per in mm
-    distance = (theta/3600)*pi*(track);
+    distance = (theta*pi);
+    distance /= 36000;
+    distance *= track;
     #if debug == 1
       DEBUG.print("turn: ");
       DEBUG.println(distance);
     #endif 
-    int E2tar = enc_target((int)distance*10);
-    int E1tar = enc_target(-(int)distance*10);
+    int E2tar = enc_target((int)distance);
+    int E1tar = enc_target(-(int)distance);
     
     DriveTo(E1tar, E2tar);
     return;
@@ -211,15 +213,22 @@ void turn(int theta){
 int sweep(int distance, int radius, bool in = 0){
   /* code to allow robot to describe an arc
      returns the inner & outer arc lengths in mm x10*/
-  int Ri = radius - track/20;
-  int Ro = radius + track/20;
-  int Di = (distance/radius)*Ri;
-  int Do = (distance/radius)*Ro;
+  float halftrack = track*0.05;
+  float rat = distance;
+  rat /= radius;
+  int Ri = radius - halftrack;
+  int Ro = radius + halftrack;
+  float Di = (rat)*Ri;
+  float Do = (rat)*Ro;
   #if debug == 1
+    DEBUG.println(Ro);
+    DEBUG.println(Ri);
+    DEBUG.println(halftrack);
+    DEBUG.println(rat);
     DEBUG.print("D(i) = ");
-    DEBUG.print(Di/10, DEC);
+    DEBUG.print(Di, DEC);
     DEBUG.print(", D(o) = ");
-    DEBUG.print(Do/10, DEC);
+    DEBUG.print(Do, DEC);
     if(in){DEBUG.println(" Return: D(i)");}
     else{DEBUG.println(" Return: D(o)");}
   #endif
@@ -361,7 +370,6 @@ void MandMrelease(byte remaining){
 
 
 void kmn(){bool a=0;} //function than never returns to provide stop
-
 void setup() {
   // put your setup code here, to run once:
   Carouselle.attach(9);
