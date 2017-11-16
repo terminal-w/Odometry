@@ -120,13 +120,16 @@ long instruct(byte reg, char val = 0){
     r += b[3] << 16;
     r += b[6] << 8;
     r += b[7];
-    #if debug == 1
     Encs d;
     d.both = r;
+    #if debug == 1
+      DEBUG.println(r, HEX);
       DEBUG.print("Serial Buffer: ");
       for(byte i = 0; i<8; i++){
         DEBUG.print(b[i], HEX);
       }
+      DEBUG.println();
+      DEBUG.println("d.both:");
       DEBUG.println(d.both, HEX);
       DEBUG.print("Recieved: ");
       DEBUG.print(reg, HEX);
