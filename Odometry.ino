@@ -127,7 +127,7 @@ long instruct(byte reg, char val = 0){
       for(byte i = 0; i<8; i++){
         DEBUG.print(b[i], HEX);
       }
-      DEBUG.println();
+      DEBUG.println(d.both, HEX);
       DEBUG.print("Recieved: ");
       DEBUG.print(reg, HEX);
       DEBUG.print(" with E1:");
@@ -192,6 +192,12 @@ long instruct(byte reg, char val = 0){
   else if(reg <= 0x34 && reg > 0x30){
     //sets
     MD25.write(val);
+    #if debug == 1
+    DEBUG.print("Set Reg ");
+    DEBUG.print(reg, HEX);
+    DEBUG.print(" with val: ");
+    DEBUG.println(val, DEC);
+    #endif
     return 0;
   }
   #if debug == 1
@@ -276,7 +282,7 @@ void notify(){
 void DriveTo(int E1tar, int E2tar) {
   bool happy = 0; int E1cur; int E2cur; char S1; char S2; float E1diff; float E2diff; Encs d;
  #if debug ==1
- DEBUG.println("Etars:");
+  DEBUG.println("Etars:");
   DEBUG.print(E1tar, DEC);
   DEBUG.println(E2tar, DEC);
   #endif
